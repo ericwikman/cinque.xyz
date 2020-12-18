@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Vuepress Docs Boilerplate",
+  title: "Cinque Documentation",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -41,12 +41,16 @@ module.exports = {
         link: "/guide/",
       },
       {
-        text: "Config",
-        link: "/config/",
+        text: "Shoulders of Giants",
+        link: "/giants/",
       },
       {
-        text: "VuePress",
-        link: "https://v1.vuepress.vuejs.org",
+        text: "Features",
+        link: "/feature/",
+      },
+      {
+        text: "Functions",
+        link: "/function/",
       },
     ],
     sidebar: {
@@ -55,6 +59,13 @@ module.exports = {
           title: "Guide",
           collapsable: false,
           children: ["", "using-vue"],
+        },
+      ],
+      "/giants/": [
+        {
+          title: "Shoulders of Giants",
+          collapsable: false,
+          children: ["", "release-timeline"],
         },
       ],
     },
