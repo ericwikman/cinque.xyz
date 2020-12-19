@@ -30,11 +30,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
+    repo: "ericwikman/cinque.xyz",
+    editLinks: true,
+    docsDir: "docs/src",
     editLinkText: "",
     lastUpdated: false,
+    sidebarDepth: 2,
     nav: [
       {
         text: "Guide",
@@ -42,7 +43,7 @@ module.exports = {
       },
       {
         text: "Shoulders of Giants",
-        link: "/giants/",
+        link: "/giant/",
       },
       {
         text: "Features",
@@ -52,20 +53,24 @@ module.exports = {
         text: "Functions",
         link: "/function/",
       },
+      {
+        text: "Shortcuts",
+        link: "/shortcut/",
+      },
     ],
     sidebar: {
       "/guide/": [
         {
           title: "Guide",
           collapsable: false,
-          children: ["", "using-vue"],
+          children: ["", "roadmap"],
         },
       ],
-      "/giants/": [
+      "/giant/": [
         {
           title: "Shoulders of Giants",
           collapsable: false,
-          children: ["", "release-timeline"],
+          children: ["", "visicalc"],
         },
       ],
     },
