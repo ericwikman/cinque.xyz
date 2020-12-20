@@ -16,26 +16,76 @@ In other words, when I am working on the VisiCalc release, I am not building an 
 
 ## v1 - the VisiCalc Release
 
-I have not found a copy of the original VisiCalc manual from the 1979 release, but I have found a copy of the manual for the Atari 800 32k release with a copyright date of 1981. Also Dan Bricklin hosts what I think is the original reference card for the first release and they seem to line up with each other well.
+- [ ] Display the coordinate of the selected cell (ie. A1)
+- [ ] Display the contents of the selected cell in original data format
+- [ ] Display format attributes of cell
+- [ ] Display row and column headers
+- [ ] Build grid 63 columns wide (A..BK) and 254 rows (1..254)
+- [ ] Enable cursors to change which cell is active
+- [ ] Typeahead - queue up keyboard commands into a buffer so the user does not have to wait for the last command to complete before inputting the next
+- [ ] Go to: Coordinate (hotkey >)
+- [ ] Label entry
+- [ ] Value entry
+- [ ] Indicate that a column is not wide enough to show the value in the cell
+- [ ] Display ERROR if there is an illegal calculation in the cell with the error as well as all other cells that reference the error cell
+- [ ] Arthmetic operators: + - / \* ^ (addition, subtraction, division, multiplication, division)
+- [ ] Calculator mode
+- [ ] Value Reference
+- [ ] @sum(list)
+- [ ] @min(list)
+- [ ] @max(list)
+- [ ] @count(list)
+- [ ] @average(list)
+- [ ] @abs(value)
+- [ ] @int(value)
+- [ ] @sqrt(value)
+- [ ] @exp(value)
+- [ ] @log10(value)
+- [ ] @ln(value)
+- [ ] @sin(value)
+- [ ] @cos(value)
+- [ ] @tan(value)
+- [ ] @asin(value)
+- [ ] @acos(value)
+- [ ] @atan(value)
+- [ ] @pi
+- [ ] @npv(discount_rate,range)
+- [ ] @na
+- [ ] @error
+- [ ] @lookup(value,range)
+- [ ] Delete cell
+- [ ] Delete row
+- [ ] Delete column
+- [ ] Format Number
+- [ ] Justify - left, right, center
+- [ ] Change column width
+- [ ] Insert row
+- [ ] Insert column
+- [ ] Move row
+- [ ] Move column
+- [ ] Replicate cells
+- [ ] Title - horizontal, vertical, both, none
+- [ ] Circular reference detection\*
+- [ ] Money entry\*
+- [ ] Formula entry\*
 
-The goal for the first release will be to include all the functionality of the first VisiCalc release before I move on to any further improvements. However, some things will not be included, like the following:
+### Differences
 
-- Printing - I figure that browsers provide the majority of what you need to be able to print a sheet. There may come a time where I add some CSS formatting features for printing, but not at this time.
-- Storage - since Cinque is accessible via the Internet only (at this time), I will not be implementing the concept of saving or loading files. Cinque will automatically
-- Graphs/Charting - As surprising as it may be, even the first release of VisiCalc had the concept of bar graphs. It would actually be pretty trivial to implement the way that they did, but I do not intend on including graphs or charts as part of the current roadmap.
-- Split screen - it is pretty cool that this was included in the first release, but I am not going to reproduce this feature at this time. The reason is that I feel that you can accomplish this already using the OS and browser UI (just open two browser windows to the same sheet and resize them however you want). I do think that there could be a day that building a tiling manager as part of Cinque similar to the i3 tiling window manager could be really cool, but is not a priority.
-- Recalculations - based on constraints of the time VisiCalc could be put into a reevaluation order for recalculations either by row or column which impacted the style of where formulas went compared to the cells it references. You could also suspend automatic calculations or force additional recalculations. None of this is necessary anymore.
-- Repeating labels - these were used for horizontal lines and such
+Items above marked with an \* were not included in the original VisiCalc release but are part of Cinque.
 
-Features beyond original VisiCalc:
-
-- Data types - VisiCalc only included a label and a value as data types (formulas were considered a value). I have an opportunity to include additional and more specific data types that will make it possible to do more powerful things in the future. This is a sample of some data types that will be included in the first release:
-  - numeric - I believe most spreadsheets used floating point numbers, although not VisiCalc. VisiCalc used the decimal form, which provided accuracy in calculations, but probably took more time to do arithmetic. "VisiCalc guarantees precision to eleven digits (and sometimes twelve digits) at base 10. The twelfth digit (the last 6 in the expression above) on the edit line at the moment is a 'guard digit,' which allows VisiCalc to determine which way to round the eleventh digit when a calculation is completed". Cinque's numeric format can be many orders of magnitude more precise. It is possible in the future that the user will be able to specify the precision both before and after a decimal, which can improve accuracy for doing math with money and other examples.
-  - text - essentially the same as VisiCalc's label
-  - formula - basically stored as text, but separate from a numeric or string field
-  - date
-- additional formatting options
-- multiple user editing
+- VisiCalc was one of the only spreadsheets that used the decimal form of number storage. VisiCalc stored all values with either 11 or 12 significant digits. In scientific notation it could store any value between 9.999999999E-66 and 9.99999999999E+61. Cinque also stores numbers in an exact manner (as opposed to later spreadsheets that store an approximation of the number as a floating point). It can store any number up to 131072 digits before the decimal point and up to 16383 digits after the decimal point.
+- VisiCalc displayed >>>>>>>> in a cell if the column was not wide enough to display the value, but modern systems display ######## instead.
+- VisiCalc did math from left to right ignoring algebraic prcedence with the exception of prioritizing operations within ( ). Cinque uses the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations).
+- VisiCalc calculated cells sequentially by column (or optionally by row). Cinque will use something more similar to natural order.
+- You could temporarily disable recalculations or manually recalculate the sheet.
+- Number formatting was limited to either integer or currency. Cinque will provide flexible number formatting.
+- Column width could be between 3 and 39 characters, but it was a universal setting so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
+- VisiCalc could copy a vertical or a horizontal range of cells, but not a rectangle (meaning cells in more than one row and more than one column). Cinque will allow for rectanglur range copying as well.
+- VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range then you have to answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
+- VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical.
+- VisiCalc had a monetary format but Cinque will have a monetary field type. At this time that just means that it is a numeric field with a scale of 2 (only two digits to the right of the decimal point).
+- VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
+- Cinque will naturally allow multiple users to edit the same document at the same time.
 
 ### v1.1 - UI Improvements
 

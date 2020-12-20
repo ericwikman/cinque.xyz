@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 Most people attribute the invention of the spreadsheet to [Dan Bricklin](http://www.bricklin.com/history/saiidea.htm) with the 1979 release of [VisiCalc](https://en.wikipedia.org/wiki/VisiCalc). I was born in 1977 and was unable to attend the launch party due to other obligations (stuck at the dinner table until I ate my vegetables, which is my longest active standoff), but I do recall my father using VisiCalc on a [TRS-80 Model III](https://en.wikipedia.org/wiki/TRS-80#modeliii).
 
