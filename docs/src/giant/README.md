@@ -149,7 +149,7 @@ These only include suites where the spreadsheet is not known to be sold individu
 
 ## Web Based Spreadsheets
 
-While the focus of Cinque is on recreating the functionality of 20th century spreadsheets, it is in fact a web based spreadsheet. Only Google Sheets is considered for function compatibility and keyboard shortcuts. This list is here to acknowledge that Cinque is by no way the first web based spreadsheet. Interestingly, most web based spreadsheets are abandonware just like their 20th century cousins.
+While the focus of Cinque is on recreating the functionality of 20th century spreadsheets, it is in fact a web-based spreadsheet. Only Google Sheets is considered for function compatibility and keyboard shortcuts. This list is here to acknowledge that Cinque is by no way the first web-based spreadsheet. Interestingly, most web-based spreadsheets are abandonware just like their 20th century cousins.
 
 - Airtable
 - AppSheet
