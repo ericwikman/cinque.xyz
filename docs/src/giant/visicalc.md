@@ -12,13 +12,13 @@ In VisiCalc the recalculation mode defaults to column but can be switched to row
 
 You could temporarily disable calculations and force recalculations, but that is not necessary when using natural order for reevaluations on modern hardware.
 
-VisiCalc had a prompt line that was used to display prompts from the chosen command. Cinque will use a Command Pallette for command selections. The prompt line also showed the memory available, but that isn't really relevant for a web based system.
+VisiCalc had a prompt line that was used to display prompts from the chosen command. Cinque will use a Command Pallette for command selections. The prompt line also showed the memory available, but that isn't really relevant for a web-based system.
 
 There was a command called Clear that would erase the spreadsheet with the intention to create a new sheet from scratch. With Cinque you would just create a new sheet.
 
 You could set a global format for the entire sheet. Cinque will provide formatting by cell, row or column.
 
-Redumentary bar graphs could be created. A cell can contain an integer from 1-10 and instead of displaying the integer it displayed that number of asterisks (\*). Charts and graphs are going to be out of scope until all spreadsheet functionality is complete. However integrations with other charting or graphing systems will be possible.
+Rudimentary bar graphs could be created. A cell can contain an integer from 1-10 and instead of displaying the integer it displayed that number of asterisks (\*). Charts and graphs are going to be out of scope until all spreadsheet functionality is complete. However, integrations with other charting or graphing systems will be possible.
 
 Anything related to printing beyond the basics of what a browser provides by default will be out of scope until all spreadsheet functionality is complete. Integrations with other systems is possible.
 
@@ -26,16 +26,16 @@ Anything related to storage commands are out of scope.
 
 Split screen is out of scope for now. You can accomplish the equivalent of what you could do in VisiCalc using multiple browser windows and the OS windowing system. It is possible that a tiling manager similar to how i3 works could be implemented as part of the roadmap or after all spreadsheet functionality is done.
 
-The repeating label was used to mkae horizontal lines and decorations, but eventually Cinque will get borders for cells so this funcionality would become redundant, so it is out of scope.
+The repeating label was used to make horizontal lines and decorations, but eventually Cinque will get borders for cells so this functionality would become redundant, so it is out of scope.
 
 ### Features
 
-- **Moving the cursor:** use the arrow symbols to change the active cell to be an adjavent cell
+- **Moving the cursor:** use the arrow symbols to change the active cell to be an adjacent cell
 - **Go to: Coordinate:** when the use types > followed by the coordinates of a cell AM205 followed by the Enter key, the chosen cell becomes the active cell and the visible grid is updated to contain the newly active cell
 - **Label Entry:** type a single quotation mark (") to indicate that you are inputting a label into a cell
 - **Value Entry:** type pound (#) to indicate that you are inputting a numeric value
-- **Arethmetic:** simple math using operators for addition, subtraction, division, multiplication, and division
-- **Calculator Mode:** typing a bang (!) after an arethmetic expression replaces the expression with the calculated value. Typing (3 / 4) + 2 ! would replace the expression with 2.75
+- **Arithmetic:** simple math using operators for addition, subtraction, division, multiplication, and division
+- **Calculator Mode:** typing a bang (!) after an arithmetic expression replaces the expression with the calculated value. Typing (3 / 4) + 2 ! would replace the expression with 2.75
 - **Value Reference:** typing pound (#) after a cell reference in a formula will replace the cell coordinate with the actual value of the cell
   typing + followed by a cell reference (H14) followed by # and the cell will be set to the value of the cell reference
 - **Delete Cell**
@@ -50,7 +50,7 @@ The repeating label was used to mkae horizontal lines and decorations, but event
 
 ### Functions
 
-In VisiCalc functions began with the @ symbol. Some functions expect a single value, and some accept a list of values. A value can be a number or a cell reference. A list can be a comma seperated list of values in addition to a range of cells. In VisiCalc ranges were specified with 3 dots between the two cell references. VisiCalc evaluated labels and blank entries as 0 (this might be wrong). If you add a column or row in the middle of a defined range then the new cells are included in the existing range.
+In VisiCalc functions began with the @ symbol. Some functions expect a single value, and some accept a list of values. A value can be a number or a cell reference. A list can be a comma separated list of values in addition to a range of cells. In VisiCalc ranges were specified with 3 dots between the two cell references. VisiCalc evaluated labels and blank entries as 0 (this might be wrong). If you add a column or row in the middle of a defined range then the new cells are included in the existing range.
 
 | Function                  | Definition                                               |
 | ------------------------- | -------------------------------------------------------- |
