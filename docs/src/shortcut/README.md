@@ -4,6 +4,7 @@
 | ---------------------------- | ------ | ----------- | ------------- | ----- |
 | Cancel Command               |        | Break       |               | Esc   |
 | Go To Cell                   |        | >           |               |       |
+| Go to A1                     |        | HOME        |               |       |
 | Label Entry                  |        | "           |               |       |
 | Value Entry                  | # + -  | # + - .     |               |       |
 | Calculate Expression         |        | !           |               |       |
@@ -12,6 +13,7 @@
 | Delete Cell                  |        | /b          |               |       |
 | Delete Row                   |        | /dr         |               |       |
 | Delete Column                |        | /dc         |               |       |
+| Edit                         |        | /e (ctrl-e) |               |       |
 | Format Integer               |        | /fi         |               |       |
 | Format Currency              |        | /f\$        |               |       |
 | Left Justify                 |        | /fl         |               |       |
@@ -25,3 +27,6 @@
 | Title Veritcal               |        | /tv         |               |       |
 | Title Both                   |        | /tb         |               |       |
 | Title None                   |        | /tn         |               |       |
+| Disable Cursor               |        | Shift-Clear |               |       |
+| Toggle Blinking Cursor       |        | Shift-0     |               |       |
+|                              |        |             |               |       |

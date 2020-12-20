@@ -25,6 +25,7 @@ In other words, when I am working on the VisiCalc release, I am not building an 
 - [ ] Typeahead - queue up keyboard commands into a buffer so the user does not have to wait for the last command to complete before inputting the next
 - [ ] Go to: Coordinate (hotkey >)
 - [ ] Label entry
+- [ ] Edit cell
 - [ ] Value entry
 - [ ] Indicate that a column is not wide enough to show the value in the cell
 - [ ] Display ERROR if there is an illegal calculation in the cell with the error as well as all other cells that reference the error cell
@@ -82,10 +83,11 @@ Items above marked with an \* were not included in the original VisiCalc release
 - Column width could be between 3 and 39 characters, but it was a universal setting so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
 - VisiCalc could copy a vertical or a horizontal range of cells, but not a rectangle (meaning cells in more than one row and more than one column). Cinque will allow for rectangular range copying as well.
 - VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range then you have to answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
-- VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical.
+- VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference.
 - VisiCalc had a monetary format but Cinque will have a monetary field type. At this time that just means that it is a numeric field with a scale of 2 (only two digits to the right of the decimal point).
 - VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 - Cinque will naturally allow multiple users to edit the same document at the same time.
+- I think you could only overwrite a cell in the first release of VisiCalc, not edit existing text/value/formula.
 
 ### v1.1 - UI Improvements
 
@@ -93,6 +95,7 @@ Step 5 of the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-tes
 
 As for the UI improvements, this sprint will be to put in place the bare minimum expectations of users today that were not part of VisiCalc:
 
+- parity with modern keyboard expectations (highlight a range, ctrl-c, ctrl-v)
 - add mouse related functionality
 - add touch related functionality for phone/tablet use
 - dark mode - this is a bit of a fad in 2020, but VisiCalc was in dark mode in the 80's so it makes sense to include this at this time
@@ -103,25 +106,15 @@ I have not started to define what the API is at this time, but it will be very s
 
 ### v1.3 - VisiCalc 1.1
 
-VisiCalc added the concept of Logic functions in 1.1. Functions like:
-
-- if
-- and
-- or
-- not
-- choose
-
-And also new operators like:
-
-- \<
-- \>
-- \=
-- \>\=
-- \<\=
-- \<\>
-- \!\=
-
-This created the possibility to make much more complicated sheets.
+- [ ] New operators - \< \> = \<= \>= \<\>
+- [ ] @not(value)
+- [ ] @and(list)
+- [ ] @or(list)
+- [ ] @if(value1,value2,value3)
+- [ ] @isna(value)
+- [ ] @iserror(value)
+- [ ] @choose(value,list)
+- [ ] Print sheet title
 
 ### v1.4 - VisiCalc Advanced
 
