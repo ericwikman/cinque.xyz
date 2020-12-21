@@ -28,8 +28,8 @@ I am not building an exact clone of VisiCalc. If there is a more natural keyboar
 - [ ] Indicate that a column is not wide enough to show the value in the cell
 - [ ] Display ERROR if there is an illegal calculation in the cell with the error as well as all other cells that reference the error cell
 - [ ] Arithmetic operators: + - / \* ^ (addition, subtraction, division, multiplication, division)
-- [ ] Calculator mode
-- [ ] Value Reference
+- [ ] Calculator mode (!)
+- [ ] Value Reference (#)
 - [ ] @sum(list)
 - [ ] @min(list)
 - [ ] @max(list)

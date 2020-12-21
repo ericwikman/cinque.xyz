@@ -121,11 +121,11 @@ The VisiCalc manual I have for version 1.1 was written by Van Walverton and copy
 | @iserror(value)           | returns true if if value is @error otherwise returns false |
 | @choose(value,list)       | see below                                                  |
 
-- @choose(value,list) - value is an integer that is used as an index to choose which item to return from the list. For example, in @CHOOSE(A4,17,6,33,39), A4 is evaluated first. If A4 is 1, the result is 17; if A4 is 2, the result is 6; and so on .
+- @choose(value,list) - value is an integer that is used as an index to choose which item to return from the list. For example, in @CHOOSE(A4,17,6,33,39), A4 is evaluated first. If A4 is 1, the result is 17; if A4 is 2, the result is 6; and so on. Only works if the chosen item in the list is a value.
 
 ## VisiCalc Advanced
 
-I have been unable to find an manual for the final release of VisiCalc. I'm able to divine some functionality based on other documents I have found, but until I get a manual I can't say this is definitively correct.
+The VisiCalc Advanced manual I have is copyright 1982 and is written by Rob Merges and Van Wolverton for the Apple III.
 
 ### Out of Scope
 
@@ -173,6 +173,8 @@ There was a custom format command /F= but I am unable to divine what it did.
   - Set width of page in characters (0..255)
   - Set length of paper (0..253)
   - Set width of left margin in characters (0..255)
+- **Column Width:** now possible for each column to have its own specified width
+- **Replicate Rectangular Area**
 
 ### Functions
 
@@ -181,7 +183,7 @@ There was a custom format command /F= but I am unable to divine what it did.
 | @mod(value,divisor)              | returns remainder after a division operation                                     |
 | @dotprod(range1,range2)          | returns the sum of each number in range1 multiplied by its counterpart in value2 |
 | @round(value,precision)          | returns the value rounded to the precision                                       |
-| @mdy(month,day,year)             | returns the number of days since epoch                                           |
+| @mdy(month,day,year)             | returns the number of days since epoch, can use negative values as inputs        |
 | @vmdy(month,day,year)            | same as @mdy but requires valid dates                                            |
 | @year(value)                     | returns the year based on the number of the epoch value                          |
 | @month(value)                    | returns the month of the epoch value                                             |
@@ -190,7 +192,7 @@ There was a custom format command /F= but I am unable to divine what it did.
 | @hour(value)                     | given a fraction of 1 returns the hour since midnight                            |
 | @minute(value)                   | given a fraction of 1 returns the hour since midnight                            |
 | @second(value)                   | given a fraction of 1 returns the second since midnight                          |
-| @lchoose(value,range)            | returns the contents of the n'th cell in the range                               |
+| @lchoose(value,range)            | returns the contents of the n'th cell in the range, regardless if value or label |
 | @label(expression)               | returns the label of the expression if it is a label otherwise the expression    |
 | @value(expression)               | returns the value of the expression if it is a value otherwise 0                 |
 | @irr(value,range)                | see below                                                                        |
