@@ -10,9 +10,7 @@ Between sprints where I add new features and functions based on historic release
 
 Having a public roadmap with a clear plan and path will help keep me and users informed of what is likely coming next. You will know by the roadmap when Cinque is feature complete enough for your personal use cases. It also helps me have a strong and clear focus on what I should be working on. Instead of me being tempted to work on a shiny object that will be the most fun thing for me to work on, I'm making a loose contract with the user to build out future functionalities in a certain order.
 
-Unlike the developers of the past, I have the context of knowing where spreadsheet technology is moving towards. Not in the present future, but the past future. What I mean by that is that when VisiCalc was being written and decisions were made for things like how to design a function or a keyboard shortcut, I can compare their decisions with how Excel and Google Sheets evolved and make decisions that make it easier for me as the developer when I work on later features.
-
-In other words, when I am working on the VisiCalc release, I am not building an identical clone of VisiCalc. If there is a more natural keyboard shortcut than what VisiCalc chose, I can choose the better option now. If there was some limitation that systems of the time had but are no longer constraints, then I don't need to make short term compromises, I can implement code that takes advantage of modern stacks.
+I am not building an exact clone of VisiCalc. If there is a more natural keyboard shortcut than what VisiCalc chose, I can choose the better option now. If there was some limitation that systems of the time had but are no longer constraints, then I don't need to make short term compromises, I can implement code that takes advantage of modern stacks.
 
 ## v1 - the VisiCalc Release
 
@@ -58,19 +56,19 @@ In other words, when I am working on the VisiCalc release, I am not building an 
 - [ ] Delete row
 - [ ] Delete column
 - [ ] Format Number
-- [ ] Justify - left, right, center
+- [ ] Justify: left, right, center
 - [ ] Change column width
 - [ ] Insert row
 - [ ] Insert column
 - [ ] Move row
 - [ ] Move column
 - [ ] Replicate cells
-- [ ] Title - horizontal, vertical, both, none
+- [ ] Title: horizontal, vertical, both, none
 - [ ] Circular reference detection\*
 - [ ] Money entry\*
 - [ ] Formula entry\*
 
-### Differences
+#### Differences
 
 Items above marked with an \* were not included in the original VisiCalc release but are part of Cinque.
 
@@ -84,29 +82,31 @@ Items above marked with an \* were not included in the original VisiCalc release
 - VisiCalc could copy a vertical or a horizontal range of cells, but not a rectangle (meaning cells in more than one row and more than one column). Cinque will allow for rectangular range copying as well.
 - VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range then you have to answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
 - VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference.
-- VisiCalc had a monetary format but Cinque will have a monetary field type. At this time that just means that it is a numeric field with a scale of 2 (only two digits to the right of the decimal point).
-- VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 - Cinque will naturally allow multiple users to edit the same document at the same time.
 - I think you could only overwrite a cell in the first release of VisiCalc, not edit existing text/value/formula.
+- VisiCalc had a monetary format but Cinque will have a monetary field type. The monetary field type stores currency with a fixed fractional precision (2 digits to the right of the decimal). It can store any value between -92233720368547758.08 and +92233720368547758.07. Most spreadsheets do not have a monetary field and can create math errors due to rounding and storing money at a greater precision than the currency allows.
+- VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 
-### v1.1 - UI Improvements
+### v1.1 - UI Sprint
 
 Step 5 of the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) states that all bugs need to be resolved before new code is written. This will be considered a given for all further releases.
 
-As for the UI improvements, this sprint will be to put in place the bare minimum expectations of users today that were not part of VisiCalc:
+The first UI sprint will be to bring the UI to modern parity of web based spreadsheets in terms of keyboard commands alone.
 
-- parity with modern keyboard expectations (highlight a range, ctrl-c, ctrl-v)
-- add mouse related functionality
-- add touch related functionality for phone/tablet use
-- dark mode - this is a bit of a fad in 2020, but VisiCalc was in dark mode in the 80's so it makes sense to include this at this time
+- [ ] Highlight a range of cells
+- [ ] Dark mode
 
 ### v1.2 - API Alpha
 
-I have not started to define what the API is at this time, but it will be very simple and since it will be considered Alpha, there will be no contract that it will not include breaking changes on a regular basis.
+I have not started to define what the API is at this time, but the first release of the API will be a very simple REST based API. It will be considered Alpha, there will be no contract that it will not include breaking changes on a regular basis.
+
+It is most likely that it will expose all of the functionality that the web based version does. It should be possible to build an entirely new clone of the UI but let Cinque handle all the logic.
+
+All new functionality in the future will be released to the API at the same time it is release to the UI.
 
 ### v1.3 - VisiCalc 1.1
 
-- [ ] New operators - \< \> = \<= \>= \<\>
+- [ ] New operators: \< \> = \<= \>= \<\>
 - [ ] @not(value)
 - [ ] @and(list)
 - [ ] @or(list)
@@ -116,33 +116,71 @@ I have not started to define what the API is at this time, but it will be very s
 - [ ] @choose(value,list)
 - [ ] Print sheet title
 
-### v1.4 - VisiCalc Advanced
+### v1.4 UI Sprint
 
-The final release of VisiCalc added several types of functions:
+This sprint will be based around adding mouse based gestures that you would find in modern spreadsheets.
 
-- dates
-  - day
-  - hms
-  - hour
-  - mdy
-  - minute
-  - month
-  - second
-  - year
-- financial functions
-  - fv
-  - pv
-  - irr
-  - periods
-  - pmt
-  - rate
-- math functions
-  - dotprod
-  - round
+- [ ] Select cell with mouse
+- [ ] Select range with mouse
+
+Although it will now be possible to have a mouse-based UI, all features of Cinque will always be able to be accomplished by way of the keyboard.
+
+### v1.5 - VisiCalc Advanced
+
+- [ ] Help (?)
+- [ ] Percentage (%)
+- [ ] Expression format
+- [ ] Hide column
+- [ ] Hide row
+- [ ] Protect cells
+- [ ] Tab stops
+- [ ] Center format
+- [ ] Add left padding
+- [ ] Add right padding
+- [ ] Keystroke memory
+- [ ] Print page numbers
+- [ ] Date entry\*
+- [ ] Date formatting
+- [ ] Date and time functions
+
+#### Differences
+
+- I think that the hide attribute just made the cell look blank, but I plan to implement it to hide entire columns and rows
+- The mode attribute could be used to limit a cell to only be able to contain a label, a number or a formula. I don't think that adds value to Cinque.
+- The label attribute allowed you to fill the space between displayed text and the gutter with a repeating character.
+- VisiCalc Advanced added much better number formatting, but my intention was to provide a very flexible number format system in the initial release. For reference (and to verify that all of these were included in the first version) these are the additional formats:
+  - \+ - display positive numbers with a plus sign in front of them and negative values with a minus sign
+  - \( - display negative numbers inside of parenthesis
+  - c - display CR to the right of negative numbers and DR to the right of positive numbers. I was taught in accounting that debit means left and credit means right and has no association with positive or negative numbers, so I think this might be a bad practice to re-introduce.
+  - , - display a comma between sets of 3 digits (1,000,000)
+  - . - display a decimal point always
+  - z - do not show trailing zeros after the decimal point
+  - % - display the cell as a percentage (.3333 becomes 33.33%)
+  - \$ - display a dollar sign to the left of the number
+  - f - specifies how many digits to the right of the decimal should display (fixed format)
+  - i - display as an integer
+  - s - display as scientific notation
+- I do not know how the Keystroke memory system worked, so I'm sure my implementation will be different, but either way it is the start of a macro system. I do know that VisiCalc limited it to 123 keystrokes, which I likely will not do. I assume you could have up to 26 keyboard sequences since they were named with a single alphabetic character. It also supported a pause function, but I don't know how it worked.
+- The date and time functions in VisiCalc Advanced don't really map to how we handle dates and times in the 21st century. I'll provide functions based on modern standards instead.
+- VisiCalc used an epoch date of 1979-Jan-01. I don't intend on having an epoch date, but if I did it would be 1970-Jan-01. My plan is to use the ISO 8601 standard for date storage. Cinque will allow dates to go as far back as 4,713 BC all the way to 294,276 AD.
+
+### v1.6 UI Sprint
+
+- [ ] Mobile device compadibility
+
+### v1.7 Tutorial
+
+Write a tutorial that is similar to the tutorial provided in the VisiCalc manual covering all features implemented. Use the keyboard sequence system to allow people to follow along in a live tutorial in the actual application.
 
 ## v2 - Lotus 1-2-3 v1 Release
 
 The next major planned release is to bring up the minimal functionality to include everything that was part of Lotus 1-2-3 v1. I have not started reading the manual for v1 Lotus 1-2-3, so I do not currently know what exactly will be in this and the following releases.
+
+### v2.1 - API Beta
+
+A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individualy.
+
+The previous REST API will still function, but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
 
 ## v3 - 1985 Release
 

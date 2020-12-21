@@ -87,9 +87,7 @@ In VisiCalc functions began with the @ symbol. Some functions expect a single va
 
 ## VisiCalc 1.1
 
-The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981, but shares much with the previous manual. It is for the IBM release. While the first manual was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80 character screens in addition to 40 character.
-
-### Out of Scope
+The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981, but shares much with the previous manual. It is for the IBM release. While the manual for the first edition was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80 character screens in addition to 40 character.
 
 ### Features
 
@@ -113,6 +111,8 @@ The VisiCalc manual I have for version 1.1 was written by Van Walverton and copy
 
 | Function                  | Definition                                                 |
 | ------------------------- | ---------------------------------------------------------- |
+| @true                     | returns true                                               |
+| @false                    | retursn false                                              |
 | @not(value)               | given an evaluation of true or false, returns inverse      |
 | @and(list)                | returns true if all members of the list are true           |
 | @or(list)                 | returns true if any of the members are true                |
@@ -122,3 +122,87 @@ The VisiCalc manual I have for version 1.1 was written by Van Walverton and copy
 | @choose(value,list)       | see below                                                  |
 
 - @choose(value,list) - value is an integer that is used as an index to choose which item to return from the list. For example, in @CHOOSE(A4,17,6,33,39), A4 is evaluated first. If A4 is 1, the result is 17; if A4 is 2, the result is 6; and so on .
+
+## VisiCalc Advanced
+
+I have been unable to find an manual for the final release of VisiCalc. I'm able to divine some functionality based on other documents I have found, but until I get a manual I can't say this is definitively correct.
+
+### Out of Scope
+
+This version could lock a cell to only accept a label, a number or a formula. I can't understand the value of this in modern times.
+
+You could use a fill character to repeate between the gutter and the displayed text. An example would be "---Total---" where the hyphens are filling the space because the text is centered. I think this style is no longer used.
+
+There was a custom format command /F= but I am unable to divine what it did.
+
+### Features
+
+- **Atrributes Command:**
+  - Displaying formulas or expressions
+  - Hiding an entry
+  - Protecting entries
+  - Setting tab stops
+  - Label attributes
+  - Value attributes
+  - Attribute defaults
+- **Help**
+- **Percentage:** type a number followed by a % sign and the number will be divided by 100 and display the result
+- **Replicate Command:**
+  - A - replicate only attributes (new)
+  - C - replicate only contents (new)
+  - R - replicate using cell references in the same relative position
+  - N - replicate with no change in expressions which reference other cells
+- **Keystroke Memory:** You could record a keyboard sequence, define a keyboard sequence with text, list all keyboard sequences, edit a keyboard sequence, delete a keyboard sequence, run a keyboard sequence, run a keyboard sequence a set amount of times in repitition. If you recorded a keyboard sequence then it automatically puts in special characters to represent certain activities, this is the list of those if you were to define one by text or edit one:
+  - ^^ caret
+  - ^U up arrow
+  - ^D down arrow
+  - ^\< left arrow
+  - ^\> right arrow
+  - ^B delete
+  - ^C break
+  - ^E edit
+  - ^K chain with another keyboard sequence
+  - ^P pause execution
+  - ^R return
+  - ^TF tab
+  - ^TB tab back
+  - ^? help
+- **Aditional Printing Options:**
+  - Print page numbers
+  - Set number of lines per page (0..253)
+  - Set width of page in characters (0..255)
+  - Set length of paper (0..253)
+  - Set width of left margin in characters (0..255)
+
+### Functions
+
+| Function                         | Definition                                                                       |
+| -------------------------------- | -------------------------------------------------------------------------------- |
+| @mod(value,divisor)              | returns remainder after a division operation                                     |
+| @dotprod(range1,range2)          | returns the sum of each number in range1 multiplied by its counterpart in value2 |
+| @round(value,precision)          | returns the value rounded to the precision                                       |
+| @mdy(month,day,year)             | returns the number of days since epoch                                           |
+| @vmdy(month,day,year)            | same as @mdy but requires valid dates                                            |
+| @year(value)                     | returns the year based on the number of the epoch value                          |
+| @month(value)                    | returns the month of the epoch value                                             |
+| @day(value)                      | returns the days of the epoch value                                              |
+| @hms(hours,minutes,seconds)      | returns a fraction since midnight of the defined time                            |
+| @hour(value)                     | given a fraction of 1 returns the hour since midnight                            |
+| @minute(value)                   | given a fraction of 1 returns the hour since midnight                            |
+| @second(value)                   | given a fraction of 1 returns the second since midnight                          |
+| @lchoose(value,range)            | returns the contents of the n'th cell in the range                               |
+| @label(expression)               | returns the label of the expression if it is a label otherwise the expression    |
+| @value(expression)               | returns the value of the expression if it is a value otherwise 0                 |
+| @irr(value,range)                | see below                                                                        |
+| @rate(periods,payment,pv,fv)     | see below                                                                        |
+| @pmt(interest,periods,pv,fv)     | see below                                                                        |
+| @periods(interest,payment,pv,fv) | see below                                                                        |
+| @pv(interest,periods,payment,fv) | see below                                                                        |
+| @fv(interest,periods,payment,pv) | see below                                                                        |
+
+- IRR - Returns the interest rate for which the discounted cash flows in the range equals the cash flow v at time 0. In other words, @IRR returns a rate for which the NPV of the cash flows is 0
+- Rate - Returns the interest rate given the number of periods (n), payment (pmt), present value of the sum (pv) or future value of the sum (fv). You must enter n and at least two additional arguments. You can enter all arguments. @NA specifies the argument not entered, for example, @RATE(12, -100, 1000, @NA)
+- Payment - Returns the payment necessary to comply with the parameters given. You must enter interest rate (i) in decimal form, and the number of periods (n). You must also enter either the present value (pv) or future value (fv). You can enter all arguments. @NA specifies the argument not entered, for example, @PMT(.12, 120, -1000, @NA)
+- Periods - Returns the number of periods necessary to comply with the parameters given. You must enter interest rate (i) in decimal form, and at least two additional arguments. You can enter all arguments. @NA specifies the argument not entered, e.g. @PERIODS(.18, 100, @NA, -1000)
+- Present Value - Returns the present value of a future sum of money (fv) or of an annuity (pmt) given the parameters specified. You must enter the interest rate (i) in decimal form, and the number of periods (n). You must also specify either the payment or the future value. @NA specifies the argument not entered, e.g. @PV(.18, 25, @NA, 1000).
+- Future Value - Returns the future value of a sum of money (pv) or of an annuity (pmt) given the parameters specified. You must enter the interest rate (i) in decimal form and the number of periods (n). You must also specify either the payment (pmt) or the present value (pv). You can enter all arguments. @NA specifies the argument not entered, for example, @FV(.18, 25, -100, @NA)
