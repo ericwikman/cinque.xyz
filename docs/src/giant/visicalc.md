@@ -10,15 +10,15 @@ Dan Bricklin hosts what I think is the original reference card for the first rel
 
 ### Out of Scope
 
-In VisiCalc the recalculation mode defaults to column but can be switched to rows. I think it is likely this was a limitation in place to keep the codebase small enough to fit in memory as opposed to calculating cells in natural order. Later spreadsheets used topological sorting to ensure that cells were calculated after all their dependent cells have been calculated. Cinque will not be replicating the row and column revaluation method that VisiCalc used.
+In VisiCalc, the recalculation mode defaults to column but can be switched to rows. It is likely that this was a limitation in place to keep the codebase small enough to fit in memory as opposed to calculating cells in natural order. Later spreadsheets used topological sorting to ensure that cells were calculated after all their dependent cells have been calculated. Cinque will not be replicating the row and column revaluation method that VisiCalc used.
 
 You could temporarily disable calculations and force recalculations, but that is not necessary when using natural order for reevaluations on modern hardware.
 
-VisiCalc had a prompt line that was used to display prompts from the chosen command. Cinque will use a Command Pallette for command selections. The prompt line also showed the memory available, but that isn't really relevant for a web-based system.
+VisiCalc had a prompt line that was used to display prompts from the chosen command. Cinque will use a Command Pallette for command selections. The prompt line also showed the memory available, but that isn't relevant for a web-based system.
 
 There was a command called Clear that would erase the spreadsheet with the intention to create a new sheet from scratch. With Cinque you would just create a new sheet.
 
-You could set a global format for the entire sheet. Cinque will provide formatting by cell, row or column.
+You could set a global format for the entire sheet. Cinque will provide formatting by cell, row, or column.
 
 Rudimentary bar graphs could be created. A cell can contain an integer from 1-10 and instead of displaying the integer it displayed that number of asterisks (\*). Charts and graphs are going to be out of scope until all spreadsheet functionality is complete. However, integrations with other charting or graphing systems will be possible.
 
@@ -33,7 +33,7 @@ The repeating label was used to make horizontal lines and decorations, but event
 ### Features
 
 - **Moving the cursor:** use the arrow symbols to change the active cell to be an adjacent cell
-- **Go to: Coordinate:** when the use types > followed by the coordinates of a cell AM205 followed by the Enter key, the chosen cell becomes the active cell and the visible grid is updated to contain the newly active cell
+- **Go to: Coordinate:** when the use types > followed by the coordinates of a cell AM205 followed by the Enter key, the chosen cell becomes the active cell, and the visible grid is updated to contain the newly active cell
 - **Label Entry:** type a single quotation mark (") to indicate that you are inputting a label into a cell
 - **Value Entry:** type pound (#) to indicate that you are inputting a numeric value
 - **Arithmetic:** simple math using operators for addition, subtraction, division, multiplication, and division
@@ -52,7 +52,7 @@ The repeating label was used to make horizontal lines and decorations, but event
 
 ### Functions
 
-In VisiCalc functions began with the @ symbol. Some functions expect a single value, and some accept a list of values. A value can be a number or a cell reference. A list can be a comma separated list of values in addition to a range of cells. In VisiCalc ranges were specified with 3 dots between the two cell references. VisiCalc evaluated labels and blank entries as 0 (this might be wrong). If you add a column or row in the middle of a defined range then the new cells are included in the existing range.
+In VisiCalc functions began with the @ symbol. Some functions expect a single value, and some accept a list of values. A value can be a number or a cell reference. A list can be a comma separated list of values in addition to a range of cells. In VisiCalc ranges were specified with 3 dots between the two cell references. VisiCalc evaluated labels and blank entries as 0 (this might be wrong). If you add a column or row in the middle of a defined range, then the new cells are included in the existing range.
 
 | Function                  | Definition                                               |
 | ------------------------- | -------------------------------------------------------- |
@@ -87,7 +87,7 @@ In VisiCalc functions began with the @ symbol. Some functions expect a single va
 
 ## VisiCalc 1.1
 
-The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981, but shares much with the previous manual. It is for the IBM release. While the manual for the first edition was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80 character screens in addition to 40 character.
+The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981 but shares much with the previous manual. It is for the IBM release. While the manual for the first edition was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80-character screens in addition to 40 character.
 
 ### Features
 
@@ -101,7 +101,7 @@ The VisiCalc manual I have for version 1.1 was written by Van Walverton and copy
   - \>= greater than or equal to
   - \<\> not equal to
 - **Logic Functions**
-- **Aditional Printing Options:**
+- **Additional Printing Options:**
   - Typeface: emphasized
   - Typeface: condensed
   - Print title and subtitle
@@ -112,7 +112,7 @@ The VisiCalc manual I have for version 1.1 was written by Van Walverton and copy
 | Function                  | Definition                                                 |
 | ------------------------- | ---------------------------------------------------------- |
 | @true                     | returns true                                               |
-| @false                    | retursn false                                              |
+| @false                    | returns false                                              |
 | @not(value)               | given an evaluation of true or false, returns inverse      |
 | @and(list)                | returns true if all members of the list are true           |
 | @or(list)                 | returns true if any of the members are true                |
@@ -131,13 +131,13 @@ The VisiCalc Advanced manual I have is copyright 1982 and is written by Rob Merg
 
 This version could lock a cell to only accept a label, a number or a formula. I can't understand the value of this in modern times.
 
-You could use a fill character to repeate between the gutter and the displayed text. An example would be "---Total---" where the hyphens are filling the space because the text is centered. I think this style is no longer used.
+You could use a fill character to repeat between the gutter and the displayed text. An example would be "---Total---" where the hyphens are filling the space because the text is centered. This style is no longer used.
 
 There was a custom format command /F= but I am unable to divine what it did.
 
 ### Features
 
-- **Atrributes Command:**
+- **Attributes Command:**
   - Displaying formulas or expressions
   - Hiding an entry
   - Protecting entries
@@ -152,7 +152,7 @@ There was a custom format command /F= but I am unable to divine what it did.
   - C - replicate only contents (new)
   - R - replicate using cell references in the same relative position
   - N - replicate with no change in expressions which reference other cells
-- **Keystroke Memory:** You could record a keyboard sequence, define a keyboard sequence with text, list all keyboard sequences, edit a keyboard sequence, delete a keyboard sequence, run a keyboard sequence, run a keyboard sequence a set amount of times in repitition. If you recorded a keyboard sequence then it automatically puts in special characters to represent certain activities, this is the list of those if you were to define one by text or edit one:
+- **Keystroke Memory:** You could record a keyboard sequence, define a keyboard sequence with text, list all keyboard sequences, edit a keyboard sequence, delete a keyboard sequence, run a keyboard sequence, run a keyboard sequence a set number of times in repetition. If you recorded a keyboard sequence then it automatically puts in special characters to represent certain activities, this is the list of those if you were to define one by text or edit one:
   - ^^ caret
   - ^U up arrow
   - ^D down arrow
@@ -167,7 +167,7 @@ There was a custom format command /F= but I am unable to divine what it did.
   - ^TF tab
   - ^TB tab back
   - ^? help
-- **Aditional Printing Options:**
+- **Additional Printing Options:**
   - Print page numbers
   - Set number of lines per page (0..253)
   - Set width of page in characters (0..255)
