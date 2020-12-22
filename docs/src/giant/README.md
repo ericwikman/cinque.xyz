@@ -12,9 +12,9 @@ However, this section is about [Standing on the Shoulders of Giants](https://en.
 
 Even in the year 2020, Microsoft is adding features to Excel that were part of products in the 20th century, sometimes once in Excel but removed at some point in time for some reason.
 
-On the flip side, there are also limitations in modern spreadsheets that I think can be directly linked back to design decisions that had to be made in VisiCalc based on the limitations of hardware in the late 1970s. It is impressive how much backwards compatibility Microsoft has been able to maintain, but maybe it is time to re-architect spreadsheets based on what computers are capable of today but without losing focus of what defined a spreadsheet in the 20th century.
+On the other side, there are also limitations in modern spreadsheets that I think can be linked back to design decisions that had to be made in VisiCalc based on the limitations of hardware in the late 1970s. It is impressive how much backwards compatibility Microsoft has been able to maintain, but it is time to re-architect spreadsheets based on what computers are capable of today but without losing focus of what defined a spreadsheet in the 20th century.
 
-I have chosen a path of building a modern spreadsheet by doing a long retrospective of the history of a few key spreadsheet programs. Software manuals in the 20th century were very thorough. My intention is to learn from the major thinkers who have come before me, and apply the features and functions that they implemented but in a manner that is not tied to the limitations that they faced. I think there is value in not rushing this process and building a new spreadsheet application at a very intentional pace.
+I have chosen a path of building a modern spreadsheet by doing a long retrospective of the history of a few key spreadsheet programs. Software manuals in the 20th century were very thorough. My intention is to learn from the major thinkers who have come before me and apply the features and functions that they implemented but in a manner that is not tied to the limitations that they faced. There is value in not rushing this process and building a new spreadsheet application at a very intentional pace.
 
 ## 20th Century Spreadsheets
 
@@ -173,6 +173,6 @@ While the focus of Cinque is on recreating the functionality of 20th century spr
 
 <!--
 TODO:
-Add links to all of the spreadsheets or to wikipedia.
+Add links to all the spreadsheets or to wikipedia.
 Add Column and Row counts for the v1 release of major spreadsheets
 -->
