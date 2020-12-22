@@ -23,8 +23,8 @@
 | Insert Column left of Cursor     |        | /ic           |               |       |
 | Move Column or Row               |        | /m            |               |       |
 | Replicate Cells                  |        | /r a1.a1 d1   |               |       |
-| Title Hoirzontal                 |        | /th           |               |       |
-| Title Veritcal                   |        | /tv           |               |       |
+| Title Horizontal                 |        | /th           |               |       |
+| Title Vertical                   |        | /tv           |               |       |
 | Title Both                       |        | /tb           |               |       |
 | Title None                       |        | /tn           |               |       |
 | Disable Cursor                   |        | Shift-Clear   |               |       |
@@ -46,7 +46,7 @@
 | Format Number Credit/Debit CR/DR |        | /avc          |               |       |
 | Format Number with Commas        |        | /av,          |               |       |
 | Format Number with Decimal       |        | /av.          |               |       |
-| Supress Trailing Zeros           |        | /avz          |               |       |
+| Suppress Trailing Zeros           |        | /avz          |               |       |
 | Format Number as Percent         |        | /av%          |               |       |
 | Format Number as Currency        |        | /av\$         |               |       |
 | Fixed Format Number              |        | /avf          |               |       |

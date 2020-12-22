@@ -1,6 +1,6 @@
 # Roadmap
 
-If I was writing a spreadsheet from scratch with no guideline of when to expect certain features, then I should expect to get feature requests for everything that currently exists in Excel. Alternatively, not release it until it is feature complete. Instead, I plan to systematically add features and functions roughly in the order that they were initially launched historically.
+If I was writing a spreadsheet from scratch with no guideline of when to expect certain features, then I should expect to get feature requests for everything that currently exists in Excel. Alternatively, not release it until it is feature complete. Instead, I plan to systematically add features and functions in the order that they were initially launched historically.
 
 Between sprints where I add new features and functions based on historic releases, I will be doing other cleanup tasks to improve the experience of Cinque. This includes things like:
 
@@ -8,7 +8,7 @@ Between sprints where I add new features and functions based on historic release
 - API functionalities to allow people extend Cinque with complementary systems
 - Documentation - [10,000 people a day](https://xkcd.com/1053/) in my native country learn about spreadsheets for the first time every day, and it would be nice for them to have access to first class documentation like users in the 20th century had for the products of that era
 
-Having a public roadmap with a clear plan and path will help keep me and users informed of what is likely coming next. You will know by the roadmap when Cinque is feature complete enough for your personal use cases. It also helps me have a strong and clear focus on what I should be working on. Instead of me being tempted to work on a shiny object that will be the most fun thing for me to work on, I'm making a loose contract with the user to build out future functionalities in a certain order.
+Having a public roadmap with a clear plan and path will help keep me and users informed of what is coming next. You will know by the roadmap when Cinque is feature complete enough for your personal use cases. It also helps me have a strong and clear focus on what I should be working on. Instead of me being tempted to work on a shiny object that will be the most fun thing for me to work on, I'm making a loose contract with the user to build out future functionalities in a certain order.
 
 I am not building an exact clone of VisiCalc. If there is a more natural keyboard shortcut than what VisiCalc chose, I can choose the better option now. If there was some limitation that systems of the time had but are no longer constraints, then I don't need to make short term compromises, I can implement code that takes advantage of modern stacks.
 
@@ -74,11 +74,11 @@ Items above marked with an \* were not included in the original VisiCalc release
 
 - VisiCalc was one of the only spreadsheets that used the decimal form of number storage. VisiCalc stored all values with either 11 or 12 significant digits. In scientific notation it could store any value between 9.999999999E-66 and 9.99999999999E+61. Cinque also stores numbers in an exact manner (as opposed to later spreadsheets that store an approximation of the number as a floating point). It can store any number up to 131072 digits before the decimal point and up to 16383 digits after the decimal point.
 - VisiCalc displayed >>>>>>>> in a cell if the column was not wide enough to display the value, but modern systems display ######## instead.
-- VisiCalc did math from left to right ignoring algebraic precedence with the exception of prioritizing operations within ( ). Cinque uses the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations).
+- VisiCalc did math from left to right ignoring algebraic precedence apart from prioritizing operations within ( ). Cinque uses the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations).
 - VisiCalc calculated cells sequentially by column (or optionally by row). Cinque will use something more similar to natural order.
 - You could temporarily disable recalculations or manually recalculate the sheet.
 - Number formatting was limited to either integer or currency. Cinque will provide flexible number formatting.
-- Column width could be between 3 and 39 characters, but it was a universal setting so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
+- Column width could be between 3 and 39 characters, but it was a universal setting, so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
 - VisiCalc could copy a vertical or a horizontal range of cells, but not a rectangle (meaning cells in more than one row and more than one column). Cinque will allow for rectangular range copying as well.
 - VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range then you have to answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
 - VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference.
@@ -91,16 +91,16 @@ Items above marked with an \* were not included in the original VisiCalc release
 
 Step 5 of the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) states that all bugs need to be resolved before new code is written. This will be considered a given for all further releases.
 
-The first UI sprint will be to bring the UI to modern parity of web based spreadsheets in terms of keyboard commands alone.
+The first UI sprint will be to bring the UI to modern parity of web-based spreadsheets in terms of keyboard commands alone.
 
 - [ ] Highlight a range of cells
 - [ ] Dark mode
 
 ### v1.2 - API Alpha
 
-I have not started to define what the API is at this time, but the first release of the API will be a very simple REST based API. It will be considered Alpha, there will be no contract that it will not include breaking changes on a regular basis.
+I have not started to define what the API is at this time, but the first release of the API will be a quite simple REST based API. It will be considered Alpha, there will be no contract that it will not include breaking changes on a regular basis.
 
-It is most likely that it will expose all of the functionality that the web based version does. It should be possible to build an entirely new clone of the UI but let Cinque handle all the logic.
+It will expose all the functionality that the web-based version does. It should be possible to build an entirely new clone of the UI but let Cinque handle all the logic.
 
 All new functionality in the future will be released to the API at the same time it is release to the UI.
 
@@ -118,7 +118,7 @@ All new functionality in the future will be released to the API at the same time
 
 ### v1.4 UI Sprint
 
-This sprint will be based around adding mouse based gestures that you would find in modern spreadsheets.
+This sprint will be based around adding mouse-based gestures that you would find in modern spreadsheets.
 
 - [ ] Select cell with mouse
 - [ ] Select range with mouse
@@ -146,7 +146,7 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
 #### Differences
 
 - I think that the hide attribute just made the cell look blank, but I plan to implement it to hide entire columns and rows
-- The mode attribute could be used to limit a cell to only be able to contain a label, a number or a formula. I don't think that adds value to Cinque.
+- The mode attribute could be used to limit a cell to only be able to contain a label, a number, or a formula. I don't think that adds value to Cinque.
 - The label attribute allowed you to fill the space between displayed text and the gutter with a repeating character.
 - VisiCalc Advanced added much better number formatting, but my intention was to provide a very flexible number format system in the initial release. For reference (and to verify that all of these were included in the first version) these are the additional formats:
   - \+ - display positive numbers with a plus sign in front of them and negative values with a minus sign
@@ -166,11 +166,11 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
 
 ### v1.6 UI Sprint
 
-- [ ] Mobile device compadibility
+- [ ] Mobile device compatibility
 
 ### v1.7 Tutorial
 
-Write a tutorial that is similar to the tutorial provided in the VisiCalc manual covering all features implemented. Use the keyboard sequence system to allow people to follow along in a live tutorial in the actual application.
+Write a tutorial that is like the tutorial provided in the VisiCalc manual covering all features implemented. Use the keyboard sequence system to allow people to follow along in a live tutorial in the actual application.
 
 ## v2 - Lotus 1-2-3 v1 Release
 
@@ -178,9 +178,9 @@ The next major planned release is to bring up the minimal functionality to inclu
 
 ### v2.1 - API Beta
 
-A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individualy.
+A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individually.
 
-The previous REST API will still function, but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
+The previous REST API will still function but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
 
 ## v3 - 1985 Release
 
