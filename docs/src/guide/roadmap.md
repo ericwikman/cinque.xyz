@@ -79,7 +79,6 @@ Items above marked with an \* were not included in the original VisiCalc release
 - You could temporarily disable recalculations or manually recalculate the sheet.
 - Number formatting was limited to either integer or currency. Cinque will provide flexible number formatting.
 - Column width could be between 3 and 39 characters, but it was a universal setting, so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
-- VisiCalc could copy a vertical or a horizontal range of cells, but not a rectangle (meaning cells in more than one row and more than one column). Cinque will allow for rectangular range copying as well.
 - VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range then you have to answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
 - VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference.
 - Cinque will naturally allow multiple users to edit the same document at the same time.
@@ -130,6 +129,9 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
 - [ ] Help (?)
 - [ ] Percentage (%)
 - [ ] Expression format
+- [ ] Replicate Block (rectangle)
+- [ ] Replicate attributes
+- [ ] Replicate contents
 - [ ] Hide column
 - [ ] Hide row
 - [ ] Protect cells
@@ -162,7 +164,7 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
   - s - display as scientific notation
 - I do not know how the Keystroke memory system worked, so I'm sure my implementation will be different, but either way it is the start of a macro system. I do know that VisiCalc limited it to 123 keystrokes, which I likely will not do. I assume you could have up to 26 keyboard sequences since they were named with a single alphabetic character. It also supported a pause function, but I don't know how it worked.
 - The date and time functions in VisiCalc Advanced don't really map to how we handle dates and times in the 21st century. I'll provide functions based on modern standards instead.
-- VisiCalc used an epoch date of 1979-Jan-01. I don't intend on having an epoch date, but if I did it would be 1970-Jan-01. My plan is to use the ISO 8601 standard for date storage. Cinque will allow dates to go as far back as 4,713 BC all the way to 294,276 AD.
+- VisiCalc used an epoch date of 1979-Jan-01. I don't intend on having an epoch date. Linux uses 1970-Jan-01 but most spreadsheets after VisiCalc used 1900-01-01. My plan is to use the ISO 8601 standard for date storage. Cinque will allow dates to go as far back as 4,713 BC all the way to 294,276 AD.
 
 ### v0.7 UI Sprint
 
@@ -174,7 +176,11 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
 
 ## v1.0 - Lotus 1-2-3 v1 Release
 
-The next major planned release is to bring up the minimal functionality to include everything that was part of Lotus 1-2-3 v1. I have not started reading the manual for v1 Lotus 1-2-3, so I do not currently know what exactly will be in this and the following releases.
+- [ ] Named range
+- [ ] Multiple-cell macros
+- [ ] Pause macro
+- [ ] Single-step mode macros
+- [ ] /X commands
 
 ### v1.1 - API Beta
 

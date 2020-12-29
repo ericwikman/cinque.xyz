@@ -70,7 +70,7 @@ module.exports = {
         {
           title: "Shoulders of Giants",
           collapsable: false,
-          children: ["", "visicalc"],
+          children: ["", "visicalc", "lotus"],
         },
       ],
     },
