@@ -12,7 +12,7 @@ Having a public roadmap with a clear plan and path will help keep me and users i
 
 I am not building an exact clone of VisiCalc. If there is a more natural keyboard shortcut than what VisiCalc chose, I can choose the better option now. If there was some limitation that systems of the time had but are no longer constraints, then I don't need to make short term compromises, I can implement code that takes advantage of modern stacks.
 
-## v1 - the VisiCalc Release
+## v0.1 - the VisiCalc Release
 
 - [ ] Display the coordinate of the selected cell (ie. A1)
 - [ ] Display the contents of the selected cell in original data format
@@ -87,7 +87,7 @@ Items above marked with an \* were not included in the original VisiCalc release
 - VisiCalc had a monetary format but Cinque will have a monetary field type. The monetary field type stores currency with a fixed fractional precision (2 digits to the right of the decimal). It can store any value between -92233720368547758.08 and +92233720368547758.07. Most spreadsheets do not have a monetary field and can create math errors due to rounding and storing money at a greater precision than the currency allows.
 - VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 
-### v1.1 - UI Sprint
+### v0.2 - UI Sprint
 
 Step 5 of the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) states that all bugs need to be resolved before new code is written. This will be considered a given for all further releases.
 
@@ -96,7 +96,7 @@ The first UI sprint will be to bring the UI to modern parity of web-based spread
 - [ ] Highlight a range of cells
 - [ ] Dark mode
 
-### v1.2 - API Alpha
+### v0.3 - API Alpha
 
 I have not started to define what the API is at this time, but the first release of the API will be a quite simple REST based API. It will be considered Alpha, there will be no contract that it will not include breaking changes on a regular basis.
 
@@ -104,7 +104,7 @@ It will expose all the functionality that the web-based version does. It should 
 
 All new functionality in the future will be released to the API at the same time it is release to the UI.
 
-### v1.3 - VisiCalc 1.1
+### v0.4 - VisiCalc 1.1
 
 - [ ] New operators: \< \> = \<= \>= \<\>
 - [ ] @not(value)
@@ -116,7 +116,7 @@ All new functionality in the future will be released to the API at the same time
 - [ ] @choose(value,list)
 - [ ] Print sheet title
 
-### v1.4 UI Sprint
+### v0.5 UI Sprint
 
 This sprint will be based around adding mouse-based gestures that you would find in modern spreadsheets.
 
@@ -125,7 +125,7 @@ This sprint will be based around adding mouse-based gestures that you would find
 
 Although it will now be possible to have a mouse-based UI, all features of Cinque will always be able to be accomplished by way of the keyboard.
 
-### v1.5 - VisiCalc Advanced
+### v0.6 - VisiCalc Advanced
 
 - [ ] Help (?)
 - [ ] Percentage (%)
@@ -164,48 +164,48 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
 - The date and time functions in VisiCalc Advanced don't really map to how we handle dates and times in the 21st century. I'll provide functions based on modern standards instead.
 - VisiCalc used an epoch date of 1979-Jan-01. I don't intend on having an epoch date, but if I did it would be 1970-Jan-01. My plan is to use the ISO 8601 standard for date storage. Cinque will allow dates to go as far back as 4,713 BC all the way to 294,276 AD.
 
-### v1.6 UI Sprint
+### v0.7 UI Sprint
 
 - [ ] Mobile device compatibility
 
-### v1.7 Tutorial
+### v0.8 Tutorial
 
 Write a tutorial that is like the tutorial provided in the VisiCalc manual covering all features implemented. Use the keyboard sequence system to allow people to follow along in a live tutorial in the actual application.
 
-## v2 - Lotus 1-2-3 v1 Release
+## v1.0 - Lotus 1-2-3 v1 Release
 
 The next major planned release is to bring up the minimal functionality to include everything that was part of Lotus 1-2-3 v1. I have not started reading the manual for v1 Lotus 1-2-3, so I do not currently know what exactly will be in this and the following releases.
 
-### v2.1 - API Beta
+### v1.1 - API Beta
 
 A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individually.
 
 The previous REST API will still function but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
 
-## v3 - 1985 Release
+## v2 - 1985 Release
 
 This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 v2 and Multiplan v2
 
-## v4 - Quattro v1 Release
+## v3 - Quattro v1 Release
 
 Quattro was the first spreadsheet that I worked with, so this has sentimental value, but also Quattro was the first product that pushed Lotus 1-2-3 to improve. Borland did not win a majority of market share, but they did put a product out with deep features.
 
-## v5 - 1992 Release
+## v4 - 1992 Release
 
 By 1992 there was the major release of Lotus 1-2-3 v3 and also Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and Multiplan v4. My guess is that by the time v5 is released that Cinque will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
 
-## v6 - Classified
+## v5 - Classified
 
 I'm not talking about v6 yet, but it is the reason I began building Cinque. Hopefully I can pull it off.
 
-## v7 - Excel Release
+## v6 - Excel Release
 
 While Excel initially came out in 1985 on the Macintosh and in 1987 on Windows, I have been ignoring it before v7. Everything up until v7 has been based on non-Windows based products. This release will cover Excel v3.
 
-## v8 - 1993 Release
+## v7 - 1993 Release
 
 This is an update to Quattro Pro v5 and Excel v5. I will ignore the Windows version of Quattro Pro.
 
-## v9 - 1997 Release
+## v8 - 1997 Release
 
 This is the final planned release to match the functionality of 20th century spreadsheets. It will include the final Lotus 1-2-3 for Dos version v4, the Windows release of Lotus 1-2-3 v97, the final release of Quattro Pro for Dos v5.6, Quattro Pro for Windows v6, and Excel v8.
