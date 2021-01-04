@@ -85,12 +85,6 @@ In VisiCalc functions began with the @ symbol. Some functions expect a single va
 - @lookup(value,range) - Looks up a numeric value in a table and finds the value that corresponds to it. For example, when you do taxes, you look up the gross pay in a tax table and then use a corresponding tax rate. The table used by the @LOOKUP function may be a range within a column or a row. The value that is being looked up will be compared to successive values in that table until a value is found that is larger than the value being looked up (or until the end of the table is reached). The entry in the table that is before this entry is the one that VisiCalc will consider as the "match" for the value being looked up. If the table is in a column, VisiCalc returns the value of the entry that is immediately to the right of the "matching" entry as the value of the function. If the table is in a row, VisiCalc returns the value immediately below the "matching" entry as the value of the function. If the first value in the table is greater than the value being looked up, then the value of the function will be NA.
 - @npv(discount_rate,range) - Calculates the Net Present Value of the cash flows in the range, discounted at the rate specified by dr (the discount rate expressed as a decimal). The first entry in the range is the cash flow at the end of the first period, the second entry is the cash flow at the end of the second period
 
-### Artificial Limits
-
-rows
-columns
-cell length
-
 ## VisiCalc 1.1
 
 The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981 but shares much with the previous manual. It is for the IBM release. While the manual for the first edition was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80-character screens in addition to 40 character.

@@ -86,6 +86,16 @@ Items above marked with an \* were not included in the original VisiCalc release
 - VisiCalc had a monetary format but Cinque will have a monetary field type. The monetary field type stores currency with a fixed fractional precision (2 digits to the right of the decimal). It can store any value between -92233720368547758.08 and +92233720368547758.07. Most spreadsheets do not have a monetary field and can create math errors due to rounding and storing money at a greater precision than the currency allows.
 - VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 
+#### Artificial Limits
+
+- 255 rows
+- 63 columns
+- 63 max length
+- pi digits
+- precision
+- nested deep calculations
+- number of commands in a macro
+
 ### v0.2 - UI Sprint
 
 Step 5 of the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) states that all bugs need to be resolved before new code is written. This will be considered a given for all further releases.
@@ -177,10 +187,32 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
 ## v1.0 - Lotus 1-2-3 v1 Release
 
 - [ ] Named range
+  - [ ] Range Name Create
+  - [ ] Range Name Delete
+  - [ ] Range Name Reset
+- [ ] Range name labels - sort of like naming constants, one column of labels and next to it is a column of values (or row to row)
+- [ ] Range format
+- [ ] Range label prefix - change alignment of labels in a range
+- [ ] Range justify - create papragraph out of long label
+- [ ] Range input - only allow cursor to move to unprotected cells
+- [ ] Range erase - delete cell(s)
 - [ ] Multiple-cell macros
 - [ ] Pause macro
 - [ ] Single-step mode macros
 - [ ] /X commands
+- [ ] Default format for new cells (precendence row, column, default)
+  - [ ] number format
+  - [ ] date format
+  - [ ] justification
+  - [ ] column-width
+- [ ] Remove cell or column or row formatting (cells revert to current default format)
+- [ ] File xtract
+
+### Differences
+
+- The way /X commands were implemented, while historically relevant as a big breakthrough in the power of a spreadsheet, is almost certainly not close to what would be considered best practices today. I will attempt to design a system that will allow the user to build a similarly complex spreadsheet, but likely using functional programming paradigm.
+- Lotus introduced both relative and absolute named ranges, but in my opinion a named range should only ever be considered the cells in that list for the named range.
+- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range I don't think it matters if it moves elsewhere on the sheet. Lotus conisdered the boundry cells and the middle cells functionally different when moving a cell.
 
 ### v1.1 - API Beta
 
@@ -190,7 +222,19 @@ The previous REST API will still function but may be modified. Although there is
 
 ## v2 - 1985 Release
 
-This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 v2 and Multiplan v2
+This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 and Multiplan v2
+
+### SuperCalc 3
+
+- [ ] CSV?
+
+### Multiplan v2
+
+- [ ]
+
+### Lotus 1-2-3 v2
+
+- [ ]
 
 ## v3 - Quattro v1 Release
 
@@ -198,7 +242,7 @@ Quattro was the first spreadsheet that I worked with, so this has sentimental va
 
 ## v4 - 1992 Release
 
-By 1992 there was the major release of Lotus 1-2-3 v3 and also Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and Multiplan v4. My guess is that by the time v5 is released that Cinque will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
+By 1992 there was the major release of Lotus 1-2-3 v3 and also Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and Multiplan v4. My guess is that this release will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
 
 ## v5 - Classified
 
