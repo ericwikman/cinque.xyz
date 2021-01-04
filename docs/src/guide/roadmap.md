@@ -14,7 +14,7 @@ I am not building an exact clone of VisiCalc. If there is a more natural keyboar
 
 ## v0.1 - the VisiCalc Release
 
-- [ ] Display the coordinate of the selected cell (ie. A1)
+- [ ] Display the coordinate of the selected cell (i.e. A1)
 - [ ] Display the contents of the selected cell in original data format
 - [ ] Display format attributes of cell
 - [ ] Display row and column headers
@@ -75,11 +75,11 @@ Items above marked with an \* were not included in the original VisiCalc release
 - VisiCalc was one of the only spreadsheets that used the decimal form of number storage. VisiCalc stored all values with either 11 or 12 significant digits. In scientific notation it could store any value between 9.999999999E-66 and 9.99999999999E+61. Cinque also stores numbers in an exact manner (as opposed to later spreadsheets that store an approximation of the number as a floating point). It can store any number up to 131072 digits before the decimal point and up to 16383 digits after the decimal point.
 - VisiCalc displayed >>>>>>>> in a cell if the column was not wide enough to display the value, but modern systems display ######## instead.
 - VisiCalc did math from left to right ignoring algebraic precedence apart from prioritizing operations within ( ). Cinque uses the [order of operations](https://en.wikipedia.org/wiki/Order_of_operations).
-- VisiCalc calculated cells sequentially by column (or optionally by row). Cinque will use something more similar to natural order.
+- VisiCalc calculated cells sequentially by column (or optionally by row). Cinque will use something more like natural order.
 - You could temporarily disable recalculations or manually recalculate the sheet.
 - Number formatting was limited to either integer or currency. Cinque will provide flexible number formatting.
 - Column width could be between 3 and 39 characters, but it was a universal setting, so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
-- VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range then you have to answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
+- VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range, then you must answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
 - VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference.
 - Cinque will naturally allow multiple users to edit the same document at the same time.
 - I think you could only overwrite a cell in the first release of VisiCalc, not edit existing text/value/formula.
@@ -193,14 +193,14 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
 - [ ] Range name labels - sort of like naming constants, one column of labels and next to it is a column of values (or row to row)
 - [ ] Range format
 - [ ] Range label prefix - change alignment of labels in a range
-- [ ] Range justify - create papragraph out of long label
+- [ ] Range justify - create paragraph out of long label
 - [ ] Range input - only allow cursor to move to unprotected cells
 - [ ] Range erase - delete cell(s)
 - [ ] Multiple-cell macros
 - [ ] Pause macro
 - [ ] Single-step mode macros
 - [ ] /X commands
-- [ ] Default format for new cells (precendence row, column, default)
+- [ ] Default format for new cells (precedence row, column, default)
   - [ ] number format
   - [ ] date format
   - [ ] justification
@@ -210,9 +210,9 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
 
 ### Differences
 
-- The way /X commands were implemented, while historically relevant as a big breakthrough in the power of a spreadsheet, is almost certainly not close to what would be considered best practices today. I will attempt to design a system that will allow the user to build a similarly complex spreadsheet, but likely using functional programming paradigm.
-- Lotus introduced both relative and absolute named ranges, but in my opinion a named range should only ever be considered the cells in that list for the named range.
-- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range I don't think it matters if it moves elsewhere on the sheet. Lotus conisdered the boundry cells and the middle cells functionally different when moving a cell.
+- The way /X commands were implemented, while historically relevant as a big breakthrough in the power of a spreadsheet, is certainly not close to what would be considered best practices today. I will attempt to design a system that will allow the user to build a similarly complex spreadsheet but using functional programming paradigm.
+- Lotus introduced both relative and absolute named ranges, but a named range should only ever be considered the cells in that list for the named range.
+- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range, I don't think it matters if it moves elsewhere on the sheet. Lotus considered the boundry cells and the middle cells functionally different when moving a cell.
 
 ### v1.1 - API Beta
 
@@ -242,11 +242,11 @@ Quattro was the first spreadsheet that I worked with, so this has sentimental va
 
 ## v4 - 1992 Release
 
-By 1992 there was the major release of Lotus 1-2-3 v3 and also Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and Multiplan v4. My guess is that this release will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
+By 1992 there was the major release of Lotus 1-2-3 v3 and Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and Multiplan v4. My guess is that this release will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
 
 ## v5 - Classified
 
-I'm not talking about v6 yet, but it is the reason I began building Cinque. Hopefully I can pull it off.
+I'm not talking about v6 yet, but it is the reason I began building Cinque. Hopefully, I can pull it off.
 
 ## v6 - Excel Release
 
