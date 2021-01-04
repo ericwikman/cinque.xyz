@@ -26,7 +26,7 @@ Anything related to printing beyond the basics of what a browser provides by def
 
 Anything related to storage commands are out of scope.
 
-Split screen is out of scope for now. You can accomplish the equivalent of what you could do in VisiCalc using multiple browser windows and the OS windowing system. It is possible that a tiling manager similar to how i3 works could be implemented as part of the roadmap or after all spreadsheet functionality is done.
+Split screen is out of scope for now. You can accomplish the equivalent of what you could do in VisiCalc using multiple browser windows and the OS windowing system. It is possible that a tiling manager like how i3 works could be implemented as part of the roadmap or after all spreadsheet functionality is done.
 
 The repeating label was used to make horizontal lines and decorations, but eventually Cinque will get borders for cells so this functionality would become redundant, so it is out of scope.
 
@@ -48,7 +48,7 @@ The repeating label was used to make horizontal lines and decorations, but event
 - **Insert Row or Column**
 - **Move Row or Column** move the current column or row directly left or above the cell chosen after typing /m
 - **Replicate Command**
-- **Tile Command** freeze the rows, columns or both to the top or left of the cursor
+- **Tile Command** freeze the rows, columns, or both to the top or left of the cursor
 
 ### Functions
 
@@ -60,7 +60,7 @@ In VisiCalc functions began with the @ symbol. Some functions expect a single va
 | @min(list)                | chooses the smallest value in the list                   |
 | @max(list)                | chooses the largest value in the list                    |
 | @count(list)              | results in the number of non-blank entries in the list   |
-| @average(list)            | @SUM(list) divided by @CQUNT(list)                       |
+| @average(list)            | @SUM(list) divided by @COUNT(list)                       |
 | @abs(value)               | results in the absolute value of value                   |
 | @int(value)               | results in the integer portion of value                  |
 | @sqrt(value)              | results in the square root of value                      |
@@ -129,7 +129,7 @@ The VisiCalc Advanced manual I have is copyright 1982 and is written by Rob Merg
 
 ### Out of Scope
 
-This version could lock a cell to only accept a label, a number or a formula. I can't understand the value of this in modern times.
+This version could lock a cell to only accept a label, a number, or a formula. I can't understand the value of this in modern times.
 
 You could use a fill character to repeat between the gutter and the displayed text. An example would be "---Total---" where the hyphens are filling the space because the text is centered. This style is no longer used.
 
