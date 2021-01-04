@@ -153,7 +153,27 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
 - [ ] Print page numbers
 - [ ] Date entry\*
 - [ ] Date formatting
-- [ ] Date and time functions
+- [ ] @mod(value,divisor)
+- [ ] @dotprod(range1,range2)
+- [ ] @round(value,precision)
+- [ ] @mdy(month,day,year)
+- [ ] @vmdy(month,day,year)
+- [ ] @year(value)
+- [ ] @month(value)
+- [ ] @day(value)
+- [ ] @hms(hours,minutes,seconds)
+- [ ] @hour(value)
+- [ ] @minute(value)
+- [ ] @second(value)
+- [ ] @lchoose(value,range)
+- [ ] @label(expression)
+- [ ] @value(expression)
+- [ ] @irr(value,range)
+- [ ] @rate(periods,payment,pv,fv)
+- [ ] @pmt(interest,periods,pv,fv)
+- [ ] @periods(interest,payment,pv,fv)
+- [ ] @pv(interest,periods,payment,fv)
+- [ ] @fv(interest,periods,payment,pv)
 
 #### Differences
 
@@ -207,6 +227,40 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
   - [ ] column-width
 - [ ] Remove cell or column or row formatting (cells revert to current default format)
 - [ ] File xtract
+- [ ] Database
+  - [ ] Sort
+  - [ ] Query
+    - [ ] Find
+    - [ ] Extract
+    - [ ] Unique
+    - [ ] Delete
+    - [ ] Label match criteria
+      - [ ] ? - matches any single character
+      - [ ] - - matches all characters to the end of the label
+      - [ ] ~ - return everything that does not match the criteria after the tilde
+    - [ ] Number match criteria
+    - [ ] Formula criteria (numeric comparison)
+    - [ ] "and" criteria
+    - [ ] "or" criteria
+  - [ ] @dcount
+  - [ ] @dsum
+  - [ ] @davg
+  - [ ] @dvar
+  - [ ] @dstd
+  - [ ] @dmax
+  - [ ] @dmin
+  - [ ] Data Table 1
+  - [ ] Data Table 2
+  - [ ] Fill
+  - [ ] Distribution
+- [ ] Graphing API
+- [ ] Printing API
+- [ ] @atan2(x,y)
+- [ ] @rand
+- [ ] @hlookup(x,range,offset)
+- [ ] @vlookup(x,range,offset)
+- [ ] @std(list)
+- [ ] @var(list)
 
 ### Differences
 

@@ -22,7 +22,13 @@ Column width could be from 1 to 72 and defaulted to 9.
 
 8 character filenames
 
+pi = 3.141592653589794
+
+Round to 15 digits
+
 ### Out of Scope
+
+Fonts were available as part of PrintGraph.
 
 ### Features
 
@@ -52,5 +58,51 @@ Column width could be from 1 to 72 and defaulted to 9.
 - **Range Justify:** an unbroken column of labels can be treated as a paragraph, which is similar to merging cells and adjusting justification
 - **Range Input:** allow the cursor to only go to unprotected fields to make the sheet like a form, and then can use macro to move record into data table and clear form fields
 - **File Xtract:** create a new sheet based on a range of data from current sheet. Can choose to have the new sheet use just the values or also the formulas
+- **Data Commands:** essentially a full database management system to extend Lotus 1-2-3 into record keeping uses. A cell range can be marked as a database where the first row is field names and all additional rows are records and each column is a field of data. You can have up to 32 fields. Every field needs a unique name.
+  - /Data Sort - rearrange all records in ascending or descending order based on one or two fields
+  - /Data Query - given a database and a set of criteria and potentially an output range:
+    - Find - highlights matching cells
+    - Extract - copy matching data to another place
+    - Unique - outputs only records that are not duplicates
+    - Delete - removes matching records
+  - /Data Table 1 - substitutes each of a series of entries (values and/or labels) in one cell of a worksheet, and creates a table of the resulting values of one or more dependent formulas
+  - /Data Table 2 - Substitutes a different series of entries in each of two "input" cells, and constructs a table recording the resulting changes in the value of one formula
+  - /Data Fill - Fills a range with an Ascending or Descending sequence of numbers with a specified increment or decrement
+  - /Data Distribution - Analyzes a range of numbers or formulas by counting how many values fall into each of a number of specified intervals
+- **Graph:** this section for features needed for the api to be able to publish data for graphing integration
+  - Labels:
+    - Title
+    - Legend
+    - X and Y Axis
+    - Data
+  - Up to 6 data sets
+  - Types
+    - Bar
+    - Stacked-Bar
+    - Pie
+    - Line
+    - XY
+  - Options
+    - Scale
+    - Grid
+- **Print:** this section for features needed for the api to be able to publish data for printing integration
+  - Range
+  - Header
+  - Footer
+  - Page numbers
+  - Current date
+  - Margins
+  - Borders
+  - Page length
+  - Formula display (one-cell-per-line)
 
 ### Functions
+
+| Function                 | Definition                    |
+| ------------------------ | ----------------------------- |
+| @atan2(x,y)              | 4-quadrant arc tangent        |
+| @rand                    | random number between 0 and 1 |
+| @hlookup(x,range,offset) | horizontal table lookup       |
+| @vlookup(x,range,offset) | vertical table lookup         |
+| @std(list)               | standard deviation            |
+| @var(list)               | variance                      |
