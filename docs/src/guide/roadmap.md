@@ -115,6 +115,8 @@ All new functionality in the future will be released to the API at the same time
 
 ### v0.4 - VisiCalc 1.1
 
+Introducing logic to functions adds quite a bit of power.
+
 - [ ] New operators: \< \> = \<= \>= \<\>
 - [ ] @not(value)
 - [ ] @and(list)
@@ -135,6 +137,8 @@ This sprint will be based around adding mouse-based gestures that you would find
 Although it will now be possible to have a mouse-based UI, all features of Cinque will always be able to be accomplished by way of the keyboard.
 
 ### v0.6 - VisiCalc Advanced
+
+This is a pretty major release because "keystroke memory" is a macro system.
 
 - [ ] Help (?)
 - [ ] Percentage (%)
@@ -204,7 +208,11 @@ Although it will now be possible to have a mouse-based UI, all features of Cinqu
 
 Write a tutorial that is like the tutorial provided in the VisiCalc manual covering all features implemented. Use the keyboard sequence system to allow people to follow along in a live tutorial in the actual application.
 
-## v1.0 - Lotus 1-2-3 v1 Release
+## v1.0 - Lotus 1-2-3 v1A Release
+
+The first spreadsheet to compete with VisiCalc was not Lotus 1-2-3. VisiCalc was initially released in 1979, and in 1980 SuperCalc was released. Later Microsoft released MicroPlan in 1982. SuperCalc started as mostly a clone of VisiCalc and MultiPlan was difficult to learn and use. Lotus 1-2-3 was the first major competitor to VisiCalc that brought in a large amount of new functionality and also benefited by targeting DOS. Both SuperCalc and MultiPlan introduced features and are recognized later in the roadmap. Some of the features that Lotus 1-2-3 introduced were included in later releases of VisiCalc, so the below is not an exhaustive list of features that Lotus premiered, but features that the final release of VisiCalc did not include.
+
+I'm breaking the Lotus 1-2-3 parity release into four parts: named ranges and new functions, macro imporvements, data commands, and database management.
 
 - [ ] Named range
   - [ ] Range Name Create
@@ -216,17 +224,62 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
 - [ ] Range justify - create paragraph out of long label
 - [ ] Range input - only allow cursor to move to unprotected cells
 - [ ] Range erase - delete cell(s)
-- [ ] Multiple-cell macros
-- [ ] Pause macro
-- [ ] Single-step mode macros
-- [ ] /X commands
 - [ ] Default format for new cells (precedence row, column, default)
   - [ ] number format
   - [ ] date format
   - [ ] justification
   - [ ] column-width
 - [ ] Remove cell or column or row formatting (cells revert to current default format)
+- [ ] @atan2(x,y)
+- [ ] @rand
+- [ ] @hlookup(x,range,offset)
+- [ ] @vlookup(x,range,offset)
+- [ ] @std(list)
+- [ ] @var(list)
+
+#### Differences
+
+- Lotus introduced both relative and absolute named ranges, but a named range should only ever be considered the cells in that list for the named range.
+- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range, I don't think it matters if it moves elsewhere on the sheet. Lotus considered the boundry cells and the middle cells functionally different when moving a cell.
+
+### v1.1 - API Beta
+
+A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individually.
+
+The previous REST API will still function but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
+
+### v1.2 - Integration Foundation
+
+Now that we have a stronger API system we can include all of the necessary API calls to allow for third party integrations to be able to perform the same functionality that Lotus could in reference to file management, graphinh and printing.
+
 - [ ] File xtract
+- [ ] Graphing API
+- [ ] Printing API
+
+### v1.3 - Macro Improvements
+
+- [ ] Multiple-cell macros
+- [ ] Pause macro
+- [ ] Single-step mode macros
+- [ ] /X commands
+
+#### Differences
+
+- The way /X commands were implemented, while historically relevant as a big breakthrough in the power of a spreadsheet, is certainly not close to what would be considered best practices today. I will attempt to design a system that will allow the user to build a similarly complex spreadsheet but using functional programming paradigm.
+
+### v1.4 Data Commands
+
+This release includes data command features that are not part of the Database Management System (DBMS) functionality.
+
+- [ ] Data Table 1
+- [ ] Data Table 2
+- [ ] Fill
+- [ ] Distribution
+
+### v1.5 - Database Management System
+
+Database Management functionality is a prretty impressive feature to add to a spreadsheet by todays standards, and justifies the price that was being charged for the product (around \$1k in 2020 dollars).
+
 - [ ] Database
   - [ ] Sort
   - [ ] Query
@@ -249,44 +302,29 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
   - [ ] @dstd
   - [ ] @dmax
   - [ ] @dmin
-  - [ ] Data Table 1
-  - [ ] Data Table 2
-  - [ ] Fill
-  - [ ] Distribution
-- [ ] Graphing API
-- [ ] Printing API
-- [ ] @atan2(x,y)
-- [ ] @rand
-- [ ] @hlookup(x,range,offset)
-- [ ] @vlookup(x,range,offset)
-- [ ] @std(list)
-- [ ] @var(list)
-
-### Differences
-
-- The way /X commands were implemented, while historically relevant as a big breakthrough in the power of a spreadsheet, is certainly not close to what would be considered best practices today. I will attempt to design a system that will allow the user to build a similarly complex spreadsheet but using functional programming paradigm.
-- Lotus introduced both relative and absolute named ranges, but a named range should only ever be considered the cells in that list for the named range.
-- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range, I don't think it matters if it moves elsewhere on the sheet. Lotus considered the boundry cells and the middle cells functionally different when moving a cell.
-
-### v1.1 - API Beta
-
-A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individually.
-
-The previous REST API will still function but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
 
 ## v2 - 1985 Release
 
-This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 and Multiplan v2
+This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 and MultiPlan v2. Some features that SuperCalc and MultiPlan introduced were immitated in later releases of VisiCalc and Lotus 1-2-3. So don't take this feature list to be an exhaustive list of features first premiered by SuperCalc or MultipPlan, just features that were not included in VisiCalc or Lotus 1-2-3 v1A. The point of this release branch of Cinque is to bring it up to speed with all major features of spreadsheets available in the market in 1985.
 
-### SuperCalc 3
+### v2.0 - SuperCalc 3
+
+- [ ] Goto column
+- [ ] Goto row
+- [ ] Hide row and column titles
+- [ ] Control if the enter key moves to next cell or stay on current cell
+- [ ] Display formuls
+- [ ] Hide cells
+- [ ] Sort sheet
+- [ ] If active cell has no text, display it blank even if a cell to the left is a long-label
 
 - [ ] CSV?
 
-### Multiplan v2
+### v2.1 - MultiPlan v2
 
 - [ ]
 
-### Lotus 1-2-3 v2
+### v2.2 - Lotus 1-2-3 v2.2
 
 - [ ]
 
@@ -296,15 +334,15 @@ Quattro was the first spreadsheet that I worked with, so this has sentimental va
 
 ## v4 - 1992 Release
 
-By 1992 there was the major release of Lotus 1-2-3 v3 and Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and Multiplan v4. My guess is that this release will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
+By 1992 there was the major release of Lotus 1-2-3 v3 and Quattro Pro was also up to v3. This release also will include the wisdom of the final release of SuperCalc v5.1 and MultiPlan v4. My guess is that this release will be a decent competitor of Excel and Google Sheets in terms of the functions that 95% of people use in spreadsheets in modern times.
 
 ## v5 - Classified
 
-I'm not talking about v6 yet, but it is the reason I began building Cinque. Hopefully, I can pull it off.
+I'm not talking about v5 yet, but it is the reason I began building Cinque. Hopefully, I can pull it off.
 
-## v6 - Excel Release
+## v6 - Excel v3 Release
 
-While Excel initially came out in 1985 on the Macintosh and in 1987 on Windows, I have been ignoring it before v7. Everything up until v7 has been based on non-Windows based products. This release will cover Excel v3.
+While Excel initially came out in 1985 on the Macintosh and in 1987 on Windows, I have been ignoring it before v6. Everything up until v6 has been based on non-Windows based products. This release will cover Excel v3.
 
 ## v7 - 1993 Release
 
@@ -313,3 +351,7 @@ This is an update to Quattro Pro v5 and Excel v5. I will ignore the Windows vers
 ## v8 - 1997 Release
 
 This is the final planned release to match the functionality of 20th century spreadsheets. It will include the final Lotus 1-2-3 for Dos version v4, the Windows release of Lotus 1-2-3 v97, the final release of Quattro Pro for Dos v5.6, Quattro Pro for Windows v6, and Excel v8.
+
+## v9 - 2000 Release
+
+Excel 2000 came out in early 1999.
