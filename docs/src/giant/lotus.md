@@ -12,8 +12,6 @@ The grid is much larger at 256 columns (A through IV) by 2,048 rows. A cell can 
 
 Lotus 1-2-3 did not get rid of circular references and gives an example of how it can be used to have a counter. It also mentions the possibility that you may have formed your worksheet that needs it for convergence, but I suspect that is only if you switch it to row or column recalculation mode.
 
-- SuperCalc has an example of using a circular reference to close out a period of time. By using a flag to represent if you are updating a year-to-date section inside of an if statement then you can tell a cell to add itself to another value (recursion) and then set the flag bag to false after the calculations are complete.
-
 When you set the global format options it only impacts cells added after the change, pre-existing cells keep their formats.
 
 Column width could be from 1 to 72 and defaulted to 9.

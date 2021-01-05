@@ -313,12 +313,16 @@ This release focuses on all the additional features of Lotus 1-2-3 v2 as well as
 - [ ] Goto row
 - [ ] Hide row and column titles
 - [ ] Control if the enter key moves to next cell or stay on current cell
-- [ ] Display formuls
-- [ ] Hide cells
-- [ ] Sort sheet
+  - in Cinque this will be Ctrl-arrow to move into edit of next cell using same data type
+- [ ] Display formulas
 - [ ] If active cell has no text, display it blank even if a cell to the left is a long-label
-
-- [ ] CSV?
+- [ ] Sort
+- [ ] Hide row
+- [ ] Hide column
+- [ ] Hide cell (no data sent to browser)
+- [ ] CSV
+- [ ] Area chart support
+- [ ] Hi-Lo graph support
 
 ### v2.1 - MultiPlan v2
 
