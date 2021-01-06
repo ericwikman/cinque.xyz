@@ -323,6 +323,10 @@ This release focuses on all the additional features of Lotus 1-2-3 v2 as well as
 - [ ] CSV
 - [ ] Area chart support
 - [ ] Hi-Lo graph support
+- [ ] Data Management: Select
+- [ ] @isnum
+- [ ] @isdate
+- [ ] @istext
 
 ### v2.1 - MultiPlan v2
 
