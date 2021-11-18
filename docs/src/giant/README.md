@@ -98,6 +98,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - PlanPerfect
 - SC
 - SIAG
+- SpeedCalc
 - StarCalc (grandfather of LibreOffice Calc)
 - The Steinman Spreadsheet
 - Surpass
