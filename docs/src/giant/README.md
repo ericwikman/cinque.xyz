@@ -85,6 +85,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - DigiCalc
 - Disk-Count Software The Spreadsheet
 - Electric Spreadsheet
+- Electronic Paper
 - ExecuPlan
 - Expert File and Calc
 - Farsight
