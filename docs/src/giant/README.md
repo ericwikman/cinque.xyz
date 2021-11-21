@@ -82,6 +82,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Boeing Calc
 - CalcStar
 - Claris Resolve
+- DigiCalc
 - Disk-Count Software The Spreadsheet
 - Electric Spreadsheet
 - ExecuPlan
