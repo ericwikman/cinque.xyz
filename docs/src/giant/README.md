@@ -83,6 +83,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - CalcStar
 - Claris Resolve
 - Disk-Count Software The Spreadsheet
+- ExecuPlan
 - Expert File and Calc
 - Farsight
 - GNU Oleo
