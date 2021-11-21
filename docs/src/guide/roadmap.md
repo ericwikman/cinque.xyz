@@ -212,7 +212,7 @@ Write a tutorial that is like the tutorial provided in the VisiCalc manual cover
 
 The first spreadsheet to compete with VisiCalc was not Lotus 1-2-3. VisiCalc was initially released in 1979, and in 1980 SuperCalc was released. Later Microsoft released MicroPlan in 1982. SuperCalc started as mostly a clone of VisiCalc and MultiPlan was difficult to learn and use. Lotus 1-2-3 was the first major competitor to VisiCalc that brought in a large amount of new functionality and also benefited by targeting DOS. Both SuperCalc and MultiPlan introduced features and are recognized later in the roadmap. Some of the features that Lotus 1-2-3 introduced were included in later releases of VisiCalc, so the below is not an exhaustive list of features that Lotus premiered, but features that the final release of VisiCalc did not include.
 
-I'm breaking the Lotus 1-2-3 parity release into four parts: named ranges and new functions, macro imporvements, data commands, and database management.
+I'm breaking the Lotus 1-2-3 parity release into four parts: named ranges and new functions, macro improvements, data commands, and database management.
 
 - [ ] Named range
   - [ ] Range Name Create
@@ -244,7 +244,7 @@ I'm breaking the Lotus 1-2-3 parity release into four parts: named ranges and ne
 
 ### v1.1 - API Beta
 
-A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet with as a single action instead of requesting each cell individually.
+A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet as a single action instead of requesting each cell individually.
 
 The previous REST API will still function but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
 
