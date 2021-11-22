@@ -114,6 +114,21 @@
 - > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - > **VisiCalc is probably the most important microcomputer tool yet developed.**
 
+## 1981-04-13 - InfoWorld - Volume 3 - Number 7
+### **ExecuPlan from Vector Graphics, Inc.** (page 26)
+##### Thom Hogan
+- Full review of ExecuPlan:
+  - Usefullness (5/5)
+  - Documentation (4/5)
+  - Ease of Use (5/5)
+  - Error Handling (5/5)
+- System requirements:
+  - CP/M 2.2
+  - Vector Graphics computer
+  - One disk drive
+- Price: $150
+- Could supress printing of certain rows/columns
+
 ## 1981-08-17
 ### InfoWorld
 #### Volume 3 - Number 16
@@ -181,7 +196,7 @@
   - 48K RAM
   - One disk drive
 - Price: $295
-- Article says that VisiCalc does not have a CP/M version, but InfoWorld has previously published that the HP-125 has a CP/M version of VisiCalc
+- Article says that VisiCalc does not have a CP/M version, but InfoWorld has previously published that the HP-125 has a CP/M version of VisiCalc (and on page 38 of this same issue)
 - CP/M uses serial terminals, not memory-mapped displays like other systems of the time, so updating the display was slow and tedious. 
 - SuperCalc matches the attributes of the terminal, for instance the author's terminal is a Z-19 running at 9600 baud with 80 character width and 24 rows (1920 bytes of characters, 15,360 bits, at 9,600 bits per second would be aout 2 seconds to refresh the screen (0.5 frames per second))
 - Says most memory mapped displays are limited to 40x24 or 64x16 displays
