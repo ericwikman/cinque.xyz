@@ -83,6 +83,25 @@
 - > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - > **VisiCalc is probably the most important microcomputer tool yet developed.**
 
+## 1981-08-17
+### InfoWorld
+#### Volume 3 - Number 16
+- Title: **Few New Products Surface at COMDEX-Spring in NYC** (page 1)
+- Author: Wes Thomas
+- VisiCalc Connects (The Connection)
+  - Applesoft
+  - > lets VisiCalc users communicate via auto-dial modem with other computers and read information into their models
+- SuperCalc
+  - Sorcim
+  - CP/M based
+  - Demo on Osborne I
+  - designed to "plug up the holes in VisiCalc":
+    - individual-variable column widths
+    - multicolumn labels
+    - protected fields
+    - liberal on-screen prompts and help
+  - Xerox SAM
+
 ## 1981-09-14
 ### InfoWorld
 #### Volume 3 - Number 18
