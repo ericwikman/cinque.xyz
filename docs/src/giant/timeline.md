@@ -85,6 +85,7 @@
 - Buffer feature for copying rows
 - Can sort data files
 - Can fill previously created masks, such as computer form letters
+- I think you create your model in a document, and then process that document to get the results, I do not think it was a real-time updating screen.
 
 ## 1981-03-02
 ### InfoWorld
@@ -166,6 +167,33 @@
 - Software Arts employs over 30 people
 - Revenues around $2 million
 - Easily sold more than 100,000 units
+
+## 1981-10-05 - InfoWorld - Volume 3 - Number 19
+### **SuperCalc Spread-Sheet Simulator from Sorcim Corp.** (page 30)
+##### Tim Barry
+- Full review of SuperCalc:
+  - Usefullness (5/5)
+  - Documentation (4/5)
+  - Ease of Use (5/5)
+  - Error Handling (5/5)
+- System requirements:
+  - CP/M 2.2
+  - 48K RAM
+  - One disk drive
+- Price: $295
+- Article says that VisiCalc does not have a CP/M version, but InfoWorld has previously published that the HP-125 has a CP/M version of VisiCalc
+- CP/M uses serial terminals, not memory-mapped displays like other systems of the time, so updating the display was slow and tedious. 
+- SuperCalc matches the attributes of the terminal, for instance the author's terminal is a Z-19 running at 9600 baud with 80 character width and 24 rows (1920 bytes of characters, 15,360 bits, at 9,600 bits per second would be aout 2 seconds to refresh the screen (0.5 frames per second))
+- Says most memory mapped displays are limited to 40x24 or 64x16 displays
+- Can adjust width of all columns
+- Row titles can be as long as you want
+- Can use other models as inputs to the current model
+- Can display results or equations
+- Can protect fields
+- Can split screen horizontally or vertically
+- Author considers it the easiest to use spreadsheet
+- Can get help by typing the ? character which tells you all available options
+- The first letter of the command is the command shortcut
 
 ## 1981-12-14
 ### New York Magazine

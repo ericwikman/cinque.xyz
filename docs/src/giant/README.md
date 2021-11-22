@@ -33,7 +33,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
   - 1985 purchased by Lotus Development and development ended
 - SuperCalc
   - Developed by Sorcim
-  - 1980 Osborne I
+  - 1980 Rev 1[^7]
   - Ported to over 150 different hardware platforms
   - About 15% market share before Lotus 1-2-3 released (VisiCalc being the other 85%)
   - 1983 SuperCalc 3 v1
@@ -188,3 +188,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^4]: [Wizard in Your Home](timeline.md#1981-12-14)
 [^5]: [HP's High-End Micro](timeline.md#1981-09-14)
 [^6]: [T/Maker: Unique CP/M Product](timeline.md#1980-12-31)
+[^7]: [SuperCalc Spread-Sheet Simulator from Sorcim Corp.](timeline.md#1980-12-31)
