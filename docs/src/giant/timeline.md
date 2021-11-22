@@ -47,14 +47,14 @@
      - 132-column printer (for financial reports), or 40- or 80-column printer for other applications
    - Price: $150
    - **63 columns and 254 rows**
-   - > **Its primary function is to make the manipulation of numeric data with a computer much easier than with pencil and paper**.
    - Apple II only had two arrow keys, so the user had to toggle if they were for horizontal or vertical cell movement using the space bar key as the toggle switch
    - Metaphor: Pencil and Paper is to VisiCalc as Cobol is to Fortran. Cobol programmer is going to have a lap full of erasures while the Fortran programmer has finished solving the same problem. 
    - 48K of memory isn't adequate for most applications
    - Many cases of people buying an Apple II just to use VisiCalc
+   - July 1980 release date for Atari 800 and PET CBM
+   - > **Its primary function is to make the manipulation of numeric data with a computer much easier than with pencil and paper**.
    - > Visicalc can quite properly be described as a tool for financial and numerical programming and forecasting.
    - > Personal Software will be demonstrating Visicalc on the Atari 800 and PET CBM at the 1980 National Computer Conference in Anaheim. Hewlett Packard is also developing a version for the HP 85.
-   - July 1980 release date for Atari 800 and PET CBM
 
 ## 1981-03-02
 ### InfoWorld
@@ -74,13 +74,13 @@
 - Price: $200
 - Created by Dan Bricklin and Bob Frankston of Software Arts
 - Packaged and distributed by Personal Software
-- Unpecidented success
-- > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - Adapted for TRS-80, Atari 800, Commodore PET, and now HP 85
 - PLUS refers to graphics (can connect to plotter)
 - Added variance and internal rate of return
 - Can now edit a cell without rewriting the entire line
 - Added a help command
+- Unpecidented success
+- > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - > **VisiCalc is probably the most important microcomputer tool yet developed.**
 
 ## 1981-09-14
@@ -96,12 +96,11 @@
 - Allows you to have a view of all the formulas for each cell
 - Price: $25
 - Title: **VisiCalc Spawns Products**
-- > VisiCalc is usually referred to as a "scratch-pad" program.
 - "Workalike" programs:
   - Vector Graphic's ExecuPlan
   - Sorcim's Super-Calc
   - Lifeboat Associates's T/Maker2
-
+- > VisiCalc is usually referred to as a "scratch-pad" program.
 
 ## 1981-12-14
 ### New York Magazine
