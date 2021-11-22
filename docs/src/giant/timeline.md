@@ -1,8 +1,6 @@
-# 1979
-
 ## 1979-06-11
-
-- The Intelligent Machines Journal (later known as InfoWorld)
+### The Intelligent Machines Journal
+- Journal later known as InfoWorld
 - Issue 9 - Page 22
 - Section: Videotext and Teletext Systems
 - Title: **VisiCalc: User-Defined Problem Solving Package**
@@ -17,7 +15,6 @@
 - > **The initial offering of VisiCalc will be for the Apple II computer, will require 32K of memory, and can use disk or tape for saving data files, but does not require them.** Versions for other machines will follow, first within the 6502 family, and later outside of it. The price of VisiCalc has not yet been determined, but is expected to be under $100.
 
 ## 1979-10-00
-
 - Popular Mechanics
 - Volume 152 - Number 4 - Page 49
 - Section: PM Electronics Monitor
@@ -29,7 +26,7 @@
 
 ## 1980-06-09
 ### InfoWorld
-#### Volume Two - Number Nine
+#### Volume 2 - Number 9
 1. **Apple III Makes Its Debut at NCC** (page 1)
    - The Apple III Information Analyst package will come with VisiCalc III
 1. **Visicalc From Software Arts** (page 14)
@@ -61,7 +58,7 @@
 
 ## 1981-03-02
 ### InfoWorld
-#### Volume Three - Number Four
+#### Volume 3 - Number 4
 - Section: IW Reports/Software
 - Title: **VisiCalc PLUS from HP** (page 14)
 - Author: John Unger Zussman
@@ -78,10 +75,47 @@
 - Created by Dan Bricklin and Bob Frankston of Software Arts
 - Packaged and distributed by Personal Software
 - Unpecidented success
-- > Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.
+- > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - Adapted for TRS-80, Atari 800, Commodore PET, and now HP 85
 - PLUS refers to graphics (can connect to plotter)
 - Added variance and internal rate of return
 - Can now edit a cell without rewriting the entire line
 - Added a help command
-- > VisiCalc is probably the most important microcomputer tool yet developed.
+- > **VisiCalc is probably the most important microcomputer tool yet developed.**
+
+## 1981-09-14
+### InfoWorld
+#### Volume 3 - Number 18
+- Section: InfoNews/Hardware
+- Title: **HP's High-End Micro** (page 38)
+- Author: Richard A. Milewski
+- HP-125 supports the only version of VisiCalc currently available on CP/M
+- Section: InfoWorld Software Review
+- Title: **VisiList for VisiCalc from Computer Stations, Inc.** (page 22)
+- Author: David Ness and Alan Krigman
+- Allows you to have a view of all the formulas for each cell
+- Price: $25
+- Title: **VisiCalc Spawns Products**
+- > VisiCalc is usually referred to as a "scratch-pad" program.
+- "Workalike" programs:
+  - Vector Graphic's ExecuPlan
+  - Sorcim's Super-Calc
+  - Lifeboat Associates's T/Maker2
+
+
+## 1981-12-14
+### New York Magazine
+- Title: **Wizard in Your Home** (page 51)
+- Byline: A Guide to Personal Computers
+- Author: Steve Ditlea
+- **About 200,000 copies sold**
+- Apple II, Atari 800, I.B.M. Personal Computer, TRS-80 Model III
+- Price: $200
+- VisiCalc Real Estate Templates ($65)
+  - Apple's Special Delivery Software Division
+  - Comparative depreciation
+  - Amortization
+  - Mortgage-loan analysis
+- Personal Tax Preparer ($100)
+  - Pansophics
+  - Prompts for information, prints 1040 form and stores records in VisiCalc format
