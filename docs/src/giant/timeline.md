@@ -56,6 +56,36 @@
    - > Visicalc can quite properly be described as a tool for financial and numerical programming and forecasting.
    - > Personal Software will be demonstrating Visicalc on the Atari 800 and PET CBM at the 1980 National Computer Conference in Anaheim. Hewlett Packard is also developing a version for the HP 85.
 
+## 1980-12-31
+### InfoWorld
+#### Volume 2 - Number 24
+- Section: IW Reports/Software
+- Title: **T/Maker: Unique CP/M Product** (page 14)
+- Author: Victor K. Heyman
+- Full review of T/Maker:
+  - Functionality (5/5)
+  - Documentation (4/5)
+  - Ease of Use (4/5)
+  - Error Handling (5/5)
+  - Customer Support (3/5)
+- System requirements:
+  - CP/M Based System
+  - CBASIC II, v2.04+
+  - 48K RAM
+  - One disk drive
+  - Terminal with cursor addressing
+- Price: $275
+- Lifeboat Associates
+- The review itself is much harsher than the above score. The review makes it sound very difficult to use with poor documentation. 
+- First "big table" program for CP/M
+- Tables are limited to 15 computational columns
+- Not menu driven
+- Tables can be up to 255 characters in length
+- Macro command for repetitive operation
+- Buffer feature for copying rows
+- Can sort data files
+- Can fill previously created masks, such as computer form letters
+
 ## 1981-03-02
 ### InfoWorld
 #### Volume 3 - Number 4

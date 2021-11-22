@@ -106,7 +106,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - StarCalc (grandfather of LibreOffice Calc)
 - The Steinman Spreadsheet
 - Surpass
-- T/Maker
+- T/Maker (1980)[^6] 
 - Timeworks
 - Trapeze
 - The Twin
@@ -187,3 +187,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^3]: [VisiCalc PLUS from HP](timeline.md#1981-03-02)
 [^4]: [Wizard in Your Home](timeline.md#1981-12-14)
 [^5]: [HP's High-End Micro](timeline.md#1981-09-14)
+[^6]: [T/Maker: Unique CP/M Product](timeline.md#1980-12-31)
