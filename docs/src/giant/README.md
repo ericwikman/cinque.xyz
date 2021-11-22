@@ -80,7 +80,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - 3D-Calc
 - As-Easy-As
 - Boeing Calc
-- CalcStar
+- CalcStar (1981)[^9]
 - Claris Resolve
 - DigiCalc
 - Disk-Count Software The Spreadsheet
@@ -190,3 +190,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^6]: [T/Maker: Unique CP/M Product](timeline.md#1980-12-31)
 [^7]: [SuperCalc Spread-Sheet Simulator from Sorcim Corp.](timeline.md#1981-10-05---infoworld---volume-3---number-19)
 [^8]: [ExecuPlan from Vector Graphics, Inc.](timeline.md#1981-04-13---infoworld---volume-3---number-7)
+[^9]: [More stars are born](timeline.md#1981-11-23---infoworld---volume-3---number-27)
