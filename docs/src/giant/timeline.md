@@ -26,3 +26,27 @@
 - > I was recently allowed to preview **a software program that (in my opinion) will revolutionize personal computing.** With VisiCalc and a home computer, **everyone (not just professionals) will be able to custom-design his own specialized computer programs.** 
 - > VisiCalc puts on the screen any section of a grid of about 300 by 300 blocks. Any block, and its relationship to any other block, can be instantly entered by plain English and mathematical formulas. If you want block B1 to be labeled "Profit," you can define it in terms of cost and selling price, or whatever you would like.
 - > **If you change a variable, say percent of interest in a savings account, every figure dependent on that variable instantly changes.** Think of all the "what-ifs" you can check out quickly: What a rent increase will do to your family budget; what varying Dow Jones averages could do to your stock portfolio; how changes in wholesale prices will affect your business statement. Possibilities are endless.
+
+## 1980-06-09
+### InfoWorld
+#### Volume Two - Number Nine
+1. Apple III Makes Its Debut at NCC (page 1)
+   - The Apple III Information Analyst package will come with VisiCalc III
+1. Visicalc From Software Arts (page 14)
+   - Byline: Much More Than Just a "Visual Calculator"
+   - Full multi-page review of VisiCalc: Features, Documentation, Ease of Use, Error Handling, Customer Support
+   - Many cases of people buying an Apple II just to use VisiCalc
+   - > Visicalc can quite properly be described as a tool for financial and numerical programming and forecasting.
+   - > Personal Software will be demonstrating Visicalc on the Atari 800 and PET CBM at the 1980 National Computer Conference in Anaheim. Hewlett Packard is also developing a version for the HP 85.
+   - July 1980 release date for Atari 800 and PET CBM
+   - > Its primary function is to make the manipulation of numeric data with a computer much easier than with pencil and paper.
+   - 63 columns and 254 rows
+   - System requirements:
+     - Apple II or II Plus
+     - 32K minimum, 48K recommended
+     - One disk drive
+   - Recommended
+     - 132-column printer (for financial reports), or 40- or 80-column printer for other applications
+   - Apple II only had two arrow keys, so the user had to toggle if they were for horizontal or vertical cell movement using the space bar key as the toggle switch
+   - Metaphor: Pencil and Paper is to VisiCalc as Cobol is to Fortran. Cobol programmer is going to have a lap full of erasures while the Fortran programmer has finished solving the same problem. 
+   - Price: $150
