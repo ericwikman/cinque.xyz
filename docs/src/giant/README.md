@@ -189,4 +189,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^5]: [HP's High-End Micro](timeline.md#1981-09-14)
 [^6]: [T/Maker: Unique CP/M Product](timeline.md#1980-12-31)
 [^7]: [SuperCalc Spread-Sheet Simulator from Sorcim Corp.](timeline.md#1981-10-05---infoworld---volume-3---number-19)
-[^8]: [ExecuPlan from Vector Graphics, Inc.](timeline.md#1980-12-31)
+[^8]: [ExecuPlan from Vector Graphics, Inc.](timeline.md#1981-04-13---infoworld---volume-3---number-7)
