@@ -210,6 +210,15 @@
 - Can get help by typing the ? character which tells you all available options
 - The first letter of the command is the command shortcut
 
+## 1981-11-23 - InfoWorld - Volume 3 - Number 27
+### **More stars are born** (page 3)
+#### MicroPro expands software
+##### Tim Barry
+- CalcStar is announced by the maker of WordStar (ew: WordStar was the defactor word processing application for microcomputers surpassing Electric Pencil in the early 80s and being the leader until Word Perfect arrived in the mid-80s)
+- Used the same keyboard shortcuts as WordStar
+- Works with both serial and memory mapped displays
+- Price: $295
+
 ## 1981-12-14
 ### New York Magazine
 - Title: **Wizard in Your Home** (page 51)
