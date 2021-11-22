@@ -102,6 +102,22 @@
   - Lifeboat Associates's T/Maker2
 - > VisiCalc is usually referred to as a "scratch-pad" program.
 
+## 1981-09-28
+### InfoWorld
+#### Volume 3 - Number 19
+- Section: InfoNews/Software
+- Title: **State of Microcomputing** (page 14)
+- Byline: Soft Wares Bring Hard Cash
+- Author: Thom Hogan
+- VisiCalc began with a $16,000 investment and raised another $100,000 before being cash flow positive
+- VisiCalc took:
+  - 1.5 calendar years
+  - six people-years of programming effort
+  - six people-months of minicomputer use
+- Software Arts employs over 30 people
+- Revenues around $2 million
+- Easily sold more than 100,000 units
+
 ## 1981-12-14
 ### New York Magazine
 - Title: **Wizard in Your Home** (page 51)
