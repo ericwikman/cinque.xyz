@@ -30,23 +30,58 @@
 ## 1980-06-09
 ### InfoWorld
 #### Volume Two - Number Nine
-1. Apple III Makes Its Debut at NCC (page 1)
+1. **Apple III Makes Its Debut at NCC** (page 1)
    - The Apple III Information Analyst package will come with VisiCalc III
-1. Visicalc From Software Arts (page 14)
+1. **Visicalc From Software Arts** (page 14)
    - Byline: Much More Than Just a "Visual Calculator"
-   - Full multi-page review of VisiCalc: Features, Documentation, Ease of Use, Error Handling, Customer Support
-   - Many cases of people buying an Apple II just to use VisiCalc
-   - > Visicalc can quite properly be described as a tool for financial and numerical programming and forecasting.
-   - > Personal Software will be demonstrating Visicalc on the Atari 800 and PET CBM at the 1980 National Computer Conference in Anaheim. Hewlett Packard is also developing a version for the HP 85.
-   - July 1980 release date for Atari 800 and PET CBM
-   - > Its primary function is to make the manipulation of numeric data with a computer much easier than with pencil and paper.
-   - 63 columns and 254 rows
+   - Section: IW Reports/Software
+   - Author: John Craig
+   - Full multi-page review of VisiCalc:
+     - Features (5/5)
+     - Documentation (4/5)
+     - Ease of Use (5/5)
+     - Error Handling (5/5)
+     - Customer Support (5/5)
    - System requirements:
      - Apple II or II Plus
      - 32K minimum, 48K recommended
      - One disk drive
    - Recommended
      - 132-column printer (for financial reports), or 40- or 80-column printer for other applications
+   - Price: $150
+   - **63 columns and 254 rows**
+   - > **Its primary function is to make the manipulation of numeric data with a computer much easier than with pencil and paper**.
    - Apple II only had two arrow keys, so the user had to toggle if they were for horizontal or vertical cell movement using the space bar key as the toggle switch
    - Metaphor: Pencil and Paper is to VisiCalc as Cobol is to Fortran. Cobol programmer is going to have a lap full of erasures while the Fortran programmer has finished solving the same problem. 
-   - Price: $150
+   - 48K of memory isn't adequate for most applications
+   - Many cases of people buying an Apple II just to use VisiCalc
+   - > Visicalc can quite properly be described as a tool for financial and numerical programming and forecasting.
+   - > Personal Software will be demonstrating Visicalc on the Atari 800 and PET CBM at the 1980 National Computer Conference in Anaheim. Hewlett Packard is also developing a version for the HP 85.
+   - July 1980 release date for Atari 800 and PET CBM
+
+## 1981-03-02
+### InfoWorld
+#### Volume Three - Number Four
+- Section: IW Reports/Software
+- Title: **VisiCalc PLUS from HP** (page 14)
+- Author: John Unger Zussman
+- Full multi-page review of VisiCalc:
+  - Functionality (5/5)
+  - Documentation (5/5)
+  - Ease of Use (4/5)
+  - Error Handling (4/5)
+  - Customer Support (5/5)
+- System requirements:
+  - HP-85 computer
+  - 16K memory module
+- Price: $200
+- Created by Dan Bricklin and Bob Frankston of Software Arts
+- Packaged and distributed by Personal Software
+- Unpecidented success
+- > Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.
+- Adapted for TRS-80, Atari 800, Commodore PET, and now HP 85
+- PLUS refers to graphics (can connect to plotter)
+- Added variance and internal rate of return
+- Can now edit a cell without rewriting the entire line
+- Added a help command
+- > VisiCalc is probably the most important microcomputer tool yet developed.

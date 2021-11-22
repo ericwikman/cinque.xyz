@@ -82,7 +82,7 @@ Items above marked with an \* were not included in the original VisiCalc release
 - VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range, then you must answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
 - VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference.
 - Cinque will naturally allow multiple users to edit the same document at the same time.
-- I think you could only overwrite a cell in the first release of VisiCalc, not edit existing text/value/formula.
+- You could only overwrite a cell in the first release of VisiCalc, not edit existing text/value/formula.
 - VisiCalc had a monetary format but Cinque will have a monetary field type. The monetary field type stores currency with a fixed fractional precision (2 digits to the right of the decimal). It can store any value between -92233720368547758.08 and +92233720368547758.07. Most spreadsheets do not have a monetary field and can create math errors due to rounding and storing money at a greater precision than the currency allows.
 - VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 

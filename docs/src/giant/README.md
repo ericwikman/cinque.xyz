@@ -26,8 +26,8 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
   - Developed by Software Arts.
   - Published by Personal Software, Inc (renamed to VisiCorp).
   - 1979 Apple II[^1]
-  - 1980 Apple III, Atari 800, Commodore PET CBM-80[^2], TRS-80 Model 2 & III, IBM PC, HP 125
-  - 1981 IBM PC, Sony SMC-70
+  - 1980 Apple III, Atari 800, Commodore PET CBM-80[^2], IBM PC, HP 125
+  - 1981 HP 85, TRS-80[^3], IBM PC, Sony SMC-70
   - 1982 Advanced Version for Apple III, Apple IIe
   - 1983 Enhanced VisiCalc for TRS-80 Model 4
   - 1985 purchased by Lotus Development and development ended
@@ -184,3 +184,5 @@ Add Column and Row counts for the v1 release of major spreadsheets
 
 [^1]: [VisiCalc: User-Defined Problem Solving Package](timeline.md#1979-06-11)
 [^2]: [Apple III Makes Its Debut at NCC & Visicalc From Software Arts](timeline.md#1980-06-09)
+[^3]: [VisiCalc PLUS from HP](timeline.md#1981-03-02)
+
