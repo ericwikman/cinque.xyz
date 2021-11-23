@@ -84,7 +84,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Claris Resolve
 - DigiCalc
 - Disk-Count Software The Spreadsheet
-- Electric Spreadsheet
+- Electric Spreadsheet (1981)[^10]
 - Electronic Paper
 - ExecuPlan (1981)[^8]
 - Expert File and Calc
@@ -191,3 +191,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^7]: [SuperCalc Spread-Sheet Simulator from Sorcim Corp.](timeline.md#1981-10-05---infoworld---volume-3---number-19)
 [^8]: [ExecuPlan from Vector Graphics, Inc.](timeline.md#1981-04-13---infoworld---volume-3---number-7)
 [^9]: [More stars are born](timeline.md#1981-11-23---infoworld---volume-3---number-27)
+[^10]: [Electric Spreadsheet](timeline.md#1981-07-06--_InfoWorld---Volume-3---Number-13)

@@ -129,6 +129,14 @@
 - Price: $150
 - Could supress printing of certain rows/columns
 
+## 1981-07-06 - InfoWorld - Volume 3 - Number 13
+### **Electric Spreadsheet** (page 24)
+#### Dan G. Hanley & Associates
+- For TRS-80
+- $34.95 - 16K Model I or III
+- $64.95 - 32/48K Model I or III
+- $67.95 - 48K Model III
+
 ## 1981-08-17
 ### InfoWorld
 #### Volume 3 - Number 16
