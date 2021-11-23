@@ -218,6 +218,13 @@
 - Can get help by typing the ? character which tells you all available options
 - The first letter of the command is the command shortcut
 
+## 1981-10-12 - Computerworld - Volume XV - Number 41
+### **DEC PDP-11, VAX Systems Get Electronic Spread Sheet** (page 84)
+- Why Systems, Inc.
+- **Digicalc**
+- $2,500 - RSTS/E version
+- #3,000 - Vax version
+
 ## 1981-11-23 - InfoWorld - Volume 3 - Number 27
 ### **More stars are born** (page 3)
 #### MicroPro expands software
