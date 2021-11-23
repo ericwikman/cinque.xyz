@@ -280,6 +280,25 @@
 - $2,500 - RSTS/E version
 - #3,000 - Vax version
 
+## 1981-11-00 - Byte - Volume 6 - Number 11
+### **DIF** (page 174)
+#### A Format Data Exchange between Application Programs
+##### Candace E Kalish & Malinda F Mayer
+- Software Arts
+- Originated to get data to/from VisiCalc and VisiPlot
+- Intended to be a standard file format used by many applications
+- Uses terms "vector" and "tuple" instead of "column" and "row"
+- Header contains:
+  - topic
+  - vector number
+  - value
+  - the string value
+- Data contains:
+  - type indicator
+  - number value
+  - string value
+- > The DIF file format stores tables of data and provides easy access to the data by any program using DIF.
+
 ## 1981-11-23 - InfoWorld - Volume 3 - Number 27
 ### **More stars are born** (page 3)
 #### MicroPro expands software

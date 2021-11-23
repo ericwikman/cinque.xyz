@@ -103,7 +103,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - SC
 - SIAG
 - SpeedCalc
-- StarCalc (grandfather of LibreOffice Calc)
+- StarCalc (grandparent of LibreOffice Calc)
 - The Steinman Spreadsheet
 - Surpass
 - T/Maker (1980)[^6] 
