@@ -32,6 +32,12 @@
 - > VisiCalc puts on the screen any section of a grid of about 300 by 300 blocks. Any block, and its relationship to any other block, can be instantly entered by plain English and mathematical formulas. If you want block B1 to be labeled "Profit," you can define it in terms of cost and selling price, or whatever you would like.
 - > **If you change a variable, say percent of interest in a savings account, every figure dependent on that variable instantly changes.** Think of all the "what-ifs" you can check out quickly: What a rent increase will do to your family budget; what varying Dow Jones averages could do to your stock portfolio; how changes in wholesale prices will affect your business statement. Possibilities are endless.
 
+## 1980-05-00 - Interface Age
+### **Personal Software's VISICALC** (page 144)
+##### Tom Fox
+- Well written full page review of VisiCalc
+- VisiCalc is written in 12,000 lines of code 
+
 ## 1980-06-09
 ### InfoWorld
 #### Volume 2 - Number 9
@@ -63,6 +69,42 @@
    - > **Its primary function is to make the manipulation of numeric data with a computer much easier than with pencil and paper**.
    - > Visicalc can quite properly be described as a tool for financial and numerical programming and forecasting.
    - > Personal Software will be demonstrating Visicalc on the Atari 800 and PET CBM at the 1980 National Computer Conference in Anaheim. Hewlett Packard is also developing a version for the HP 85.
+
+## 1980-07-00 - Compute. - Volume 1 - Issue 5
+### **VisiCalc** (page 19)
+#### A Software Review
+##### Joseph H. Budge
+- Well written full page review of VisiCalc
+
+## 1980-08-00 - Creative Computing - Volume 6 - Number 8
+### **VisiCalc** (page 26)
+#### Reason Enough For Owning a Computer
+##### Doug Green
+- Well written multi-page review of VisiCalc, very thorough
+
+## 1980-10-00 - Softalk - Volume 1
+### **Exec Personal** (page 6)
+#### The VisiCalc People
+##### Allan Tommervik
+- Mostly an article about Personal Software the business and background of key staff. 
+
+## 1980-11-00 - Byte - Volume 5 - Number 11
+### **The Power of VisiCalc** (page 190)
+##### Robert E Ramsdell
+- Well written multi-page review of VisiCalc
+
+## 1980-11-00 - Classroom Computer News - Volume 1 - Number 2
+### **A School Administrator Looks at VisiCalc** (page 11)
+#### (and Likes What She Sees)
+##### Amy Jane D. Winchell
+- Well written full page review of VisiCalc
+
+## 1980-12-00 - Softalk - Volume 1
+### **Stocking Stuffers** (page 7)
+#### A Holiday Gift Guide
+- **VU#3** will turn any Basic text file into a VisiCalc file, and vice versa.
+- Applesoft
+- Price: $74.90
 
 ## 1980-12-31
 ### InfoWorld
@@ -242,7 +284,7 @@
 ### **More stars are born** (page 3)
 #### MicroPro expands software
 ##### Tim Barry
-- CalcStar is announced by the maker of WordStar (ew: WordStar was the defactor word processing application for microcomputers surpassing Electric Pencil in the early 80s and being the leader until Word Perfect arrived in the mid-80s)
+- **CalcStar** is announced by the maker of WordStar (ew: WordStar was the defactor word processing application for microcomputers surpassing Electric Pencil in the early 80s and being the leader until Word Perfect arrived in the mid-80s)
 - Used the same keyboard shortcuts as WordStar
 - Works with both serial and memory mapped displays
 - Price: $295
