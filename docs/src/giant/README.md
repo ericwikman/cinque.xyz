@@ -85,7 +85,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Digicalc (1981)[^11]
 - Disk-Count Software The Spreadsheet
 - Electric Spreadsheet (1981)[^10]
-- Electronic Paper
+- Electronic Paper (1981)[^12]
 - ExecuPlan (1981)[^8]
 - Expert File and Calc
 - Farsight
@@ -193,3 +193,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^9]: [More stars are born](timeline.md#1981-11-23---infoworld---volume-3---number-27)
 [^10]: [Electric Spreadsheet](timeline.md#1981-07-06---InfoWorld---Volume-3---Number-13)
 [^11]: [Digicalc](timeline.md#1981-10-12---Computerworld---Volume-XV---Number-41)
+[^12]: [Electronic Paper](timeline.md#1981-04-27---InfoWorld---Volume-3---Number-8)

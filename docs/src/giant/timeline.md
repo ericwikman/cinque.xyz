@@ -129,6 +129,11 @@
 - Price: $150
 - Could supress printing of certain rows/columns
 
+## 1981-04-27 - InfoWorld - Volume 3 - Number 8
+### **Microsoft Counsels Hardware Makers** (page 29)
+##### Hai Glatzer
+- > The next round of products that OEMs and their customers will see from Microsoft, says marketing manager Steve Smith, are utilities such as data-base managers and a "spreadsheet simulator" called **Electronic Paper** that will compete against VisiCalc. 
+
 ## 1981-07-06 - InfoWorld - Volume 3 - Number 13
 ### **Electric Spreadsheet** (page 24)
 #### Dan G. Hanley & Associates
