@@ -211,6 +211,12 @@
     - liberal on-screen prompts and help
   - Xerox SAM
 
+## 1981-09-00 - Creative Computing - Volume 7 - Number 9
+### **Gold Medalist** (page 178)
+##### George Blank
+- > In 1980, Adam Osbourne presented the White Elephant Award to VisiCalc, calling it the $150 program that justified the purchase of a $10,000 computer.
+- Possibly the first award given to microcomputer software
+
 ## 1981-09-14
 ### InfoWorld
 #### Volume 3 - Number 18

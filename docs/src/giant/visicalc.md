@@ -33,7 +33,7 @@ The repeating label was used to make horizontal lines and decorations, but event
 ### Features
 
 - **Moving the cursor:** use the arrow symbols to change the active cell to be an adjacent cell
-- **Go to: Coordinate:** when the use types > followed by the coordinates of a cell AM205 followed by the Enter key, the chosen cell becomes the active cell, and the visible grid is updated to contain the newly active cell
+- **Go to: Coordinate:** when the user types > followed by the coordinates of a cell AM205 followed by the Enter key, the chosen cell becomes the active cell, and the visible grid is updated to contain the newly active cell
 - **Label Entry:** type a single quotation mark (") to indicate that you are inputting a label into a cell
 - **Value Entry:** type pound (#) to indicate that you are inputting a numeric value
 - **Arithmetic:** simple math using operators for addition, subtraction, division, multiplication, and division
