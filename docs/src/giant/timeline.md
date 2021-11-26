@@ -137,7 +137,7 @@
 - Can fill previously created masks, such as computer form letters
 - I think you create your model in a document, and then process that document to get the results, I do not think it was a real-time updating screen.
 
-## 1981-03-00 - 80 Microcomputing - Volume 3 - Number 7
+## 1981-03-00 - 80 Microcomputing
 ### **80 Accountant** (page 38)
 #### Lifeboat's T/Maker
 ##### Michael Tennenbaum
@@ -192,6 +192,17 @@
 ##### Hai Glatzer
 - > The next round of products that OEMs and their customers will see from Microsoft, says marketing manager Steve Smith, are utilities such as data-base managers and a "spreadsheet simulator" called **Electronic Paper** that will compete against VisiCalc. 
 
+## 1981-05-00 - 80 Microcomputing
+### **80 Accountant** (page 44)
+#### VisiCalc User Report
+##### Michael Tennenbaum
+- Stock broker explaining how they use VisiCalc in their trade
+
+## 1981-05-00 - Creative Computing - Volume 7 - Number 5
+### **Break Even Analysis with VisiCalc** (page 96)
+##### George Blank
+- Formulas to make your own spreadsheet (in VisiCalc file format)
+
 ## 1981-07-06 - InfoWorld - Volume 3 - Number 13
 ### **Electric Spreadsheet** (page 24)
 #### Dan G. Hanley & Associates
@@ -199,6 +210,41 @@
 - $34.95 - 16K Model I or III
 - $64.95 - 32/48K Model I or III
 - $67.95 - 48K Model III
+
+## 1981-08-00 - Softalk - Volume 1
+### **Ventures with VisiCalc** (page 42)
+##### Craig Stinson
+- Model III had 128K of memory, but VisiCalc was still limitted to a 63x254 grid, so plenty of RAM for a full spreadsheet
+- Also 80 characters of width on the Model III screen
+- Mixed case characters makes it easier to read text
+- Four-way cursor control makes it easier to move around
+- Keys auto-repeat, making it easier to scroll further in the document
+- Included 5 templates:
+  - Personal budget
+  - Departmental budget
+  - Construction estimation
+  - Time value of money
+  - Depreciation
+- Yucalpa Software makes some add-on software for $29.95 each:
+  - V-Plot allows you to make a text graph (text meaning using an ASCII character as opposed to a graphic line) to compare one column to another. 
+  - V-Stat performs statistical analysis on a column of data. Sorts the column, prints the number of samples, the range, the mean, the sum of squares, the mean deviation, the median, the variance, the standard deviation and fourteen other statistics. 
+  - V-Print is pretty similar to printing with /PP but row numbers are visible
+- Aurora Computer Enterprises
+  - Visiprint $39.95
+    - Makes list style print instead of tabular print (similar to the command /SS,S1 in later versions of VisiCalc)
+    - Prints top to bottom, left to right, unlike the /SS,S1 print
+    - Option to print formulas and values, values only, labels only, setup commands only, and entire files
+- Data Security Concepts
+  - Visi-Caids $34.95
+    - Split a column into two or more smalled columns
+    - Includes Formula Reader prints a sheet with formulas
+    - PD Reader prints a sheet with calculated numbers
+- Computer Station
+  - VisiList $24.95
+    - Same as PD-Reader above
+- Progressive Software
+  - VU #3
+    - Converts from VisiCalc to Basic and vice versa
 
 ## 1981-08-17
 ### InfoWorld
@@ -312,6 +358,18 @@
   - number value
   - string value
 - > The DIF file format stores tables of data and provides easy access to the data by any program using DIF.
+
+## 1981-11-00 - Micro - No. 42
+### **Software Catalog** (page 115)
+#### Versacalc
+- Enhances VisiCalc:
+  - Sorting
+  - Conditional testing
+  - Data validation
+  - Macros
+  - Convert a column to a row (transpose)
+  - Clear a range of cells
+  - Price: $100
 
 ## 1981-11-23 - InfoWorld - Volume 3 - Number 27
 ### **More stars are born** (page 3)
