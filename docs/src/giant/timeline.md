@@ -137,6 +137,14 @@
 - Can fill previously created masks, such as computer form letters
 - I think you create your model in a document, and then process that document to get the results, I do not think it was a real-time updating screen.
 
+## 1981-03-00 - 80 Microcomputing - Volume 3 - Number 7
+### **80 Accountant** (page 38)
+#### Lifeboat's T/Maker
+##### Michael Tennenbaum
+- Both a word processor and a arithmetic package
+- Since it is not a machine language program, computation takes longer than VisiCalc
+- Possibly the first program of its kind to include sorting
+
 ## 1981-03-02
 ### InfoWorld
 #### Volume 3 - Number 4

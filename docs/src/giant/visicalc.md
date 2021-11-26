@@ -129,7 +129,7 @@ The VisiCalc Advanced manual I have is copyright 1982 and is written by Rob Merg
 
 ### Out of Scope
 
-This version could lock a cell to only accept a label, a number, or a formula. I can't understand the value of this in modern times.
+~~This version could lock a cell to only accept a label, a number, or a formula. I can't understand the value of this in modern times.~~ Add this feature back in, it is almost certainly for templates as a form of error-checking/form-validation. 
 
 You could use a fill character to repeat between the gutter and the displayed text. An example would be "---Total---" where the hyphens are filling the space because the text is centered. This style is no longer used.
 

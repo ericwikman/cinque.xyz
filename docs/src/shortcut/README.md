@@ -4,7 +4,7 @@ This page currently holds each shortcut from historic spreadsheets in the order 
 
 VisiCalc was a rough draft of what keyboard shortcuts should be. Lotus has the advantage of thinking through what VisiCalc has created and what they wanted to create. Fast forward to modern times you have what Google Sheets and Excel use for keyboard shortcuts. There are multiple versions of Excel, and Google Sheets has to conform to many operating systems with different keyboard styles. I want to be careful when picking shortcuts for Cinque that it takes into consideration historical features that no longer exist, what people tend to expect from Excel and Google Sheets. In addition I can take into consideration decisions made in SCIM that is likely the most modern spreadsheet before Cinque that is designed to work via keyboard only, and VS Code. VS Code has nothing to do with spreadsheets but is a very well maintained application for developers that understand the important of keyboard shortcuts.
 
-<!-- add Quattro Pro v5 (DOS) -->
+<!-- add Quattro Pro v5 (DOS) or whatever was the last version that was keyboard only -->
 
 | Command                             | Cinque | VisiCalc        | Lotus                | Google Sheets | Excel | SCIM | VS-Code |
 | ----------------------------------- | ------ | --------------- | -------------------- | ------------- | ----- | ---- | ------- |
