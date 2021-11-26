@@ -172,6 +172,11 @@
 - > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - > **VisiCalc is probably the most important microcomputer tool yet developed.**
 
+## 1981-04-00 - Softalk - Volume 1
+### **Ventures with VisiCalc** (page 21)
+##### Frank Malone
+- Tutorial for using VisiCalc to balance a checkbook
+
 ## 1981-04-13 - InfoWorld - Volume 3 - Number 7
 ### **ExecuPlan from Vector Graphics, Inc.** (page 26)
 ##### Thom Hogan
@@ -202,6 +207,27 @@
 ### **Break Even Analysis with VisiCalc** (page 96)
 ##### George Blank
 - Formulas to make your own spreadsheet (in VisiCalc file format)
+
+## 1981-05-00 - Softalk - Volume 1
+### **Ventures with VisiCalc** (page 21)
+##### Frank Malone
+- AgriCalc is 13 worksheet templates:
+  - Depreciation
+  - Financial statement
+  - Agriculture Cost Analysis
+  - Personal Budget
+  - Cash flow
+  - Interest
+  - Checking account
+  - Loan schedules
+  - Vehicle data
+  - Commodities
+  - Recipe
+
+## 1981-06-00 - Microcomputing
+### **Plan Your Retirement on Easy Street** (page 50)
+##### G. R. Brieger
+- Basically a retirement calculator sheet for VisiCalc
 
 ## 1981-07-06 - InfoWorld - Volume 3 - Number 13
 ### **Electric Spreadsheet** (page 24)
@@ -379,6 +405,15 @@
 - Used the same keyboard shortcuts as WordStar
 - Works with both serial and memory mapped displays
 - Price: $295
+
+## 1981-12-00 - Softalk - Volume 2
+### **Ventures with VisiCalc** (page 65)
+##### Craig Stinson
+- Discusses buying RAM boards to increase the amount of memory available to VisiCalc. 32K of additional RAM adds about 3100 cells
+- Mentions an undocumented limitation of VisiCals where less cells can be used than memory would allow for. In earlier versions, of the 16k cells in a 63x254 grid, only 9k of the cells are usable, and in later versions only 12k of them
+- Performance Manager (Aurora Systems)
+  - $75
+  - Budget calculator in VisiCalc
 
 ## 1981-12-14
 ### New York Magazine
