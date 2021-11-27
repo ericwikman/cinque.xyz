@@ -472,9 +472,46 @@
 ### **VisiCalc Templates** (page 44)
 #### Real Estate Analyst Series
 ##### Douglas and Denise Green
-- 
+- Full review of the v4 release
+- Features:
+  - Monthly amortization calculator
+  - Monthly amortization schedule
+  - Annual amortization summary
+  - Mortgage loan analysis
+  - Comparitive depreciation schedule
+  - Personal financial statement
+  - Income-propery investment analysis
+- Report card (3.75/4):
+  - Performance (4/4)
+  - Documentation (3/4)
+  - Ease of use (4/4)
+  - Error handling (4/4)
+- Price: $65
+- 172 page manual
+#### Business Forecasting for the Apple II
+- Templates made by VisiCorp
+- Price: $100
 
-## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number 34
+## 1982-06-28 - InfoWorld - Volume 4 - Number 25
+### **A spreadsheet program for $50** (page 1)
+##### Paul Freiberger
+- PlannerCalc by Comshare Target Software
+- Subset of a more complex and expensive program called MasterPlanner
+- Uses English-language description of financial models, as opposed to algorithmic style of VisiCalc
+### **VisiCalc linked to worlds largest on-line data base** (page 21)
+- Joint agreement between VisiCorp and Data Resources (DRI)
+- DRI's database has data on 10 million companies and economic indicators
+- Pay for only the data you use
+- Data types:
+  - Stocks
+  - Census
+  - Corporate sales
+  - Department of Defense contracts
+  - Cost-of-living figures
+  - Other business and demographic data
+- Avaliable via modem
+
+## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number (4)
 <!-- this issue of PC Magazine is phenomenal if you are looking for a rundown on spreadsheets from 1978-1982 or wanting to research of a book about spreadsheet history -->
 ### **An Interview With VisiCalc Entrepreneur Daniel Fylstra** (page 29)
 #### A behind the scenes look at the evolution of VisiCorp.
@@ -525,6 +562,34 @@
 - Allows you to create subroutines in your Applesoft BASIC programs to create data files that VisiCalc can load.
 - An alternative to creating DIF files
 - Pretty thorough explanation of how to use the utility to move data from BASIC to VisiCalc, and how arduous the procedure was for the time. 
+
+## 1982-09-06 - InfoWorld - Volume 4 - Number 35
+### **Visualize, utility program to review VisiCalc** (page 35)
+##### Rik Jadrnicek
+- Full review
+- Allows you to print reports that show all formulas, and formats, in a much easier to understand format than VisiCalc's built-in method
+- Report Card (2.75/4):
+  - Performance (3/3)
+  - Documentation (3/3)
+  - Ease of Use (3/3)
+  - Error Handling (2/3)
+- Reports:
+  - Layout - hard copy of the spreadsheet as it appears on the monitor with row and column headings
+  - Calculation - shows every formula starting at the upper left corner 
+  - Anomalies - deviations from the common rule, type or form. For example, cells that have longer content than can display, cells with format settings but no value
+- Sample Models Included:
+  - Check register
+  - Balance sheet
+  - Operating statement
+  - Cash flow projection
+
+## 1982-10-04 - InfoWorld - Volume 4 - Number 39
+### **T/Maker II offers apples and oranges** (page 13)
+##### John Markoff
+- Designed by Peter Roizen
+- Third version with expanded word processing capabilities
+- First attempt of a "universal" program that can perform tasks like a spreadsheet, a word processor, a database (mailing list), or printing graphics and charts and graphs
+- Different paradigm than VisiCalc
 
 ## 1982-11-08 - InfoWorld - Volume 4 - Number 44
 ### **EasyCalc** (page 35)
