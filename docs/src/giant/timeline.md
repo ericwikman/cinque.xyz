@@ -466,6 +466,13 @@
   - Model-I
   - PlannerCalc
   - Viewcomp
+<!-- todo: add all the above to the giant/readem if they didn't have any other article mention with more detail in 1982 -->
+
+## 1982-05-10 - InfoWorld - Volume 4 - Number 18
+### **VisiCalc Templates** (page 44)
+#### Real Estate Analyst Series
+##### Douglas and Denise Green
+- 
 
 ## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number 34
 <!-- this issue of PC Magazine is phenomenal if you are looking for a rundown on spreadsheets from 1978-1982 or wanting to research of a book about spreadsheet history -->
@@ -482,9 +489,9 @@
 - Bricklin: VisiCalc was made for an Apple with 24k of memory, with no hard drive requirement, future versions will "leave SuperCalc in the dust"
 #### Forty Ways to Increase Productivity with VisiCalc (page 32)
 - Excerpt of 101 Ways to Use VisiCalc Software by VisiCorp (previously Peronal Software)
-#### How Much are You REALLY Worth (page 64)
+### How Much are You REALLY Worth (page 64)
 - Multi-page article on building a spreadsheet for Net Worth calculations
-#### Calc Wars (page 71)
+### Calc Wars (page 71)
 - Detailed comparison of VisiCacl vs SuperCalc on an IBM PC (EW: it really is an extremely detailed comparison, sort of like what I worked on elsewhere on this site, and in some respects more detailed than my analysis since I'm myopically focussed on Cinque. My comparisons are done with the manual, but I would revisit this article post v1 of Cinque, even though SuperCalc v1 is not part of Cinque's roadmap (but v3 through 5.1 are))
 - "Visiclones" and "Calcalikes" terms used to refer to a copy-cat program
 - Tried to use as much similar commands and structure as possible
@@ -493,7 +500,7 @@
 - Each cell could contain 8,000 characters
 - Could display pie charts, scatter charts, high/low graphs, or several types of bar graphs
 - Charts were in a single cell, and you could copy an entire spreadsheet into a cell in order to embed it in a document
-#### The Challneger: Multiplan (page 85)
+### The Challneger: Multiplan (page 85)
 - Preview article of forthcoming Multiplan spreadsheet from Microsoft
 - Essentially contains all features of VisiCalc and SuperCalc
 - Has additional formatting options, arithmetic and logical functions and an expanded lookup function
@@ -506,11 +513,10 @@
 - Author says proposed responses were correct about 75% of the time
 - Could link spreadsheets (use values from one sheet in a formula in another)
 - Would forward-calculate all dependent cells. In VisiCalc and SuperCalc, the layout of your sheet mattered, because it either calculated from left to right or top to bottom, but Multiplan would update any cell that used the modified cell as a value and then recursivley do the same for cells that relied on those now updated cells
-#### VisiCalc and Your Stock Portfolio (page 203)
+### VisiCalc and Your Stock Portfolio (page 203)
 - A book review of VisiCalc Home and Office Companion
 - The book contains 55 example "programs" in VisiCalc
 - Essentially an excerpt of a Stock Portfolio sheet
-
 
 ## 1982-08-02 - InfoWorld - Volume 4 - Number 30
 ### **VisiTran** (page 48)
@@ -520,3 +526,28 @@
 - An alternative to creating DIF files
 - Pretty thorough explanation of how to use the utility to move data from BASIC to VisiCalc, and how arduous the procedure was for the time. 
 
+## 1982-11-08 - InfoWorld - Volume 4 - Number 44
+### **EasyCalc** (page 35)
+#### a VisiCalc work-alike for TRS I or III
+##### Louis Buscaglia
+- A full review of the program, but the product faired very poorly, so no elaboration here
+- Score:
+  - (1/4) for documentation
+  - (2/4) for performance, ease of use, and error handline
+  - (1.75/4) - average
+- Price: $50
+### VC-Expand
+#### gives more memory to VisiCalc Users
+- VisiCalc can utilize an extra 16K without modification
+- An Apple 48K provides 15K of usable memory for the actual sheet
+- You can add 32K, 64K, oe 128K which provides a max of 177K of RAM on the Apple 48K
+- VC-Expand allows you to use the full 63x254 grid
+- It also lets you know when your sheet grows beyond on floppy disk and allows you to use a second
+- As a sheet gets larger, calculations take longer, necessitating moving to manual calculation mode at some point
+- 49K of memory alots for about 4,800 cells of numbers, or only 2,400 formulas
+- the /80 version doubles the amount of cells visible at a time, but still limited to 12 total columns
+- Price:
+  - $100 for VC-Expand
+  - $125 for VC-Expand/80 (for 80 column screens)
+- Score:
+  - (4/4) in all 4 categories: performance, documentation, ease of use, error handling
