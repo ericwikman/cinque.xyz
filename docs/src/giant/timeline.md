@@ -431,3 +431,92 @@
 - Personal Tax Preparer ($100)
   - Pansophics
   - Prompts for information, prints 1040 form and stores records in VisiCalc format
+
+## 1982-03-15 - InfoWorld - Volume 4 - Number 10
+### **Battle of the Spreadsheets** (page 20)
+##### John Unger Zussman
+- Says at least a dozen spreadsheets were showcased at last November's COMDEX
+- Genesis of VisiCalc:
+  - > VisiCalc was born in 1978, when Dan Bricklin, an M.B.A, student at Harvard, got tired of doing his homework. Or rather, he got tired of completing a lengthy set of calculations, only to find that an early calculation had been erroneous and the whole thing had to be redone.
+  - > Bricklin had an idea for a computer program that would ease his frustration by continuously updating his calculations. He showed it to his finance professor, who was convinced it would never sell. The professor sent Bricklin to Dan Fylstra, a recent Harvard grad who was publishing game programs at Personal Software, to confirm the idea's lack of potential. Instead, Fylstra sat Bricklin down at an Apple, and Bricklin had a prototype running in a few days, using game paddles to move the cursor around. Bricklin teamed up with his partner Bob Frankston at Software Arts to write the market version. Fylstra agreed to market the product and acquired exclusive distribution rights. Who says Harvard doesn't make yousmart?
+  - > VisiCalc was an immediate sensation. Originally released for the Apple I, it may have sold more Apples than Dick Cavett. Microcomputers running VisiCalc began to show up everywhere, from the desks of small retilers who never thought they'd own a computer, to the desks of middle managers at Fortune 500 companies who found them quicker, more responsive, and more efficient than the Burroughs in the basement.
+  - > These managers eventually found the limitations of VisiCalc, although its advantages far outweighed the. Its memory capacity was restricted, its editing functions crude, its text processing primitive. It could not handle conditional (if-then) statements, and formatting the spreadsheet was sometimes cumbersome.
+  - > Later versions of VisiCalc have dealt with some of these problems, but strangely, several of the major ones remain unresolved. In addition, Personal Software has concentrated on the Apple, Radio Shack, Commodore and Atari markets. Although VisiCalc is now available on Hewlett-Packard and IBM microcomputers, Personal Software has been slow in adapting its program to a variety of machines and has all but ignored the CP/M market. This has left a substantial opening for other software developers, and COMDEX was the result. Spreadsheet madness has begun to turn back on Personal Software, which was referred to in a recent Computer Business News article as "another vendor of VisiCalc-like packages.
+- A promising new feature in spreadsheets is the ability to to associate different worksheets with one another. Multiplan uses sheet-link function, Forecaster and CalcStar uses a consolidation function, and Report Manager uses a three dimensional spreadsheet to accomplish. It allows to use calculated values sourced from another sheet in the current sheet, which can help get around memory limitations. 
+- Spreadsheets mentioned in the article:
+  - VisiCalc
+  - SuperCalc
+  - Digicalc ExecuPlan
+  - Multiplan
+  - MicroPlan
+  - MagiCalc
+  - Forecaster
+  - T-Maker
+  - Target
+  - CalcStar
+  - Plan80
+  - Viewcomp
+  - Micro-Finesse
+  - Report Manager
+  - VictorCalc
+  - Ultra Calc
+  - MBA
+  - Micro-DSS/Finance
+  - Scratchpad
+  - Model-I
+  - PlannerCalc
+  - Viewcomp
+
+## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number 34
+<!-- this issue of PC Magazine is phenomenal if you are looking for a rundown on spreadsheets from 1978-1982 or wanting to research of a book about spreadsheet history -->
+### **An Interview With VisiCalc Entrepreneur Daniel Fylstra** (page 29)
+#### A behind the scenes look at the evolution of VisiCorp.
+##### David Bunnell & Lawrence J. Magid
+- VisiCorp employs more than 100 people
+- It is a thorough interview, but more about Personal Software than about VisiCalc
+#### VisiCalc Creators Look Forward to Future Glory (page 30)
+- VisiCorp is a $30 million company
+- Frankston and Bricklin building a product called TK!Solver to sell without VisiCorp's involvement
+- 250k copies of VisiCalc sold
+- Advanced VisiCalc will be developed by Software Arts and still sold and marketed by VisiCorp
+- Bricklin: VisiCalc was made for an Apple with 24k of memory, with no hard drive requirement, future versions will "leave SuperCalc in the dust"
+#### Forty Ways to Increase Productivity with VisiCalc (page 32)
+- Excerpt of 101 Ways to Use VisiCalc Software by VisiCorp (previously Peronal Software)
+#### How Much are You REALLY Worth (page 64)
+- Multi-page article on building a spreadsheet for Net Worth calculations
+#### Calc Wars (page 71)
+- Detailed comparison of VisiCacl vs SuperCalc on an IBM PC (EW: it really is an extremely detailed comparison, sort of like what I worked on elsewhere on this site, and in some respects more detailed than my analysis since I'm myopically focussed on Cinque. My comparisons are done with the manual, but I would revisit this article post v1 of Cinque, even though SuperCalc v1 is not part of Cinque's roadmap (but v3 through 5.1 are))
+- "Visiclones" and "Calcalikes" terms used to refer to a copy-cat program
+- Tried to use as much similar commands and structure as possible
+#### MBA: Putting It All Together (page 74)
+- Possibly the first full "office suite", although the previous year's T/Maker also looked like a suite, but probably unable to fulfill its goal with so little RAM of 1981
+- Each cell could contain 8,000 characters
+- Could display pie charts, scatter charts, high/low graphs, or several types of bar graphs
+- Charts were in a single cell, and you could copy an entire spreadsheet into a cell in order to embed it in a document
+#### The Challneger: Multiplan (page 85)
+- Preview article of forthcoming Multiplan spreadsheet from Microsoft
+- Essentially contains all features of VisiCalc and SuperCalc
+- Has additional formatting options, arithmetic and logical functions and an expanded lookup function
+- Can perform functions on text
+- Could have up to 8 windows on the screen
+- Ability to name cells or blocks and use those names in formulas
+- Could write formulas with relative cell references (the cell three rows above me)
+- Cell references were like "R3C4" instead of "D3" where the R means row number and C means column number (EW: I'm convinced that if Multiplan came out before VisiCalc that this is the standard we would use today, and in fact Excel does use it under the covers, and you can switch modes to use it actively)
+- Had "proposed responses" which were based on your previous actions
+- Author says proposed responses were correct about 75% of the time
+- Could link spreadsheets (use values from one sheet in a formula in another)
+- Would forward-calculate all dependent cells. In VisiCalc and SuperCalc, the layout of your sheet mattered, because it either calculated from left to right or top to bottom, but Multiplan would update any cell that used the modified cell as a value and then recursivley do the same for cells that relied on those now updated cells
+#### VisiCalc and Your Stock Portfolio (page 203)
+- A book review of VisiCalc Home and Office Companion
+- The book contains 55 example "programs" in VisiCalc
+- Essentially an excerpt of a Stock Portfolio sheet
+
+
+## 1982-08-02 - InfoWorld - Volume 4 - Number 30
+### **VisiTran** (page 48)
+#### a utility program for users of VisiCalc
+##### Rik Jadrnicek
+- Allows you to create subroutines in your Applesoft BASIC programs to create data files that VisiCalc can load.
+- An alternative to creating DIF files
+- Pretty thorough explanation of how to use the utility to move data from BASIC to VisiCalc, and how arduous the procedure was for the time. 
+
