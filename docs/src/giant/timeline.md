@@ -712,4 +712,3 @@ tbd
 - Row title length 30 characters
 - Column title up to 2 lines of 9 characters each 
 - Can do single or double precisions floating point numbers
-- 
