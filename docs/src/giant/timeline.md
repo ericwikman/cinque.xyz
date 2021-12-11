@@ -582,7 +582,7 @@ tbd
   - STLD - straight-line depreciation
   - DCBD - declining-balance depreciation
 
-## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number (4)
+## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number 4
 <!-- this issue of PC Magazine is phenomenal if you are looking for a rundown on spreadsheets from 1978-1982 or wanting to research of a book about spreadsheet history -->
 ### **An Interview With VisiCalc Entrepreneur Daniel Fylstra** (page 29)
 #### A behind the scenes look at the evolution of VisiCorp.
@@ -600,7 +600,7 @@ tbd
 ### How Much are You REALLY Worth (page 64)
 - Multi-page article on building a spreadsheet for Net Worth calculations
 ### Calc Wars (page 71)
-- Detailed comparison of VisiCacl vs SuperCalc on an IBM PC (EW: it really is an extremely detailed comparison, sort of like what I worked on elsewhere on this site, and in some respects more detailed than my analysis since I'm myopically focussed on Cinque. My comparisons are done with the manual, but I would revisit this article post v1 of Cinque, even though SuperCalc v1 is not part of Cinque's roadmap (but v3 through 5.1 are))
+- Detailed comparison of VisiCalc vs SuperCalc on an IBM PC (EW: it really is an extremely detailed comparison, sort of like what I worked on elsewhere on this site, and in some respects more detailed than my analysis since I'm myopically focussed on Cinque. My comparisons are done with the manual, but I would revisit this article post v1 of Cinque, even though SuperCalc v1 is not part of Cinque's roadmap (but v3 through 5.1 are))
 - "Visiclones" and "Calcalikes" terms used to refer to a copy-cat program
 - Tried to use as much similar commands and structure as possible
 #### MBA: Putting It All Together (page 74)
@@ -633,6 +633,30 @@ tbd
 - Allows you to create subroutines in your Applesoft BASIC programs to create data files that VisiCalc can load.
 - An alternative to creating DIF files
 - Pretty thorough explanation of how to use the utility to move data from BASIC to VisiCalc, and how arduous the procedure was for the time. 
+
+## 1982-09-00 - PC (later PC Magazine) - Volume 1 - Number 5
+### **V-Utility** (page 211)
+- Yucaipa Software
+- Price: $99.95
+- Four utilities for VisiCalc:
+  - V-Print: can select which columns to print and if it should show formulas
+  - V-Stat: Calculates:
+    - numerical distribution
+    - correlation coefficient
+    - regression analysis
+    - Chi-squared test
+    - T-test
+  - V-Plot: prints one or two columns on a line printer
+  - V-Overlay: overlays:
+    - moving averages
+    - exponential smoothing algorithm
+    - time-series trend analyses
+### **Investment Tax Analyst** (page 228)
+- Advanced Investment Strategies, Inc.
+- Price: $125
+- VisiCalc models
+- Estimates federal income taxes before and after investments are made up to 6 years out
+- Calculates regular, minimum, alternative minimum taxes; investment tax credits and limitations; investment interest limitations
 
 ## 1982-09-06 - InfoWorld - Volume 4 - Number 35
 ### **Visualize, utility program to review VisiCalc** (page 35)

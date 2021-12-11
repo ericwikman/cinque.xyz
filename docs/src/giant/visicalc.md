@@ -87,7 +87,7 @@ In VisiCalc functions began with the @ symbol. Some functions expect a single va
 
 ## VisiCalc 1.1
 
-The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981 but shares much with the previous manual. It is for the IBM release. While the manual for the first edition was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80-character screens in addition to 40 character.
+The VisiCalc manual I have for version 1.1 was written by Van Walverton and copyright 1981 but shares much with the previous manual. It is for the IBM release. While the manual for the first edition was written for a computer with 32kb of memory, this edition requires at least 64kb of memory and works with 80-character screens in addition to 40 character. Supports up to 256kb of memory.
 
 ### Features
 
