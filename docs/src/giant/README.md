@@ -28,8 +28,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
   - 1979 Apple II[^1]
   - 1980 Apple III, Atari 800, Commodore PET CBM-80[^2]
   - 1981 HP 85, TRS-80[^3], IBM PC[^4], HP 125[^5], Sony SMC-70
-  - 1982 Advanced Version for Apple III, Apple IIe
-  - 1982 VisiCalc 1.1
+  - 1982 SMC-70[^13], Advanced Version for Apple III, Apple IIe
   - 1983 Enhanced VisiCalc for TRS-80 Model 4
   - 1985 purchased by Lotus Development and development ended
 - SuperCalc
@@ -195,3 +194,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^10]: [Electric Spreadsheet](timeline.md#1981-07-06---InfoWorld---Volume-3---Number-13)
 [^11]: [Digicalc](timeline.md#1981-10-12---Computerworld---Volume-XV---Number-41)
 [^12]: [Electronic Paper](timeline.md#1981-04-27---InfoWorld---Volume-3---Number-8)
+[^13]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22
