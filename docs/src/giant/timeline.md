@@ -1,3 +1,17 @@
+<!-- 
+terms so far:
+visicalc
+
+sites so far:
+google books (magazines) thru 1982
+archive.org thru 1981
+
+journals/scientific papers:
+tbd
+
+-->
+
+
 ## 1979-06-11
 ### The Intelligent Machines Journal
 - Journal later known as InfoWorld
@@ -510,6 +524,62 @@
   - Cost-of-living figures
   - Other business and demographic data
 - Avaliable via modem
+
+## 1982-07-05 - InfoWorld - Volume 4 - Number 26
+### **Senior Analyst** (page 73)
+#### a business-planning utility for Apple
+##### Denise and Douglas Green
+- Price: $225
+- Report Card (4/4):
+  - Performance (4/4)
+  - Documentation (4/4)
+  - Ease of use(4/4)
+  - Error Handling (4/4)
+- System requirements:
+  - Apple II Plus
+  - DOS 3.3
+  - 48K RAM, with Language Card or Memory Card
+  - Two disk drives
+  - Printer
+- Seven modes available:
+  - COL - define terms for columns
+  - ROW - define terms for rows
+  - GLB - define terms for columns and rows
+  - VAL - perform calculations
+  - PRT - print options
+  - DSK - disk mode
+  - XFR - transfer definitions from other pages to this page
+- Pages were assigned a four character TAG and a Title
+- Up to 800 values on a page
+- Up to 20 columns and 99 rows on a page
+- Numeric values limited to 16 columns and 50 rows
+- Definitions up to 50 characters
+- Numbers range from -99,999,999,999 to 99,999,999,999
+- Standard Functions:
+  - CNT - count
+  - SUM
+  - MAX
+  - MIN
+  - AVG - average
+  - PCT - percent
+  - INT - integer portion of value
+- Addressing Functions:
+  - CUM - cumulative total
+  - CYC - cyclical amount
+  - VAL - COL/ROW intersection
+  - P - highest precedence
+  - PRE - previous expression
+  - DUP - duplicates the previous expression
+  - SPC - insert spaces
+- Advanced Functions:
+  - ALLC - proportions
+  - LKUP - lookup values in a particular page
+  - CGRW - compound growth rate of a list
+  - NPLV - net present value
+  - FCST - linear-regression forecast
+  - SODD - sum of digits depreciation
+  - STLD - straight-line depreciation
+  - DCBD - declining-balance depreciation
 
 ## 1982-08-00 - PC (later PC Magazine) - Volume 1 - Number (4)
 <!-- this issue of PC Magazine is phenomenal if you are looking for a rundown on spreadsheets from 1978-1982 or wanting to research of a book about spreadsheet history -->
