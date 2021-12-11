@@ -634,6 +634,23 @@ tbd
 - An alternative to creating DIF files
 - Pretty thorough explanation of how to use the utility to move data from BASIC to VisiCalc, and how arduous the procedure was for the time. 
 
+## 1982-08-23 - InfoWorld - Volume 4 - Number 33
+### **Personal Financial Statements** (page 4836)
+#### for the IBM PC
+##### Mark Zachmann
+- United Financial Modelers
+- Price: $725
+- Score (3/4): 
+  - (2/4): Documentation
+  - (3/4): Performance, and Ease of Use
+  - (4/4): Error Handling
+- VisiCalc Model for financial planners (not end users)
+- Present model
+- Proposed model
+- Balance Sheet
+- Taxable Income Statement
+- Cash Flow Statement
+
 ## 1982-09-00 - PC (later PC Magazine) - Volume 1 - Number 5
 ### **V-Utility** (page 211)
 - Yucaipa Software
@@ -712,6 +729,19 @@ tbd
 - Score:
   - (4/4) in all 4 categories: performance, documentation, ease of use, error handling
 
+## 1981-11-22 - Computerworld - Volume XVI - Number 47
+### IBM 3270 Terminal Get Spreadsheet Package (page 39)
+#### **ExecuCalc**
+- Parallax Systems
+- Price: $5,000 plus $750 a year maintenance
+- Runs on a mainframe, accessed via IBM terminal
+- Runs under VM
+- Supports virtual worksheets
+- Calculates faster than microcomputers can
+- Users can share sheets with each other
+- Can access corporate data
+- Can print on high speed printers
+
 ## 1982-12-13 - InfoWorld - Volume 4 - Number 49
 ### **Desktop/Plan** (page 48)
 #### VisiCorp's alternative to VisiCalc
@@ -722,7 +752,7 @@ tbd
   - (4/4) for ease of use, and error handline
   - (3.5/4) - average
 - System Requirements:
-  - IBM Personal COmputer
+  - IBM Personal Computer
   - PC-DOS
   - 64K RAM
   - One disk drive

@@ -79,6 +79,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - 20/20
 - 3D-Calc
 - As-Easy-As
+- B&L Spreadsheet (1982)[^15]
 - Boeing Calc
 - CalcStar (1981)[^9]
 - Claris Resolve
@@ -86,6 +87,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Disk-Count Software The Spreadsheet
 - Electric Spreadsheet (1981)[^10]
 - Electronic Paper (1981)[^12]
+- ExecuCalc (1982) [^16]
 - ExecuPlan (1981)[^8]
 - Expert File and Calc
 - Farsight
@@ -102,6 +104,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - PlanPerfect
 - SC
 - SIAG
+- Spectaculator (1982)[^14]
 - SpeedCalc
 - StarCalc (grandparent of LibreOffice Calc)
 - The Steinman Spreadsheet
@@ -194,4 +197,7 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^10]: [Electric Spreadsheet](timeline.md#1981-07-06---InfoWorld---Volume-3---Number-13)
 [^11]: [Digicalc](timeline.md#1981-10-12---Computerworld---Volume-XV---Number-41)
 [^12]: [Electronic Paper](timeline.md#1981-04-27---InfoWorld---Volume-3---Number-8)
-[^13]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22
+[^13]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22; page 1
+[^14]: The Radio Shack Color Computer from Tandy; InfoWorld; August 16, 1982; Volume 4 Number 32; page 58
+[^15]: InfoWorld; October 18, 1982; Volume 4 Number 41; page 1
+[^16]: [IBM 3270 Terminal Get Spreadsheet Package](timeline.md#1981-11-22---Computerworld---Volume-XVI---Number-47)
