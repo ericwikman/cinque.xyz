@@ -529,6 +529,7 @@ tbd
 ### **Senior Analyst** (page 73)
 #### a business-planning utility for Apple
 ##### Denise and Douglas Green
+- Business Solutions, Inc.
 - Price: $225
 - Report Card (4/4):
   - Performance (4/4)
@@ -686,3 +687,29 @@ tbd
   - $125 for VC-Expand/80 (for 80 column screens)
 - Score:
   - (4/4) in all 4 categories: performance, documentation, ease of use, error handling
+
+## 1982-12-13 - InfoWorld - Volume 4 - Number 49
+### **Desktop/Plan** (page 48)
+#### VisiCorp's alternative to VisiCalc
+##### Mark Zachmann
+- Price: 245
+- Score:
+  - (3/4) for documentation, and performance
+  - (4/4) for ease of use, and error handline
+  - (3.5/4) - average
+- System Requirements:
+  - IBM Personal COmputer
+  - PC-DOS
+  - 64K RAM
+  - One disk drive
+  - IBM or serial printer, IBM with Graftrax
+- Marketed to the office market as opposed to VisiCalc
+- Written in BASIC
+- Limited to 7,200 cells (3,600 if you have a 64K PC)
+- Up to 100 columns
+- Up to 240 rows
+- Every column and row must have a title
+- Row title length 30 characters
+- Column title up to 2 lines of 9 characters each 
+- Can do single or double precisions floating point numbers
+- 
