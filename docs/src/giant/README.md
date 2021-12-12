@@ -27,8 +27,8 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
   - Published by Personal Software, Inc (renamed to VisiCorp).
   - 1979 Apple II[^1]
   - 1980 Apple III, Atari 800, Commodore PET CBM-80[^2]
-  - 1981 HP 85, TRS-80[^3], IBM PC[^4], HP 125[^5], Sony SMC-70
-  - 1982 SMC-70[^13], Advanced Version for Apple III, Apple IIe
+  - 1981 HP 85, TRS-80[^3], IBM PC[^4], HP 125[^5]
+  - 1982 Sony SMC-70[^13], Advanced Version for Apple III, Apple IIe[^19]
   - 1983 Enhanced VisiCalc for TRS-80 Model 4
   - 1985 purchased by Lotus Development and development ended
 - SuperCalc
@@ -45,13 +45,13 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Multiplan
   - Developed by Microsoft
   - Used R1C1 notation as opposed to A1 cell references
-  - 1982 first release
+  - 1982 v1[^20]
   - 1985 v2
   - 1987 v3
   - 1988 v4
 - Lotus 1-2-3
   - Developed by Lotus Software
-  - 1983 v1
+  - 1983 v1[^21]
   - 1985 v2
   - 1989 v3 - major release
   - 1995 Purchase by IBM
@@ -105,6 +105,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - PlanPerfect
 - QuickCalc (1982)[^18]
 - SC
+- ScratchPad
 - SIAG
 - Spectaculator (1982)[^14]
 - SpeedCalc
@@ -205,3 +206,6 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^16]: [IBM 3270 Terminal Get Spreadsheet Package](timeline.md#1981-11-22---Computerworld---Volume-XVI---Number-47)
 [^17]: BYTE; June, 1982; Volume 7 Number 6; page 8
 [^18]: [QuickCalc](timeline.md#1982-10-00---80-Micro)
+[^19]: [Son of VisiCalc](timeline.md#1982-09-00---BYTE---Volume-7---Number-9)
+[^20]: [The Challenger: Multiplan](timeline.md#The-Challenger:-Multiplan-(page-85))
+[^21]: [Lotus Development Corporation's 1-2-3](timeline.md#1982-12-00---BYTE---Volume-7---Number-12)

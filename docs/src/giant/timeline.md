@@ -746,7 +746,7 @@ tbd
 - Could display pie charts, scatter charts, high/low graphs, or several types of bar graphs
 - Charts were in a single cell, and you could copy an entire spreadsheet into a cell in order to embed it in a document
 
-### The Challneger: Multiplan (page 85)
+### The Challenger: Multiplan (page 85)
 
 - Preview article of forthcoming Multiplan spreadsheet from Microsoft
 - Essentially contains all features of VisiCalc and SuperCalc
@@ -1012,6 +1012,52 @@ tbd
 - Users can share sheets with each other
 - Can access corporate data
 - Can print on high speed printers
+
+## 1982-12-00 - BYTE - Volume 7 - Number 12
+
+### Lotus Development Corporation's 1-2-3 (page 182)
+
+#### A fast, versstile package that combines spreadsheet, graphing, and database functions
+
+##### Gregg Williams
+
+- $495
+- 256 columns by 2,048 rows
+- Can handle up to 640KB of memory
+- For IBM PC, but will be ported to other systems using Intel's 8086 or 8088
+- Requires 128KB of memory
+- Monochrome monitor can display the spreadsheet, color monitor can display spreadsheet or graphs, on a dual monitor setup the monochrome displays the spreadsheet and the color displays the graphs
+- Can make graphs with up to 4 variables
+- Graph types:
+  - Bar
+  - Line
+  - Pie chart
+  - Stacked bar
+  - x-y
+- Supports Epson MX-80 printer (more to come)
+- Database functionality
+  - Not on par with dBASE II but useful integration with the spreadsheet and graphing
+  - Database can be anywhere on the spreadsheet, but the sheet can still contain non-database rows/columns/cells as well
+  - Record is displayed as a row, which each column being a field
+  - Sort records with a primary and secondary sort field (each can be ascending or descending)
+  - Query allows to search the database and only matching records are highlighted
+  - Retrieve copies the matching records to another area (one matching record per row)
+  - VisiCalc for IBM PC has 15 arithmetic, logical, and relational operators, 28 functions, and 32 commands
+  - 1-2-3 has 15 operators, 41 functions, 66 spreadsheet commands, and 44 database commands
+  - Built-in help file with over 250 screens of information
+  - Help screens are cross-indexed to other help screens
+  - Possibly first spreadsheet to come with a tutorial program
+  - Has a menu system that is very user friendly
+  - Can specify cells by pointing to them with the arrow keys
+  - Can name a range with a name up to 15 characters
+  - Most common 10 commands are wired to the function keys
+  - ALT key gives you 26 user-defined macro keys
+  - Labels can spill into the cells to the right if they are empy and the label is longer than the columnd wdith of its cell
+  - Protected cells prevent certain cells from accidentally being modified
+  - Appears to be the first popular commercial spreadsheet written in assembly language instead of a higher-level language. This made it significantly faster than its competitors. However, it also meant that it isn't as portable (meaning it is written using the instruction set of the microprocessor, so you can't take the code for an Intel 8086 and port it to another CPU)
+  - The entire program runs in memory, unlike competitors that have to load from file when you switch from the spreadsheet to the graphing abilities
+  - VisiCalc, VisiPlot, and VisiDex combined are $700 and significantly less powerful, and way less user friendly and not as well integrated
+  - Author clearly states that it is beyond iterative improvements and is the first of a new generation of software
 
 ## 1982-12-13 - InfoWorld - Volume 4 - Number 49
 
