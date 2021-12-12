@@ -4,9 +4,12 @@ visicalc
 
 sites so far:
 google books (magazines) thru 1982
-archive.org thru 1981
+https://www.google.com/search?q=visicalc&hl=en&tbs=bkt:m,cdr:1,cd_min:1/1/1982,cd_max:12/31/1982,bkv:f&tbm=bks&sxsrf=AOaemvKRQtwTJtlNJCS-3ty6wkASnhb9KA:1639208631233&ei=t1a0Ye_YDYmvqtsP4tG5uA4&start=0&sa=N&ved=2ahUKEwivkLWBoNv0AhWJl2oFHeJoDuc4PBDy0wN6BAgBEDw&biw=1200&bih=681&dpr=2
 
-journals/scientific papers:
+archive.org thru 1982 page 1
+https://archive.org/details/computermagazines?query=visicalc&sin=TXT&and[]=year%3A%221982%22
+
+academic papers:
 tbd
 
 -->
