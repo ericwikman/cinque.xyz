@@ -578,7 +578,7 @@ tbd
   - Plan80
   - Viewcomp
   - Micro-Finesse
-  - Report Manager
+  - NEC Report Manager
   - VictorCalc
   - Ultra Calc
   - MBA

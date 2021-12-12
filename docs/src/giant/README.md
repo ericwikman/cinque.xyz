@@ -87,7 +87,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Disk-Count Software The Spreadsheet
 - Electric Spreadsheet (1981)[^10]
 - Electronic Paper (1981)[^12]
-- ExecuCalc (1982) [^16]
+- ExecuCalc (1982)[^16]
 - ExecuPlan (1981)[^8]
 - Expert File and Calc
 - Farsight
@@ -95,6 +95,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - GraphPlan
 - IBM Planning Assistant
 - Let's Keep It Simple Spreadsheet
+- Logicalc (1982)[^17]
 - Lucid 3-D
 - Mesa 2
 - PC-Calc
@@ -201,3 +202,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^14]: The Radio Shack Color Computer from Tandy; InfoWorld; August 16, 1982; Volume 4 Number 32; page 58
 [^15]: InfoWorld; October 18, 1982; Volume 4 Number 41; page 1
 [^16]: [IBM 3270 Terminal Get Spreadsheet Package](timeline.md#1981-11-22---Computerworld---Volume-XVI---Number-47)
+[^17]: BYTE; June, 1982; Volume 7 Number 6; page 8
