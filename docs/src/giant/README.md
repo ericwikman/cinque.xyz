@@ -103,6 +103,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - PFS:Plan
 - PFS Professional Plan
 - PlanPerfect
+- QuickCalc (1982)[^18]
 - SC
 - SIAG
 - Spectaculator (1982)[^14]
@@ -203,3 +204,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^15]: InfoWorld; October 18, 1982; Volume 4 Number 41; page 1
 [^16]: [IBM 3270 Terminal Get Spreadsheet Package](timeline.md#1981-11-22---Computerworld---Volume-XVI---Number-47)
 [^17]: BYTE; June, 1982; Volume 7 Number 6; page 8
+[^18]: [QuickCalc](timeline.md#1982-10-00---80-Micro)

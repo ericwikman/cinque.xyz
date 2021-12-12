@@ -922,6 +922,17 @@ tbd
     - Personal insurance requirements
   - Household Aids
 
+## 1982-10-00 - 80 Micro
+
+### **QuickCalc** (page 114)
+
+##### Kurt Leafstrand
+
+- Not a commercial product, but gets a special mention because it was written by an 8th grader and available for free
+- Source code published in article: less than 200 lines of BASIC
+- Max 8 columns and 14 rows
+- Runs on TRS-80 Model I or III
+
 ## 1982-10-04 - InfoWorld - Volume 4 - Number 39
 
 ### **T/Maker II offers apples and oranges** (page 13)
