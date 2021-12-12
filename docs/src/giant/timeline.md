@@ -851,6 +851,25 @@ tbd
   - Operating statement
   - Cash flow projection
 
+## 1982-09-00 - BYTE - Volume 7 - Number 9
+
+### NCC Report
+
+#### Son of VisiCalc (page 61)
+
+##### Chris Morgan
+
+- **VisiCalc Advanced Version**
+- $400
+- Incorporates most of the features introduced by other spreadsheets since VisiCalc came out
+- Help files integrated
+- Protected cells
+- Hidden cells
+- Tab feature to advance cells
+- More formatting
+- Variable column widths
+- Keystroke memory
+
 ## 1982-10-00 - BYTE - Volume 7 - Number 10
 
 ### Beyond the Peaks of VisiCalc (page 29)
@@ -929,6 +948,7 @@ tbd
 ##### Kurt Leafstrand
 
 - Not a commercial product, but gets a special mention because it was written by an 8th grader and available for free
+  - The first sentence of the article by Kurt is about doing a sales projection without buying VisiCalc. Impressive topic for a 13 year old. Fast forward to 2021 and Kurt is the SVP of Product for Clari, a Sales Analytics product.
 - Source code published in article: less than 200 lines of BASIC
 - Max 8 columns and 14 rows
 - Runs on TRS-80 Model I or III
