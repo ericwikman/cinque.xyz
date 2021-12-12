@@ -695,6 +695,71 @@ tbd
   - Operating statement
   - Cash flow projection
 
+## 1982-10-00 - BYTE - Volume 7 - Number 10
+### Beyond the Peaks of VisiCalc (page 29)
+#### Desktop Plan II, Microfinesse, and Plan80 let financial planners handle large and complex models
+##### Jack Bishop
+- The Limits of VisiCalc: author was searching for an improved product primarily because of consistantly running out of memory for the models in VisiCalc
+- Desktop Plan II
+  - $250
+  - VisiCorp (Personal Software)
+  - Language: BASIC
+  - 199 page manual
+- Microfinesse
+  - $495
+  - P-E Consulting Grou Ltd.
+  - Language: Pascal
+  - 139 page manual
+- Plan80
+  - $295
+  - Business Planning Systems Inc.
+  - Language: CP/M
+  - 139 page manual
+- Model Size Limits: example sizes were used instead of actual limits:
+  - Desktop Plan II: 10 columns x 270 rows; 18 columns x 140 rows
+  - Plan80: 10 cols x 304 rows; 20 x 183; 30 x 130
+  - Microfinesse: 20 cols x 250 rows; 166
+- Flexibiity: Desktop Plan II and Microfinesse are very rigid in terms of you must define your rows and columns at the start and cannot add lines or columns or move items around later. Plan80 allows you to use any editor to define your models before opening, which makes it possible to make any changes you need without starting over, but at the cost of not having its own method of editing models
+- Graphics:
+  - Microfinesse has the most powerful graphics ability, but limited to 24 data points on a single dataset (one line)
+  - Desktop Plan II comes in second, while Plan80 is severly lacking
+- Score:
+|                              | Desktop Plan II | Plan80        | Microfinesse                | 
+| ----------------------------------- | ------ | --------------- | -------------------- | 
+| Getting started | *** | * | ** |
+| Model size      | * | *** | *** |
+| Structure       | ** | *** | *** |
+| Making changes  | * | *** | *** |
+| Graphics        | ** | - | *** |
+| Built-in functions   | * | *** | *** |
+| Examples and reports | *** | *** | ** |
+| Sensitivity analysis | * | * | *** |
+| Consolidation        | ** | ** | ** |
+| Errors               | *** | *** | * |
+
+### VisiCalc Home and Office Companion (page 390)
+- Price: $15.95 for a 183 page book
+- 50 models for VisiCalc
+- Types of Models
+  - Loans and Investments
+  - General Business
+    - Cost of goods sold
+    - Selling expenses
+    - Administrative expenses
+    - Income statements
+    - Balance sheets
+  - Inventory Control
+  - Advertising and Sales
+  - Personnel and Departments
+  - Personal Finance
+    - Home inventory and personal possession evaluation
+    - Net worth statement
+    - Personal finance and budget plan
+    - Collector's values
+    - Personal check register
+    - Personal insurance requirements
+  - Household Aids
+
 ## 1982-10-04 - InfoWorld - Volume 4 - Number 39
 ### **T/Maker II offers apples and oranges** (page 13)
 ##### John Markoff
@@ -766,3 +831,4 @@ tbd
 - Row title length 30 characters
 - Column title up to 2 lines of 9 characters each 
 - Can do single or double precisions floating point numbers
+
