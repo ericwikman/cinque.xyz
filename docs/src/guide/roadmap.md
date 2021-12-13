@@ -250,7 +250,7 @@ The previous REST API will still function but may be modified. Although there is
 
 ### v1.2 - Integration Foundation
 
-Now that we have a stronger API system we can include all of the necessary API calls to allow for third party integrations to be able to perform the same functionality that Lotus could in reference to file management, graphinh and printing.
+Now that we have a stronger API system we can include all of the necessary API calls to allow for third party integrations to be able to perform the same functionality that Lotus could in reference to file management, graphing and printing.
 
 - [ ] File xtract
 - [ ] Graphing API
