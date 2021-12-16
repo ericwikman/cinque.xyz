@@ -6,11 +6,16 @@ sites so far:
 google books (magazines) thru 1982
 https://www.google.com/search?q=visicalc&hl=en&tbs=bkt:m,cdr:1,cd_min:1/1/1982,cd_max:12/31/1982,bkv:f&tbm=bks&sxsrf=AOaemvKRQtwTJtlNJCS-3ty6wkASnhb9KA:1639208631233&ei=t1a0Ye_YDYmvqtsP4tG5uA4&start=0&sa=N&ved=2ahUKEwivkLWBoNv0AhWJl2oFHeJoDuc4PBDy0wN6BAgBEDw&biw=1200&bih=681&dpr=2
 
-archive.org thru 1982 page 1
+archive.org thru 1982 page 2
 https://archive.org/details/computermagazines?query=visicalc&sin=TXT&and[]=year%3A%221982%22
 
 academic papers:
 tbd
+
+need to tag [review,tutorial,series,business,editorial]
+it must be at least a full page article to be worthwhile including
+have a listing of all issues that have a 1+ page review
+have a listing of series articles
 
 -->
 
@@ -202,6 +207,25 @@ tbd
 - Since it is not a machine language program, computation takes longer than VisiCalc
 - Possibly the first program of its kind to include sorting
 
+## 1981-03-00 - Softalk - Volume 2
+
+### **Ventures with VisiCalc** (page 25)
+
+##### Craig Stinson
+
+- Model to calculate witholding taxes and payroll deductions
+
+## 1981-03-02 - the Rainbow - Vol. 1 - Number 9
+
+### Spectaculator is Spectacular (page 43)
+
+- $39.95
+- 99 rows
+- 99 columns
+- 43 page manual
+- Integrated help
+- Author considers it to be more user friendly than VisiCalc
+
 ## 1981-03-02
 
 ### InfoWorld
@@ -228,7 +252,7 @@ tbd
 - Added variance and internal rate of return
 - Can now edit a cell without rewriting the entire line
 - Added a help command
-- Unpecidented success
+- Unprecedented success
 - > **Sales totalled $1 million in six months and were expected to reach $2.5 million within a year.**
 - > **VisiCalc is probably the most important microcomputer tool yet developed.**
 
@@ -469,7 +493,7 @@ tbd
 - Why Systems, Inc.
 - **Digicalc**
 - \$2,500 - RSTS/E version
-- #3,000 - Vax version
+- \$3,000 - Vax version
 
 ## 1981-11-00 - Byte - Volume 6 - Number 11
 
@@ -553,6 +577,33 @@ tbd
   - Pansophics
   - Prompts for information, prints 1040 form and stores records in VisiCalc format
 
+## 1982-00-00 - SoftSide - Volume 35
+
+### Calc Side (page 24)
+
+#### The VisiCalc Spreadsheet Come Home
+
+##### David Peters
+
+- Nice introduction to VisiCalc and the start of a multi-issue series on building a complete home finance system. 
+- Series starts with building a checkbook register
+
+## 1982-00-00 - Hardcore Computing - Volume 1 - Issue 3
+
+### Using VisiCalc For: Job Costing (page 51)
+
+##### Jerry Scott
+
+- Basically a job costing model tutorial
+
+## 1982-03-00 - Micro: The 6502/6809 Journal - Number 46
+
+### VisiCalc Formulas for Depreciation (page 9)
+
+##### Kim G. Woodward
+
+- Multi-page tutorial
+
 ## 1982-03-15 - InfoWorld - Volume 4 - Number 10
 
 ### **Battle of the Spreadsheets** (page 20)
@@ -591,6 +642,19 @@ tbd
   - PlannerCalc
   - Viewcomp
     <!-- todo: add all the above to the giant/readem if they didn't have any other article mention with more detail in 1982 -->
+
+## 1982-04-00 - Softalk - Volume 2
+
+### Ventures with VisiCalc (page 143)
+
+##### Joe Shelton
+
+- Comparison of VisiCalc III and Apple II VisiCalc
+  - Apple II max file size 34K, VisiCalc III max file size 192K
+  - III has 80 coulmn display compared to 40 on II, so can fit 8 columns as opposed to 4
+  - III allows mixed case characters
+  - III has four cursor keys
+- Pretty well written primer on VisiCalc, presumably to get reader to a baseline before the future articles in the series. But recommended read to have a good overview of VisiCalc
 
 ## 1982-05-10 - InfoWorld - Volume 4 - Number 18
 
@@ -645,6 +709,18 @@ tbd
   - Cost-of-living figures
   - Other business and demographic data
 - Avaliable via modem
+
+## 1982-07-00 - Softalk - Volume 2
+
+### **Ventures with VisiCalc** (page 115)
+
+##### Joe Shelton
+
+- Reviews different programs available to make graphics from VisiCalc data
+  - Apple II Business Graphics
+  - Apple III Business Graphics
+  - VisiTrend/VisiPlot
+  - Apple Plot
 
 ## 1982-07-05 - InfoWorld - Volume 4 - Number 26
 
@@ -767,8 +843,19 @@ tbd
 ### VisiCalc and Your Stock Portfolio (page 203)
 
 - A book review of VisiCalc Home and Office Companion
-- The book contains 55 example "programs" in VisiCalc
+- The book contains 50 example "programs" in VisiCalc
 - Essentially an excerpt of a Stock Portfolio sheet
+
+## 1982-08-00 - BYTE - Volume 7 - Number 8
+
+### Using the LOOKUP Function in VisiCalc (page 443)
+
+##### 
+
+##### Robert E. Ramsdell
+
+- Multi-page tutorial on the 
+
 
 ## 1982-08-02 - InfoWorld - Volume 4 - Number 30
 
@@ -830,6 +917,14 @@ tbd
 - VisiCalc models
 - Estimates federal income taxes before and after investments are made up to 6 years out
 - Calculates regular, minimum, alternative minimum taxes; investment tax credits and limitations; investment interest limitations
+
+## 1982-09-00 - Softalk - Volume 3
+
+### Ventures with VisiCalc (page 203)
+
+##### Joe Shelton
+
+- Multi-page tutorial on the new Keyboard Memory feature in VisiCalc Advanced Version
 
 ## 1982-09-06 - InfoWorld - Volume 4 - Number 35
 
@@ -967,6 +1062,16 @@ tbd
 - First attempt of a "universal" program that can perform tasks like a spreadsheet, a word processor, a database (mailing list), or printing graphics and charts and graphs
 - Different paradigm than VisiCalc
 
+## 1982-11-00 - Softalk - Volume 3
+
+### Ventures with VisiCalc (page 223)
+
+##### Joe Shelton
+
+- Probabilities in business
+- Decision matrix
+- Probability/Value matrix
+
 ## 1982-11-08 - InfoWorld - Volume 4 - Number 44
 
 ### **EasyCalc** (page 35)
@@ -1061,6 +1166,45 @@ tbd
   - The entire program runs in memory, unlike competitors that have to load from file when you switch from the spreadsheet to the graphing abilities
   - VisiCalc, VisiPlot, and VisiDex combined are $700 and significantly less powerful, and way less user friendly and not as well integrated
   - Author clearly states that it is beyond iterative improvements and is the first of a new generation of software
+
+## 1982-12-00 - Softalk - Volume 3
+
+### Ventures with VisiCalc (page 130)
+
+##### Joe Shelton
+
+- Multi-page tutorial on using VisiCalc for household decisions
+- Building a bookcase
+- Miles per gallon
+
+### InvisiCalc (page 231)
+
+##### Isaac C. Nahtink
+
+- Slipshot Software
+- Written in Slander (Spreadsheet Language Algorithm for Non-Displayable Electronic Readout)
+- n-dimensional
+- Unlimitted memory - when you run out of memory it moves cells that aren't on the screen to disk to free up more memory
+
+## 1982-12-00 - Interface Age
+
+### Corvus Concept
+
+##### Tom Fox
+
+- Short blurb on LogiCalc
+- Can use the full 0.5M-byte memory on the Corvus Concept
+- When monitor is in hotizontal mode it displays a grid of 11 by 38
+- When monitor is in vertical mode it displays a grid of 54 by 8
+- The above two notes are when the cell size is 10 characters wide
+
+## 1982-12-00 - 80 U.S.: The TRS-80 User Journal - Volume V - Number 12
+
+### Exploring VisiCalc
+
+##### Tim Bowman
+
+- Multi-page tutoria on using VisiCalc to process text and form creation
 
 ## 1982-12-13 - InfoWorld - Volume 4 - Number 49
 

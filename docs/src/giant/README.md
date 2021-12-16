@@ -94,8 +94,9 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - GNU Oleo
 - GraphPlan
 - IBM Planning Assistant
+- InvisiCalc (1982)[^22]
 - Let's Keep It Simple Spreadsheet
-- Logicalc (1982)[^17]
+- LogiCalc (1982)[^17]
 - Lucid 3-D
 - Mesa 2
 - PC-Calc
@@ -201,11 +202,12 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^11]: [Digicalc](timeline.md#1981-10-12---Computerworld---Volume-XV---Number-41)
 [^12]: [Electronic Paper](timeline.md#1981-04-27---InfoWorld---Volume-3---Number-8)
 [^13]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22; page 1
-[^14]: The Radio Shack Color Computer from Tandy; InfoWorld; August 16, 1982; Volume 4 Number 32; page 58
+[^14]: [Spectaculator is Spectacular](timeline.md#1981-03-02---the-Rainbow---Vol.-1---Number-9)
 [^15]: InfoWorld; October 18, 1982; Volume 4 Number 41; page 1
 [^16]: [IBM 3270 Terminal Get Spreadsheet Package](timeline.md#1981-11-22---Computerworld---Volume-XVI---Number-47)
-[^17]: BYTE; June, 1982; Volume 7 Number 6; page 8
+[^17]: [Corvus Concept](timeline.md#1982-12-00---Interface-Age)
 [^18]: [QuickCalc](timeline.md#1982-10-00---80-Micro)
 [^19]: [Son of VisiCalc](timeline.md#1982-09-00---BYTE---Volume-7---Number-9)
 [^20]: [The Challenger: Multiplan](timeline.md#The-Challenger:-Multiplan-(page-85))
 [^21]: [Lotus Development Corporation's 1-2-3](timeline.md#1982-12-00---BYTE---Volume-7---Number-12)
+[^22]: [InvisiCalc](timeline.md#1982-12-00---Softalk---Volume-3)
