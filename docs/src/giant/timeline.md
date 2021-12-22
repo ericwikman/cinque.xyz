@@ -16,6 +16,10 @@ need to tag [review,tutorial,series,business,editorial]
 it must be at least a full page article to be worthwhile including
 have a listing of all issues that have a 1+ page review
 have a listing of series articles
+i will search for visicalc from 1978 to 2021 for in later years it will often be in an article about the history of spreadsheets which can have neat trivia
+if i see a full page article on a spreadsheet program then i add it to the timeline
+i need to link to all of the articles on archive.org
+lotus 1-2-3, quattro pro, and excel will be future search phrases
 
 -->
 
@@ -209,7 +213,7 @@ have a listing of series articles
 
 ## 1981-03-00 - Softalk - Volume 2
 
-### **Ventures with VisiCalc** (page 25)
+### Ventures with VisiCalc (page 25)
 
 ##### Craig Stinson
 
@@ -258,7 +262,7 @@ have a listing of series articles
 
 ## 1981-04-00 - Softalk - Volume 1
 
-### **Ventures with VisiCalc** (page 21)
+### Ventures with VisiCalc (page 21)
 
 ##### Frank Malone
 
@@ -310,7 +314,7 @@ have a listing of series articles
 
 ## 1981-05-00 - Softalk - Volume 1
 
-### **Ventures with VisiCalc** (page 21)
+### Ventures with VisiCalc (page 21)
 
 ##### Frank Malone
 
@@ -348,7 +352,7 @@ have a listing of series articles
 
 ## 1981-08-00 - Softalk - Volume 1
 
-### **Ventures with VisiCalc** (page 42)
+### Ventures with VisiCalc (page 42)
 
 ##### Craig Stinson
 
@@ -548,7 +552,7 @@ have a listing of series articles
 
 ## 1981-12-00 - Softalk - Volume 2
 
-### **Ventures with VisiCalc** (page 65)
+### Ventures with VisiCalc (page 65)
 
 ##### Craig Stinson
 
@@ -595,6 +599,22 @@ have a listing of series articles
 ##### Jerry Scott
 
 - Basically a job costing model tutorial
+
+## 1982-01-00 - Softalk - Volume 2
+
+### Ventures with VisiCalc [(page 25)](https://archive.org/details/softalkv2n06feb1982/page/24/mode/2up?view=theater)
+
+##### Craig Stinson
+
+
+
+## 1982-02-00 - Softalk - Volume 2
+
+### Ventures with VisiCalc [(page 25)](https://archive.org/details/softalkv2n06feb1982/page/24/mode/2up?view=theater)
+
+##### Craig Stinson
+
+- Compound interest tutorial
 
 ## 1982-03-00 - Micro: The 6502/6809 Journal - Number 46
 
@@ -712,7 +732,7 @@ have a listing of series articles
 
 ## 1982-07-00 - Softalk - Volume 2
 
-### **Ventures with VisiCalc** (page 115)
+### Ventures with VisiCalc (page 115)
 
 ##### Joe Shelton
 
@@ -968,6 +988,14 @@ have a listing of series articles
 - Variable column widths
 - Keystroke memory
 
+## 1982-09-00 - Micro-80
+
+### VisiCalc - A Software Review [(page 10)](https://archive.org/details/MICRO-80_Vol._3_Issue_10_1982-09_MICRO-80_AU/page/n11/mode/2up?view=theater)
+
+##### A.G. Hudson
+
+- Full page review
+
 ## 1982-10-00 - BYTE - Volume 7 - Number 10
 
 ### Beyond the Peaks of VisiCalc (page 29)
@@ -1050,6 +1078,30 @@ have a listing of series articles
 - Source code published in article: less than 200 lines of BASIC
 - Max 8 columns and 14 rows
 - Runs on TRS-80 Model I or III
+
+## 1982-10-00 - Softalk - Volume 3
+
+### Ventures with VisiCalc [(page 80)](https://archive.org/details/softalkv3n02oct1982/page/80/mode/2up?view=theater)
+
+##### Joe Shelton
+
+- Template Design
+
+## 1982-10-00 - Windfall - Volume 2 - Number 4
+
+### Techniques with a Touch of Magic [(page 44)](https://archive.org/details/windfall-v2n4-1982-oct/page/n43/mode/2up?view=theater)
+
+##### Nick Levy
+
+- VisiCalc tutorial: a condensed earning statement from a bank 
+
+### BFM
+
+#### speedy way to harness power
+
+##### J.J. Ramsden
+
+- Full review of VisiCalc Business Forecasting Model
 
 ## 1982-10-04 - InfoWorld - Volume 4 - Number 39
 
@@ -1205,6 +1257,16 @@ have a listing of series articles
 ##### Tim Bowman
 
 - Multi-page tutoria on using VisiCalc to process text and form creation
+
+## 1982-12-00 - User's Guide to CP/M - Volume 1 - Number 2
+
+### A Guide to SuperCalc: Part One (page 18)
+
+#### Editing a Sample Balance Statement
+
+##### Tony Bove & Cheryl Rhodes
+
+- Multi-page tutorial
 
 ## 1982-12-13 - InfoWorld - Volume 4 - Number 49
 
