@@ -183,6 +183,11 @@ While the focus of Cinque is on recreating the functionality of 20th century spr
 - Spreadsheet.com
 - Zoho Sheet
 
+<!-- 
+NumCalc.com
+SpeedCrunch
+-->
+
 <!--
 TODO:
 Add links to all the spreadsheets or to wikipedia.
