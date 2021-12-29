@@ -1,3 +1,5 @@
+# VisiCalc Tips and Techniques
+
 ## Part 3: Some Adavanced Techniques
 
 - 1982-11-00 - Apple Orchard - Volume 3 - Number 5

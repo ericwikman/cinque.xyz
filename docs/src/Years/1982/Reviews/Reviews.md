@@ -1,3 +1,5 @@
+# Reviews
+
 ## **Universal Business Machine**
 
 - 1982-01-00 - Softalk - Volume 2
@@ -312,4 +314,4 @@
 - Every column and row must have a title
 - Row title length 30 characters
 - Column title up to 2 lines of 9 characters each
-- Can do single or double precisions floating point numbers
+- Can do single or double precision floating point numbers

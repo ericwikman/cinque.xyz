@@ -1,3 +1,5 @@
+# A Guide to SuperCalc
+
 ## Editing a Sample Balance Statement
 
 - 1982-12-00 - User's Guide to CP/M - Volume 1 - Number 2
