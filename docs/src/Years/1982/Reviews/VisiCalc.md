@@ -28,6 +28,14 @@
 - Templates made by VisiCorp
 - Price: \$100
 
+## The Customization of VisiCalc
+
+### VisiCalc Advanced Version
+
+- 1982-08-00 - Softalk - Volume 2
+- Joe Shelton
+- [page 186](https://archive.org/details/softalkv2n12aug1982/page/186/mode/2up?view=theater)
+
 ## VisiTran
 
 - 1982-08-02 - InfoWorld - Volume 4 - Number 30

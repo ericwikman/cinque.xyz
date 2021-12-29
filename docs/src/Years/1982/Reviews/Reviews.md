@@ -1,3 +1,17 @@
+## **Universal Business Machine**
+
+- 1982-01-00 - Softalk - Volume 2
+- Peter Olivieri
+- [page 104](https://archive.org/details/softalkv2n05jan1982/page/104/mode/2up?view=theater)
+- Sample models included:
+  - Inventory
+  - Real estate investment
+  - Pro forma P&L statements
+  - Pro forma balance sheets
+  - Sources and uses of funds
+  - Sales and profit forecasting
+  - Job cost estimator
+
 ## **PlannerCalc**
 
 - A spreadsheet program for \$50
@@ -7,6 +21,11 @@
 - Comshare Target Software
 - Subset of a more complex and expensive program called MasterPlanner
 - Uses English-language description of financial models, as opposed to algorithmic style of VisiCalc
+
+## **DeskTop Plan II**
+
+- 1982-07-00 - Microcomputing - Number 67
+- [page 162](https://archive.org/details/Kilobaud198207/page/n159/mode/2up?view=theater)
 
 ## **Senior Analyst**
 
@@ -91,6 +110,17 @@
 - Author says proposed responses were correct about 75% of the time
 - Could link spreadsheets (use values from one sheet in a formula in another)
 - Would forward-calculate all dependent cells. In VisiCalc and SuperCalc, the layout of your sheet mattered, because it either calculated from left to right or top to bottom, but Multiplan would update any cell that used the modified cell as a value and then recursivley do the same for cells that relied on those now updated cells
+
+## Sinclair/Psion Tapes
+
+### **Vu-Calc**
+
+- 1982-08-12 - Popular Computing Weekly - Volume 1 - Number 17
+- [page 12](https://archive.org/details/popular-computing-weekly-1982-08-12/page/n11/mode/2up?view=theater)
+- Sinclair Research
+- For the ZX81
+- Limited to 16K ram
+- 936 cells
 
 ## Beyond the Peaks of VisiCalc
 
