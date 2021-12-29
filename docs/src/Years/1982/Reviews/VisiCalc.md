@@ -12,9 +12,9 @@
   - Monthly amortization schedule
   - Annual amortization summary
   - Mortgage loan analysis
-  - Comparitive depreciation schedule
+  - Comparative depreciation schedule
   - Personal financial statement
-  - Income-propery investment analysis
+  - Income-property investment analysis
 - Report card (3.75/4):
   - Performance (4/4)
   - Documentation (3/4)
@@ -181,11 +181,11 @@
 - Gives more memory to VisiCalc Users
 - VisiCalc can utilize an extra 16K without modification
 - An Apple 48K provides 15K of usable memory for the actual sheet
-- You can add 32K, 64K, oe 128K which provides a max of 177K of RAM on the Apple 48K
+- You can add 32K, 64K, or 128K which provides a max of 177K of RAM on the Apple 48K
 - VC-Expand allows you to use the full 63x254 grid
 - It also lets you know when your sheet grows beyond on floppy disk and allows you to use a second
 - As a sheet gets larger, calculations take longer, necessitating moving to manual calculation mode at some point
-- 49K of memory alots for about 4,800 cells of numbers, or only 2,400 formulas
+- 49K of memory yields about 4,800 cells of numbers, or only 2,400 formulas
 - the /80 version doubles the amount of cells visible at a time, but still limited to 12 total columns
 - Price:
   - \$100 for VC-Expand
