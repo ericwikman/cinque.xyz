@@ -111,7 +111,7 @@
 - Had "proposed responses" which were based on your previous actions
 - Author says proposed responses were correct about 75% of the time
 - Could link spreadsheets (use values from one sheet in a formula in another)
-- Would forward-calculate all dependent cells. In VisiCalc and SuperCalc, the layout of your sheet mattered, because it either calculated from left to right or top to bottom, but Multiplan would update any cell that used the modified cell as a value and then recursivley do the same for cells that relied on those now updated cells
+- Would forward-calculate all dependent cells. In VisiCalc and SuperCalc, the layout of your sheet mattered, because it either calculated from left to right or top to bottom, but Multiplan would update any cell that used the modified cell as a value and then recursively do the same for cells that relied on those now updated cells
 
 ## Sinclair/Psion Tapes
 
@@ -129,7 +129,7 @@
 - 1982-10-00 - BYTE - Volume 7 - Number 10
 - Jack Bishop
 - [page 29](https://archive.org/details/BYTE_Vol_07-10_1982-10_Computers_in_Business/page/n29/mode/2up?view=theater)
-- The Limits of VisiCalc: author was searching for an improved product primarily because of consistantly running out of memory for the models in VisiCalc
+- The Limits of VisiCalc: author was searching for an improved product primarily because of consistently running out of memory for the models in VisiCalc
 
 ### **Desktop Plan II**
 
@@ -141,7 +141,7 @@
 ### **Microfinesse**
 
 - \$495
-- P-E Consulting Grou Ltd.
+- P-E Consulting Group Ltd.
 - Language: Pascal
 - 139 page manual
 
@@ -155,10 +155,10 @@
   - Desktop Plan II: 10 columns x 270 rows; 18 columns x 140 rows
   - Plan80: 10 cols x 304 rows; 20 x 183; 30 x 130
   - Microfinesse: 20 cols x 250 rows; 166
-- Flexibiity: Desktop Plan II and Microfinesse are very rigid in terms of you must define your rows and columns at the start and cannot add lines or columns or move items around later. Plan80 allows you to use any editor to define your models before opening, which makes it possible to make any changes you need without starting over, but at the cost of not having its own method of editing models
+- Flexibility: Desktop Plan II and Microfinesse are very rigid in terms of you must define your rows and columns at the start and cannot add lines or columns or move items around later. Plan80 allows you to use any editor to define your models before opening, which makes it possible to make any changes you need without starting over, but at the cost of not having its own method of editing models
 - Graphics:
-  - Microfinesse has the most powerful graphics ability, but limited to 24 data points on a single dataset (one line)
-  - Desktop Plan II comes in second, while Plan80 is severly lacking
+  - Microfinesse has the most powerful graphics ability, but limited to 24 data points on a single data set (one line)
+  - Desktop Plan II comes in second, while Plan80 is severely lacking
 - Score:
 
 |                      | Desktop Plan II | Plan80 | Microfinesse |
@@ -201,10 +201,10 @@
 - Louis Buscaglia
 - [page 35](https://books.google.com/books?id=EjAEAAAAMBAJ&lpg=PA48&dq=visicalc&pg=PA35#v=onepage&q&f=true)
 - a VisiCalc work-alike for TRS I or III
-- A full review of the program, but the product faired very poorly, so no elaboration here
+- A full review of the program, but the product fared very poorly, so no elaboration here
 - Score:
   - (1/4) for documentation
-  - (2/4) for performance, ease of use, and error handline
+  - (2/4) for performance, ease of use, and error handling
   - (1.75/4) - average
 - Price: \$50
 
@@ -226,7 +226,7 @@
 ## **Lotus** Development Corporation's **1-2-3**
 
 - 1982-12-00 - BYTE - Volume 7 - Number 12
-- A fast, versstile package that combines spreadsheet, graphing, and database functions
+- A fast, versatile package that combines spreadsheet, graphing, and database functions
 - Gregg Williams
 - [page 182](https://archive.org/details/byte-magazine-1982-12/page/n183/mode/2up?view=theater)
 - $495
@@ -260,7 +260,7 @@
   - Can name a range with a name up to 15 characters
   - Most common 10 commands are wired to the function keys
   - ALT key gives you 26 user-defined macro keys
-  - Labels can spill into the cells to the right if they are empy and the label is longer than the columnd wdith of its cell
+  - Labels can spill into the cells to the right if they are empty and the label is longer than the column width of its cell
   - Protected cells prevent certain cells from accidentally being modified
   - Appears to be the first popular commercial spreadsheet written in assembly language instead of a higher-level language. This made it significantly faster than its competitors. However, it also meant that it isn't as portable (meaning it is written using the instruction set of the microprocessor, so you can't take the code for an Intel 8086 and port it to another CPU)
   - The entire program runs in memory, unlike competitors that have to load from file when you switch from the spreadsheet to the graphing abilities
@@ -275,7 +275,7 @@
 - Slipshot Software
 - Written in Slander (Spreadsheet Language Algorithm for Non-Displayable Electronic Readout)
 - n-dimensional
-- Unlimitted memory - when you run out of memory it moves cells that aren't on the screen to disk to free up more memory
+- Unlimited memory - when you run out of memory it moves cells that aren't on the screen to disk to free up more memory
 
 ## **LogiCalc**
 
@@ -285,7 +285,7 @@
 - [page 70](https://archive.org/details/InterfaceAge198212/page/n71/mode/2up?view=theater)
 - Short blurb on LogiCalc
 - Can use the full 0.5M-byte memory on the Corvus Concept
-- When monitor is in hotizontal mode it displays a grid of 11 by 38
+- When monitor is in horizontal mode it displays a grid of 11 by 38
 - When monitor is in vertical mode it displays a grid of 54 by 8
 - The above two notes are when the cell size is 10 characters wide
 
@@ -298,7 +298,7 @@
 - Price: $245
 - Score:
   - (3/4) for documentation, and performance
-  - (4/4) for ease of use, and error handline
+  - (4/4) for ease of use, and error handling
   - (3.5/4) - average
 - System Requirements:
   - IBM Personal Computer
