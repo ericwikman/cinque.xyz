@@ -2,7 +2,7 @@
 
 Most people attribute the invention of the spreadsheet to [Dan Bricklin](http://www.bricklin.com/history/saiidea.htm) with the 1979 release of [VisiCalc](https://en.wikipedia.org/wiki/VisiCalc). I was born in 1977 and was unable to attend the launch party due to other obligations (stuck at the dinner table until I ate my vegetables, which is my longest active standoff), but I do recall my father using VisiCalc on a [TRS-80 Model III](https://en.wikipedia.org/wiki/TRS-80#modeliii).
 
-VisiCalc was an amazing product and is rightfully credited for ushering in the micro-computer market. [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs) credited VisiCalc for the [Apple II](https://en.wikipedia.org/wiki/Apple_II)'s success and it is hard to say if Apple would have grown to what it is today without the release of VisiCalc.
+VisiCalc was an amazing product and is rightfully credited for ushering in the micro-computer market. [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs) credited VisiCalc for the [Apple II](https://en.wikipedia.org/wiki/Apple_II) success and it is hard to say if Apple would have grown to what it is today without the release of VisiCalc.
 
 VisiCalc had to be designed to run with an extremely limited amount of memory that was available on computers at the time. It is incredible what it was able to do running on machines with only 32KB of memory. It is with this context that helps me understand the design decisions that [Bob Frankston](http://rmf.vc/implementingvisicalc) made while writing VisiCalc.
 
@@ -28,7 +28,7 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
   - 1979 Apple II[^1]
   - 1980 Apple III, Atari 800, Commodore PET CBM-80[^2]
   - 1981 HP 85, TRS-80[^3], IBM PC[^4], HP 125[^5]
-  - 1982 Sony SMC-70[^13], Advanced Version for Apple III, Apple IIe[^19]
+  - 1982 Sony SMC-70[^13], [VisiCalc Advanced Version](../Timeline/1982/Reviews/VisiCalc.md#the-customization-of-visicalc) for Apple III, Apple IIe
   - 1983 Enhanced VisiCalc for TRS-80 Model 4
   - 1985 purchased by Lotus Development and development ended
 - SuperCalc
@@ -45,13 +45,13 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Multiplan
   - Developed by Microsoft
   - Used R1C1 notation as opposed to A1 cell references
-  - 1982 v1[^20]
+  - [1982](../Timeline/1982/Reviews/Reviews.md#the-challenger-multiplan) v1
   - 1985 v2
   - 1987 v3
   - 1988 v4
 - Lotus 1-2-3
   - Developed by Lotus Software
-  - 1983 v1[^21]
+  - [1983](../Timeline/1982/Reviews/Reviews.md#lotus-development-corporations-1-2-3) v1
   - 1985 v2
   - 1989 v3 - major release
   - 1995 Purchase by IBM
@@ -79,46 +79,64 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - 20/20
 - 3D-Calc
 - As-Easy-As
-- B&L Spreadsheet (1982)[^15]
+- B&L Spreadsheet ([1982](https://books.google.com/books?id=CjAEAAAAMBAJ&lpg=PA28&dq=visicalc&pg=PA11#v=onepage&q&f=true))
 - Boeing Calc
 - CalcStar (1981)[^9]
 - Claris Resolve
+- Desktop Plan ([1982](../Timeline/1982/Reviews/Reviews.md#desktopplan))
 - Digicalc (1981)[^11]
 - Disk-Count Software The Spreadsheet
+- EasyCalc ([1982](../Timeline/1982/Reviews/Reviews.md#easycalc))
 - Electric Spreadsheet (1981)[^10]
 - Electronic Paper (1981)[^12]
-- ExecuCalc (1982)[^16]
+- ExecuCalc ([1982](../Timeline/1982/Reviews/Reviews.md#execucalc))
 - ExecuPlan (1981)[^8]
 - Expert File and Calc
 - Farsight
+- Forecaster[^14]
 - GNU Oleo
 - GraphPlan
 - IBM Planning Assistant
-- InvisiCalc (1982)[^22]
+- InvisiCalc ([1982](../Timeline/1982/Reviews/Reviews.md#invisicalc))
 - Let's Keep It Simple Spreadsheet
-- LogiCalc (1982)[^17]
+- LogiCalc ([1982](../Timeline/1982/Reviews/Reviews.md#logicalc))
 - Lucid 3-D
+- MagiCalc[^14]
+- MBA ([1982](../Timeline/1982/Reviews/Reviews.md#mba-putting-it-all-together))
 - Mesa 2
+- Micro-DSS/Finance[^14]
+- Microfinesse ([1982](../Timeline/1982/Reviews/Reviews.md#microfinesse))
+- Microplan (1982[^14])
+- Model-I[^14]
+- NEC Report Manager[^14]
 - PC-Calc
 - Perfect Calc
 - PFS:Plan
 - PFS Professional Plan
+- Plan 80 ([1982](../Timeline/1982/Reviews/Reviews.md#plan80))
+- PlannerCalc ([1982](../Timeline/1982/Reviews/Reviews.md#plannercalc))
 - PlanPerfect
-- QuickCalc (1982)[^18]
+- QuickCalc ([1982](../Timeline/1982/Reviews/Reviews.md#quickcalc))
 - SC
-- ScratchPad
+- ScratchPad[^14]
+- Senior Analyst ([1982](../Timeline/1982/Reviews/Reviews.md#senior-analyst))
 - SIAG
-- Spectaculator (1982)[^14]
+- Spectaculator ([1982](../Timeline/1982/Reviews/Reviews.md#spectaculator-is-spectacular))
 - SpeedCalc
 - StarCalc (grandparent of LibreOffice Calc)
 - The Steinman Spreadsheet
 - Surpass
-- T/Maker (1980)[^6] 
+- T/Maker (1980)[^6]
+- Target[^14]
 - Timeworks
 - Trapeze
 - The Twin
-- Ultracalc
+- Ultracalc[^14]
+- Universal Business Machine ([1982](../Timeline/1982/Reviews/Reviews.md#universal-business-machine))
+- VictorCalc[^14]
+- Viewcomp[^14]
 - VP-Planner
+- Vu Calc ([1982](../Timeline/1982/Reviews/Reviews.md#vu-calc))
 - Wingz
 - Xoom Calc
 
@@ -183,14 +201,14 @@ While the focus of Cinque is on recreating the functionality of 20th century spr
 - Spreadsheet.com
 - Zoho Sheet
 
-<!-- 
+<!--
 NumCalc.com
 SpeedCrunch
 -->
 
 <!--
 TODO:
-Add links to all the spreadsheets or to wikipedia.
+Add links to all the spreadsheets or to Wikipedia.
 Add Column and Row counts for the v1 release of major spreadsheets
 -->
 
@@ -207,12 +225,4 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^11]: [Digicalc](timeline.md#1981-10-12---Computerworld---Volume-XV---Number-41)
 [^12]: [Electronic Paper](timeline.md#1981-04-27---InfoWorld---Volume-3---Number-8)
 [^13]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22; page 1
-[^14]: [Spectaculator is Spectacular](timeline.md#1981-03-02---the-Rainbow---Vol.-1---Number-9)
-[^15]: InfoWorld; October 18, 1982; Volume 4 Number 41; page 1
-[^16]: [IBM 3270 Terminal Get Spreadsheet Package](timeline.md#1981-11-22---Computerworld---Volume-XVI---Number-47)
-[^17]: [Corvus Concept](timeline.md#1982-12-00---Interface-Age)
-[^18]: [QuickCalc](timeline.md#1982-10-00---80-Micro)
-[^19]: [Son of VisiCalc](timeline.md#1982-09-00---BYTE---Volume-7---Number-9)
-[^20]: [The Challenger: Multiplan](timeline.md#The-Challenger:-Multiplan-(page-85))
-[^21]: [Lotus Development Corporation's 1-2-3](timeline.md#1982-12-00---BYTE---Volume-7---Number-12)
-[^22]: [InvisiCalc](timeline.md#1982-12-00---Softalk---Volume-3)
+[^14]: [Battle of the Spreadsheets](../Timeline/1982/README.md#battle-of-the-spreadsheets)

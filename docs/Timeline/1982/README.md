@@ -44,8 +44,6 @@
   - Scratchpad
   - Model-I
   - PlannerCalc
-  - Viewcomp
-    <!-- todo: add all the above to the giant/readme if they didn't have any other article mention with more detail in 1982 -->
 
 ## VisiCalc linked to worlds largest on-line data base
 

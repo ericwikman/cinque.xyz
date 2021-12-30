@@ -14,6 +14,17 @@
   - Sales and profit forecasting
   - Job cost estimator
 
+## **Spectaculator** is Spectacular
+
+- 1982-03-00 - the Rainbow - Vol. 1 - Number 9
+- [page 43](https://archive.org/details/198203Rainbow/page/n23/mode/2up?view=theater)
+- $39.95
+- 99 rows
+- 99 columns
+- 43 page manual
+- Integrated help
+- Author considers it to be more user friendly than VisiCalc
+
 ## **PlannerCalc**
 
 - A spreadsheet program for \$50

@@ -6,7 +6,7 @@ sites so far:
 google books (magazines) thru 1982
 https://www.google.com/search?q=visicalc&hl=en&tbs=bkt:m,cdr:1,cd_min:1/1/1982,cd_max:12/31/1982,bkv:f&tbm=bks&sxsrf=AOaemvKRQtwTJtlNJCS-3ty6wkASnhb9KA:1639208631233&ei=t1a0Ye_YDYmvqtsP4tG5uA4&start=0&sa=N&ved=2ahUKEwivkLWBoNv0AhWJl2oFHeJoDuc4PBDy0wN6BAgBEDw&biw=1200&bih=681&dpr=2
 
-archive.org thru 1982 page 2
+archive.org thru 1982
 https://archive.org/details/computermagazines?query=visicalc&sin=TXT&and[]=year%3A%221982%22
 
 academic papers:
@@ -221,17 +221,6 @@ tutorial, review, industry article, series, editorial
 ##### Craig Stinson
 
 - Model to calculate witholding taxes and payroll deductions
-
-## 1981-03-02 - the Rainbow - Vol. 1 - Number 9
-
-### Spectaculator is Spectacular (page 43)
-
-- $39.95
-- 99 rows
-- 99 columns
-- 43 page manual
-- Integrated help
-- Author considers it to be more user friendly than VisiCalc
 
 ## 1981-03-02
 
@@ -583,4 +572,3 @@ tutorial, review, industry article, series, editorial
 - Personal Tax Preparer (\$100)
   - Pansophics
   - Prompts for information, prints 1040 form and stores records in VisiCalc format
-
