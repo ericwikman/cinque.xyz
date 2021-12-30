@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Cinque",
+  tagline: "Documentation for Cinque",
+  url: "https://www.cinque.xyz",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "ericwikman", // Usually your GitHub org/user name.
+  projectName: "cinque.xyz", // Usually your repo name.
 
   presets: [
     [
@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Cinque",
         logo: {
-          alt: "My Site Logo",
+          alt: "Cinque Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -54,11 +54,11 @@ const config = {
             type: "doc",
             docId: "index",
             position: "left",
-            label: "Tutorial",
+            label: "Documentation",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/ericwikman/cinque.xyz/",
             label: "GitHub",
             position: "right",
           },
@@ -102,12 +102,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/ericwikman/cinque.xyz/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Eric Wikman. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
