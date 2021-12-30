@@ -24,7 +24,7 @@
 - Joe Shelton
 - [page 143](https://archive.org/details/softalkv2n08apr1982/page/142/mode/2up?view=theater)
 - Apple II max file size 34K, VisiCalc III max file size 192K
-- III has 80 coulmn display compared to 40 on II, so can fit 8 columns as opposed to 4
+- III has 80 column display compared to 40 on II, so can fit 8 columns as opposed to 4
 - III allows mixed case characters
 - III has four cursor keys
 - Pretty well written primer on VisiCalc, presumably to get reader to a baseline before the future articles in the series. But recommended read to have a good overview of VisiCalc
