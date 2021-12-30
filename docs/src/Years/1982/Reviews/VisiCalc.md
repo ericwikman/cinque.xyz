@@ -1,5 +1,24 @@
 # VisiCalc
 
+## Information on VisiCalc III
+
+- 1982-05-00 - Dimensions - Volume 1 - Number 2
+- Joe Shelton
+- [(page 2)](https://archive.org/details/Apple_III_Dimensions_Volume_1_Number_2_1982-05_Apple_US/page/n1/mode/2up?view=theater)
+- SATN, The Journal for VisiCalc Users
+  - Newsletter by Software Arts (EW: Software Arts Technical News?)
+  - $30 / year
+- SpreadSheet
+  - Newsletter by VisiCalc Users' Group
+  - $2.50 an issue
+- The Business & Home VisiCalc Book
+- Ventures With VisiCalc
+  - Monthly article in Softalk magazine
+- Text File Converter
+  - Converts from DOS 3.3 to SOS (Sophisticated Operating System)
+- Apple Writer III
+  - Instructions to import a VisiCalc table into an Apple Writer document
+
 ## Real Estate Analyst Series
 
 - 1982-05-10 - InfoWorld - Volume 4 - Number 18
@@ -172,6 +191,13 @@
 - 1982-10-00 - Windfall - Volume 2 - Number 4
 - J.J. Ramsden
 - [(page 46)](https://archive.org/details/windfall-v2n4-1982-oct/page/n45/mode/2up?view=theater)
+
+## **Super Problem-Solver**
+
+- 1982-10-00 - Microcomputing - Number 70
+- G. Michael Vose
+- [page 38](https://archive.org/details/Kilobaud198210/page/n37/mode/2up?view=theater)
+- > For those of you haven't taken the plunge yet, here's an introductory look at VisiCalc, a versatile business tool
 
 ## VC-Expand
 

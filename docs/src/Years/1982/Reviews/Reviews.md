@@ -185,6 +185,13 @@
 - Max 8 columns and 14 rows
 - Runs on TRS-80 Model I or III
 
+## **T/Maker II**
+
+- 1982-10-00 - Microcomputing - Number 70
+- Frank Derfler
+- [page 70](https://archive.org/details/Kilobaud198210/page/n69/mode/2up?view=theater)
+- Price: $275
+
 ## **T/Maker II** offers apples and oranges
 
 - 1982-10-04 - InfoWorld - Volume 4 - Number 39
