@@ -1,8 +1,4 @@
----
-sidebar: auto
----
-
-# Config
+# Functions
 
 ## foo
 
