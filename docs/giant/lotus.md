@@ -34,7 +34,7 @@ Fonts were available as part of PrintGraph.
 - **Absolute Range:** prepend a $ sign in front of a column or row cell reference (\$A\$1)
 - **Expand Cursor to Range**
 - **Named Range:** alias a range like A1..B7 with an up to 15 character name like SALES
-- **Precedence:** math done in the order of: exponation, negation, multiplication/division, addition/subtraction.
+- **Precedence:** math done in the order of: exponentiation, negation, multiplication/division, addition/subtraction.
 - **Macros:** basically the same as keystroke memory
   - uses {} symbols to contain special keys
   - allows you to store the macro definitions in cells and assign them to an Alt-{key}
@@ -67,7 +67,7 @@ Fonts were available as part of PrintGraph.
   - /Data Table 2 - Substitutes a different series of entries in each of two "input" cells, and constructs a table recording the resulting changes in the value of one formula
   - /Data Fill - Fills a range with an Ascending or Descending sequence of numbers with a specified increment or decrement
   - /Data Distribution - Analyzes a range of numbers or formulas by counting how many values fall into each of a number of specified intervals
-- **Graph:** this section for features needed for the api to be able to publish data for graphing integration
+- **Graph:** this section for features needed for the API to be able to publish data for graphing integration
   - Labels:
     - Title
     - Legend
@@ -83,7 +83,7 @@ Fonts were available as part of PrintGraph.
   - Options
     - Scale
     - Grid
-- **Print:** this section for features needed for the api to be able to publish data for printing integration
+- **Print:** this section for features needed for the API to be able to publish data for printing integration
   - Range
   - Header
   - Footer

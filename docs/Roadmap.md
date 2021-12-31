@@ -68,7 +68,7 @@ I am not building an exact clone of VisiCalc. If there is a more natural keyboar
 - [ ] Money entry\*
 - [ ] Formula entry\*
 
-#### Differences
+### Differences
 
 Items above marked with an \* were not included in the original VisiCalc release but are part of Cinque.
 
@@ -80,13 +80,13 @@ Items above marked with an \* were not included in the original VisiCalc release
 - Number formatting was limited to either integer or currency. Cinque will provide flexible number formatting.
 - Column width could be between 3 and 39 characters, but it was a universal setting, so all columns had the same width. Cinque will allow a different column width for each column. Unlike most modern spreadsheets, Cinque will have limited choices for column sizes with the intention of using it as a spreadsheet and not a layout engine. The user will increase or decrease the width with less granularity as it gets wider.
 - VisiCalc did not have both fixed and relative references in formulas. You chose at the time of replicating a cell from one place to another if it should be replicated relative or fixed. If you are copying a range, then you must answer that question for each cell that has a reference to another cell. Cinque will go ahead and use the \$ symbol to represent when a column or row in a reference should be fixed during replication.
-- VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference. Perhaps for recursive functions, but I think there would be a cleaner way to allow for that. 
+- VisiCalc allowed circular references, primarily because of the recalculation mode. The manual said they can be very useful, but I'm skeptical. The manual for v1.1 no longer mentions the usefulness of a circular reference. Perhaps for recursive functions, but I think there would be a cleaner way to allow for that.
 - Cinque will naturally allow multiple users to edit the same document at the same time.
 - You could only overwrite a cell in the first release of VisiCalc, not edit existing text/value/formula.
 - VisiCalc had a monetary format but Cinque will have a monetary field type. The monetary field type stores currency with a fixed fractional precision (2 digits to the right of the decimal). It can store any value between -92233720368547758.08 and +92233720368547758.07. Most spreadsheets do not have a monetary field and can create math errors due to rounding and storing money at a greater precision than the currency allows.
 - VisiCalc stored numbers and formulas in the same field. Cinque stores formulas separate from numbers.
 
-#### Artificial Limits
+### Artificial Limits
 
 - 255 rows
 - 63 columns
@@ -96,7 +96,7 @@ Items above marked with an \* were not included in the original VisiCalc release
 - nested deep calculations
 - number of commands in a macro
 
-### v0.2 - UI Sprint
+## v0.2 - UI Sprint
 
 Step 5 of the [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) states that all bugs need to be resolved before new code is written. This will be considered a given for all further releases.
 
@@ -105,7 +105,7 @@ The first UI sprint will be to bring the UI to modern parity of web-based spread
 - [ ] Highlight a range of cells
 - [ ] Dark mode
 
-### v0.3 - API Alpha
+## v0.3 - API Alpha
 
 I have not started to define what the API is at this time, but the first release of the API will be a quite simple REST based API. It will be considered Alpha, there will be no contract that it will not include breaking changes on a regular basis.
 
@@ -113,7 +113,7 @@ It will expose all the functionality that the web-based version does. It should 
 
 All new functionality in the future will be released to the API at the same time it is release to the UI.
 
-### v0.4 - VisiCalc 1.1
+## v0.4 - VisiCalc 1.1
 
 Introducing logic to functions adds quite a bit of power.
 
@@ -127,7 +127,7 @@ Introducing logic to functions adds quite a bit of power.
 - [ ] @choose(value,list)
 - [ ] Print sheet title
 
-### v0.5 UI Sprint
+## v0.5 UI Sprint
 
 This sprint will be based around adding mouse-based gestures that you would find in modern spreadsheets.
 
@@ -136,7 +136,7 @@ This sprint will be based around adding mouse-based gestures that you would find
 
 Although it will now be possible to have a mouse-based UI, all features of Cinque will always be able to be accomplished by way of the keyboard.
 
-### v0.6 - VisiCalc Advanced
+## v0.6 - VisiCalc Advanced
 
 This is a pretty major release because "keystroke memory" is a macro system.
 
@@ -179,7 +179,7 @@ This is a pretty major release because "keystroke memory" is a macro system.
 - [ ] @pv(interest,periods,payment,fv)
 - [ ] @fv(interest,periods,payment,pv)
 
-#### Differences
+### Differences
 
 - I think that the hide attribute just made the cell look blank, but I plan to implement it to hide entire columns and rows
 - The mode attribute could be used to limit a cell to only be able to contain a label, a number, or a formula. I don't think that adds value to Cinque.
@@ -200,11 +200,11 @@ This is a pretty major release because "keystroke memory" is a macro system.
 - The date and time functions in VisiCalc Advanced don't really map to how we handle dates and times in the 21st century. I'll provide functions based on modern standards instead.
 - VisiCalc used an epoch date of 1979-Jan-01. I don't intend on having an epoch date. Linux uses 1970-Jan-01 but most spreadsheets after VisiCalc used 1900-01-01. My plan is to use the ISO 8601 standard for date storage. Cinque will allow dates to go as far back as 4,713 BC all the way to 294,276 AD.
 
-### v0.7 UI Sprint
+## v0.7 UI Sprint
 
 - [ ] Mobile device compatibility
 
-### v0.8 Tutorial
+## v0.8 Tutorial
 
 Write a tutorial that is like the tutorial provided in the VisiCalc manual covering all features implemented. Use the keyboard sequence system to allow people to follow along in a live tutorial in the actual application.
 
@@ -237,18 +237,18 @@ I'm breaking the Lotus 1-2-3 parity release into four parts: named ranges and ne
 - [ ] @std(list)
 - [ ] @var(list)
 
-#### Differences
+### Differences
 
 - Lotus introduced both relative and absolute named ranges, but a named range should only ever be considered the cells in that list for the named range.
-- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range, I don't think it matters if it moves elsewhere on the sheet. Lotus considered the boundry cells and the middle cells functionally different when moving a cell.
+- I may handle moving cells that are part of a named range differently than Lotus (and future spreadsheets) did. I see named ranges as an array of defined cells, so once you add a cell to a named range, I don't think it matters if it moves elsewhere on the sheet. Lotus considered the boundary cells and the middle cells functionally different when moving a cell.
 
-### v1.1 - API Beta
+## v1.1 - API Beta
 
-A graphql version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet as a single action instead of requesting each cell individually.
+A GraphQL version of the API will be provided. This should be a significant performance increase for requesting data since you should be able to request a full sheet as a single action instead of requesting each cell individually.
 
 The previous REST API will still function but may be modified. Although there is not yet a contract, the hope is that I have had time to think through the API by this time to be able to make the next release the first stable release with a contract that it will be supported for some time.
 
-### v1.2 - Integration Foundation
+## v1.2 - Integration Foundation
 
 Now that we have a stronger API system we can include all of the necessary API calls to allow for third party integrations to be able to perform the same functionality that Lotus could in reference to file management, graphing and printing.
 
@@ -256,18 +256,18 @@ Now that we have a stronger API system we can include all of the necessary API c
 - [ ] Graphing API
 - [ ] Printing API
 
-### v1.3 - Macro Improvements
+## v1.3 - Macro Improvements
 
 - [ ] Multiple-cell macros
 - [ ] Pause macro
 - [ ] Single-step mode macros
 - [ ] /X commands
 
-#### Differences
+### Differences
 
 - The way /X commands were implemented, while historically relevant as a big breakthrough in the power of a spreadsheet, is certainly not close to what would be considered best practices today. I will attempt to design a system that will allow the user to build a similarly complex spreadsheet but using functional programming paradigm.
 
-### v1.4 Data Commands
+## v1.4 Data Commands
 
 This release includes data command features that are not part of the Database Management System (DBMS) functionality.
 
@@ -276,9 +276,9 @@ This release includes data command features that are not part of the Database Ma
 - [ ] Fill
 - [ ] Distribution
 
-### v1.5 - Database Management System
+## v1.5 - Database Management System
 
-Database Management functionality is a prretty impressive feature to add to a spreadsheet by todays standards, and justifies the price that was being charged for the product (around \$1k in 2020 dollars).
+Database Management functionality is a pretty impressive feature to add to a spreadsheet by today's standards, and justifies the price that was being charged for the product (around \$1k in 2020 dollars).
 
 - [ ] Database
   - [ ] Sort
@@ -305,9 +305,9 @@ Database Management functionality is a prretty impressive feature to add to a sp
 
 ## v2 - 1985 Release
 
-This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 and MultiPlan v2. Some features that SuperCalc and MultiPlan introduced were immitated in later releases of VisiCalc and Lotus 1-2-3. So don't take this feature list to be an exhaustive list of features first premiered by SuperCalc or MultipPlan, just features that were not included in VisiCalc or Lotus 1-2-3 v1A. The point of this release branch of Cinque is to bring it up to speed with all major features of spreadsheets available in the market in 1985.
+This release focuses on all the additional features of Lotus 1-2-3 v2 as well as include features of SuperCalc 3 and MultiPlan v2. Some features that SuperCalc and MultiPlan introduced were imitated in later releases of VisiCalc and Lotus 1-2-3. So don't take this feature list to be an exhaustive list of features first premiered by SuperCalc or MultiPlan, just features that were not included in VisiCalc or Lotus 1-2-3 v1A. The point of this release branch of Cinque is to bring it up to speed with all major features of spreadsheets available in the market in 1985.
 
-### v2.0 - SuperCalc 3
+## v2.0 - SuperCalc 3
 
 - [ ] Goto column
 - [ ] Goto row
@@ -328,11 +328,11 @@ This release focuses on all the additional features of Lotus 1-2-3 v2 as well as
 - [ ] @isdate
 - [ ] @istext
 
-### v2.1 - MultiPlan v2
+## v2.1 - MultiPlan v2
 
 - [ ]
 
-### v2.2 - Lotus 1-2-3 v2.2
+## v2.2 - Lotus 1-2-3 v2.2
 
 - [ ]
 
