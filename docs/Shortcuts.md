@@ -31,8 +31,8 @@ VisiCalc was a rough draft of what keyboard shortcuts should be. Lotus has the a
 | Move Column or Row                  |        | /m              |                      |               |       |      |         |
 | Replicate Cells                     |        | /r              | /c                   |               |       |      |         |
 | Move Cells                          |        |                 | /m                   |               |       |      |         |
-| Title Hoirzontal                    |        | /th             | /wrh                 |               |       |      |         |
-| Title Veritcal                      |        | /tv             | /wtv                 |               |       |      |         |
+| Title Horizontal                    |        | /th             | /wrh                 |               |       |      |         |
+| Title Vertical                      |        | /tv             | /wtv                 |               |       |      |         |
 | Title Both                          |        | /tb             | /wtb                 |               |       |      |         |
 | Title None                          |        | /tn             | /wtc                 |               |       |      |         |
 | Disable Cursor                      |        | Shift-Clear     |                      |               |       |      |         |
@@ -54,7 +54,7 @@ VisiCalc was a rough draft of what keyboard shortcuts should be. Lotus has the a
 | Format Number Credit/Debit CR/DR    |        | /avc            |                      |               |       |      |         |
 | Format Number with Commas           |        | /av,            | /rf,                 |               |       |      |         |
 | Format Number with Decimal          |        | /av.            |                      |               |       |      |         |
-| Supress Trailing Zeros              |        | /avz            |                      |               |       |      |         |
+| Suppress Trailing Zeros             |        | /avz            |                      |               |       |      |         |
 | Format Number as Percent            |        | /av%            | /rfp                 |               |       |      |         |
 | Format Number as Currency           |        | /av\$           | /rfc                 |               |       |      |         |
 | Fixed Format Number                 |        | /avf            | /rff                 |               |       |      |         |
