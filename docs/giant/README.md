@@ -28,12 +28,12 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
   - 1979 Apple II[^1]
   - 1980 Apple III, Atari 800, Commodore PET CBM-80[^2]
   - 1981 HP 85, TRS-80[^3], IBM PC[^4], HP 125[^5]
-  - 1982 Sony SMC-70[^13], [VisiCalc Advanced Version](../Timeline/1982/Reviews/VisiCalc.md#the-customization-of-visicalc) for Apple III, Apple IIe
+  - 1982 Sony SMC-70[^6], [VisiCalc Advanced Version](../Timeline/1982/Reviews/VisiCalc.md#the-customization-of-visicalc) for Apple III, Apple IIe
   - 1983 Enhanced VisiCalc for TRS-80 Model 4
   - 1985 purchased by Lotus Development and development ended
 - SuperCalc
   - Developed by Sorcim
-  - 1980 Rev 1[^7]
+  - [1980](../Timeline/1981/Reviews/#supercalc-spread-sheet-simulator-from-sorcim-corp) Rev 1
   - Ported to over 150 different hardware platforms
   - About 15% market share before Lotus 1-2-3 released (VisiCalc being the other 85%)
   - 1983 SuperCalc 3 v1
@@ -81,19 +81,19 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - As-Easy-As
 - B&L Spreadsheet ([1982](https://books.google.com/books?id=CjAEAAAAMBAJ&lpg=PA28&dq=visicalc&pg=PA11#v=onepage&q&f=true))
 - Boeing Calc
-- CalcStar (1981)[^9]
+- CalcStar ([1981](../Timeline/1981/Reviews/#calcstar))
 - Claris Resolve
-- Desktop Plan ([1982](../Timeline/1982/Reviews/Reviews.md#desktopplan))
-- Digicalc (1981)[^11]
+- Desktop Plan II ([1981](../Timeline/1981/Reviews/#desktopplan-ii-modeler-from-personal-software))
+- Digicalc ([1981](../Timeline/1981/Reviews/#digicalc))
 - Disk-Count Software The Spreadsheet
 - EasyCalc ([1982](../Timeline/1982/Reviews/Reviews.md#easycalc))
-- Electric Spreadsheet (1981)[^10]
-- Electronic Paper (1981)[^12]
+- Electric Spreadsheet ([1981](../Timeline/1981/Reviews/#electric-spreadsheet))
+- Electronic Paper ([1981](../Timeline/1981/#microsoft-counsels-hardware-makers))
 - ExecuCalc ([1982](../Timeline/1982/Reviews/Reviews.md#execucalc))
-- ExecuPlan (1981)[^8]
+- ExecuPlan ([1981](../Timeline/1981/Reviews/#execuplan-from-vector-graphics-inc))
 - Expert File and Calc
 - Farsight
-- Forecaster[^14]
+- Forecaster[^7]
 - GNU Oleo
 - GraphPlan
 - IBM Planning Assistant
@@ -101,24 +101,24 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - Let's Keep It Simple Spreadsheet
 - LogiCalc ([1982](../Timeline/1982/Reviews/Reviews.md#logicalc))
 - Lucid 3-D
-- MagiCalc[^14]
+- MagiCalc[^7]
 - MBA ([1982](../Timeline/1982/Reviews/Reviews.md#mba-putting-it-all-together))
 - Mesa 2
-- Micro-DSS/Finance[^14]
+- Micro-DSS/Finance[^7]
 - Microfinesse ([1982](../Timeline/1982/Reviews/Reviews.md#microfinesse))
-- Microplan (1982[^14])
-- Model-I[^14]
-- NEC Report Manager[^14]
+- Microplan (1982[^7])
+- Model-I[^7]
+- NEC Report Manager[^7]
 - PC-Calc
 - Perfect Calc
 - PFS:Plan
 - PFS Professional Plan
-- Plan 80 ([1982](../Timeline/1982/Reviews/Reviews.md#plan80))
+- Plan 80 ([1981](../Timeline/1981/Reviews/#plan80-a-financial-planning-tool-for-cpm-systems))
 - PlannerCalc ([1982](../Timeline/1982/Reviews/Reviews.md#plannercalc))
 - PlanPerfect
 - QuickCalc ([1982](../Timeline/1982/Reviews/Reviews.md#quickcalc))
 - SC
-- ScratchPad[^14]
+- ScratchPad[^7]
 - Senior Analyst ([1982](../Timeline/1982/Reviews/Reviews.md#senior-analyst))
 - SIAG
 - Spectaculator ([1982](../Timeline/1982/Reviews/Reviews.md#spectaculator-is-spectacular))
@@ -126,15 +126,15 @@ This is a partial listing of spreadsheets that I'm aware of that had releases in
 - StarCalc (grandparent of LibreOffice Calc)
 - The Steinman Spreadsheet
 - Surpass
-- T/Maker (1980)[^6]
-- Target[^14]
+- T/Maker ([1980](../Timeline/1980/Reviews/#tmaker-unique-cpm-product)])
+- Target[^7]
 - Timeworks
 - Trapeze
 - The Twin
-- Ultracalc[^14]
+- Ultracalc[^7]
 - Universal Business Machine ([1982](../Timeline/1982/Reviews/Reviews.md#universal-business-machine))
-- VictorCalc[^14]
-- Viewcomp[^14]
+- VictorCalc[^7]
+- Viewcomp[^7]
 - VP-Planner
 - Vu Calc ([1982](../Timeline/1982/Reviews/Reviews.md#vu-calc))
 - Wingz
@@ -217,12 +217,5 @@ Add Column and Row counts for the v1 release of major spreadsheets
 [^3]: [VisiCalc PLUS from HP](timeline.md#1981-03-02)
 [^4]: [Wizard in Your Home](timeline.md#1981-12-14)
 [^5]: [HP's High-End Micro](timeline.md#1981-09-14)
-[^6]: [T/Maker: Unique CP/M Product](timeline.md#1980-12-31)
-[^7]: [SuperCalc Spread-Sheet Simulator from Sorcim Corp.](timeline.md#1981-10-05---infoworld---volume-3---number-19)
-[^8]: [ExecuPlan from Vector Graphics, Inc.](timeline.md#1981-04-13---infoworld---volume-3---number-7)
-[^9]: [More stars are born](timeline.md#1981-11-23---infoworld---volume-3---number-27)
-[^10]: [Electric Spreadsheet](timeline.md#1981-07-06---InfoWorld---Volume-3---Number-13)
-[^11]: [Digicalc](timeline.md#1981-10-12---Computerworld---Volume-XV---Number-41)
-[^12]: [Electronic Paper](timeline.md#1981-04-27---InfoWorld---Volume-3---Number-8)
-[^13]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22; page 1
-[^14]: [Battle of the Spreadsheets](../Timeline/1982/README.md#battle-of-the-spreadsheets)
+[^6]: Sony offers new micro; InfoWorld; June 7, 1982; Volume 4 Number 22; page 1
+[^7]: [Battle of the Spreadsheets](../Timeline/1982/README.md#battle-of-the-spreadsheets)
