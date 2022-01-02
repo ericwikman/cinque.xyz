@@ -9,8 +9,8 @@ https://www.google.com/search?q=visicalc&hl=en&tbs=bkt:m,cdr:1,cd_min:1/1/1982,c
 archive.org thru 1982
 https://archive.org/details/computermagazines?query=visicalc&sin=TXT&and[]=year%3A%221982%22
 
-academic papers:
-tbd
+EBSCO - all
+Factiva
 
 need to tag [review,tutorial,series,business,editorial]
 it must be at least a full page article to be worthwhile including
